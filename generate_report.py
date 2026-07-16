@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""兼容入口：业务代码位于 pubg_report 包。"""
+"""生成 PUBG 每日战报的命令行入口。"""
 
-from pubg_report import (
+from src import (
     compute_stats,
     compute_team_stats,
     generate_html_report,
@@ -12,8 +12,8 @@ from pubg_report import (
     regenerate_screenshot,
     run,
 )
-from pubg_report.cli import main
-from pubg_report.parser import parse_time_label
+from src.cli import main
+from src.parser import parse_time_label
 
 
 def parse_time_ago(text, reference_time):

@@ -17,8 +17,8 @@ stages:
         pythonVersion: '3.11'
         commands:
           - pip3 install -i https://pypi.org/simple/ -r requirements.txt -q
-          - python3 fetch_data.py --pages 4
-          - python3 pubg_daily_report.py
+          - python3 fetch_matches.py
+          - python3 generate_report.py
           - git config user.name "PUBG Bot"
           - git config user.email "pubg-bot@gitee.com"
           - git checkout main

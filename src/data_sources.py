@@ -71,12 +71,12 @@ def _snapshot_from_manifest(config: AppConfig, manifest_path: Path) -> RawSnapsh
 
 
 def _snapshot_from_configured_pages(config: AppConfig) -> RawSnapshot:
-    """兼容旧数据：严格按 page_count 选文件，并用统一文件时间固定解析基准。"""
+    """兼容旧数据：按安全页数上限选文件，并用文件时间固定解析基准。"""
     player_pages: dict[str, tuple[RawPage, ...]] = {}
     all_files: list[Path] = []
     for player in config.players:
         pages = []
-        for page in range(1, config.dakgg.page_count + 1):
+        for page in range(1, config.dakgg.max_pages + 1):
             suffix = "" if page == 1 else f"_{page}"
             path = config.output.data_dir / f"{player.steam_id}_raw{suffix}.txt"
             if path.exists():
@@ -108,12 +108,16 @@ def _snapshot_from_configured_pages(config: AppConfig) -> RawSnapshot:
 def build_manifest(
     scraped_at: datetime,
     player_pages: dict[str, list[dict[str, Any]]],
-    page_count: int,
+    max_pages: int,
+    target_start: datetime,
+    target_end: datetime,
 ) -> dict[str, Any]:
     return {
         "schema_version": 1,
         "scraped_at": scraped_at.isoformat(),
-        "page_count": page_count,
+        "max_pages": max_pages,
+        "target_time_start": target_start.isoformat(),
+        "target_time_end": target_end.isoformat(),
         "players": {
             steam_id: {"pages": pages}
             for steam_id, pages in sorted(player_pages.items())

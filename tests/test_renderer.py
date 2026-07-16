@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from datetime import datetime
 
-from pubg_report.renderer import generate_html_report
+from src.renderer import generate_html_report
 
 
 class RendererTests(unittest.TestCase):

@@ -15,6 +15,8 @@ ifneq ($(strip $(PAGES)),)
 FETCH_ARGS += --pages $(PAGES)
 endif
 
+FETCH_ARGS += --days-ago $(DAYS_AGO)
+
 ifneq ($(strip $(PLAYER)),)
 FETCH_ARGS += --player $(PLAYER)
 endif
@@ -31,7 +33,8 @@ help:
 	@echo "  make dev                             安装开发依赖"
 	@echo "  make check                           运行 lint、测试和编译检查"
 	@echo "  make fetch                           抓取全部玩家数据"
-	@echo "  make fetch PAGES=4 PLAYER=steam_id   指定页数或玩家"
+	@echo "  make fetch DAYS_AGO=2                按历史目标时段抓取"
+	@echo "  make fetch PAGES=10 PLAYER=steam_id  指定安全页数上限或玩家"
 	@echo "  make report                          生成昨天的报告"
 	@echo "  make report DAYS_AGO=2               生成历史报告"
 	@echo "  make report NO_SCREENSHOT=1          不生成 PNG"
@@ -51,16 +54,16 @@ test:
 	$(PYTHON) -m unittest discover -s tests -v
 
 compile:
-	$(PYTHON) -m compileall -q pubg_report pubg_daily_report.py fetch_data.py tests
-	bash -n run_daily.sh
+	$(PYTHON) -m compileall -q src generate_report.py fetch_matches.py tests
+	bash -n run_daily_report.sh
 
 check: lint test compile
 
 fetch:
-	$(PYTHON) fetch_data.py $(FETCH_ARGS)
+	$(PYTHON) fetch_matches.py $(FETCH_ARGS)
 
 report:
-	$(PYTHON) pubg_daily_report.py $(REPORT_ARGS)
+	$(PYTHON) generate_report.py $(REPORT_ARGS)
 
 daily: fetch report
 

@@ -47,7 +47,7 @@ def run(
     snapshot = load_raw_snapshot(config)
     print(f"🕒 抓取时间: {snapshot.scraped_at.isoformat()}")
     if snapshot.source == "legacy-file-mtime":
-        print("⚠️  未找到抓取清单，暂用原始文件时间；下次 fetch_data.py 会自动生成清单")
+        print("⚠️  未找到抓取清单，暂用原始文件时间；下次 fetch_matches.py 会自动生成清单")
 
     date_str = time_start.strftime("%Y%m%d")
     all_player_data = _parse_players(

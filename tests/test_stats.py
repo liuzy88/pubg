@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from pubg_report.stats import compute_stats, compute_team_stats
+from src.stats import compute_stats, compute_team_stats
 
 
 class StatsTests(unittest.TestCase):

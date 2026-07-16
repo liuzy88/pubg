@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from datetime import datetime
 
-from pubg_report.parser import parse_dakgg_markdown, parse_time_label
+from src.parser import parse_dakgg_markdown, parse_time_label
 
 
 SCRAPED_AT = datetime.fromisoformat("2026-07-16T08:30:00+08:00")

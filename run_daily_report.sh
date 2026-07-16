@@ -1,8 +1,8 @@
 #!/bin/bash
-# run_daily.sh — CentOS 每日自动：采集 → 生成战报 → 推送
+# run_daily_report.sh — CentOS 每日自动：采集 → 生成战报 → 推送
 #
 # crontab 配置（每天 8:30 执行）:
-#   30 8 * * * bash /opt/PUBG/run_daily.sh >> /opt/PUBG/cron.log 2>&1
+#   30 8 * * * bash /opt/PUBG/run_daily_report.sh >> /opt/PUBG/cron.log 2>&1
 
 set -e
 cd "$(dirname "$0")"
@@ -31,11 +31,11 @@ $PYTHON -m unittest discover -s tests -v 2>&1
 
 # ── 3. 采集数据 ──
 echo "[3/5] 采集 dak.gg 数据..."
-$PYTHON fetch_data.py 2>&1
+$PYTHON fetch_matches.py 2>&1
 
 # ── 4. 生成战报 ──
 echo "[4/5] 生成战报..."
-$PYTHON pubg_daily_report.py 2>&1
+$PYTHON generate_report.py 2>&1
 
 # ── 5. 提交并推送 ──
 echo "[5/5] git commit & push..."

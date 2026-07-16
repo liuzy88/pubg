@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""通过 DAK.GG 页面使用的 JSON API 抓取 PUBG 比赛数据。"""
+"""通过 DAK.GG 页面使用的 JSON API 抓取 PUBG 比赛记录。"""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import json
 import sys
 import tempfile
 import time
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -21,8 +22,8 @@ except ImportError:
     HTTPAdapter = None
     Retry = None
 
-from pubg_report.config import AppConfig, load_config
-from pubg_report.data_sources import MANIFEST_NAME, build_manifest
+from src.config import AppConfig, get_time_range, load_config
+from src.data_sources import MANIFEST_NAME, build_manifest
 
 
 HEADERS = {
@@ -63,6 +64,15 @@ WEAPON_NAMES = {
     "WeapWin94_C": "Win94",
     "WeapWinchester_C": "Win94",
 }
+
+
+@dataclass(frozen=True)
+class FetchedPage:
+    text: str
+    match_count: int
+    oldest_at: datetime | None
+    newest_at: datetime | None
+    has_more: bool
 
 
 def create_session() -> requests.Session:
@@ -106,7 +116,7 @@ def fetch_player_page(
     steam_id: str,
     account_id: str,
     page: int,
-) -> str:
+) -> FetchedPage:
     response = session.get(
         f"{config.dakgg.api_base_url}/players/steam/{account_id}/matches",
         params={"page": page},
@@ -118,8 +128,25 @@ def fetch_player_page(
     if not isinstance(matches, list):
         raise ValueError("DAK.GG 比赛接口响应格式异常")
     if not matches:
-        return ""
-    return matches_json_to_markdown(matches, steam_id, account_id)
+        return FetchedPage("", 0, None, None, False)
+    match_times = [
+        parse_api_time(match["createdAt"])
+        for match in matches
+        if match.get("createdAt")
+    ]
+    if not match_times:
+        raise ValueError("DAK.GG 比赛接口未返回 createdAt")
+    meta = data.get("meta", {})
+    current_page = int(meta.get("page") or page)
+    per_page = int(meta.get("perPage") or len(matches))
+    total_count = int(meta.get("totalCount") or len(matches))
+    return FetchedPage(
+        text=matches_json_to_markdown(matches, steam_id, account_id),
+        match_count=len(matches),
+        oldest_at=min(match_times),
+        newest_at=max(match_times),
+        has_more=current_page * per_page < total_count,
+    )
 
 
 def matches_json_to_markdown(
@@ -171,15 +198,16 @@ Longest {round(float(participant.get("longestKill") or 0))}m
 def main() -> None:
     parser = argparse.ArgumentParser(description="PUBG 数据采集")
     parser.add_argument("--player", help="只采集指定 steam_id")
-    parser.add_argument("--pages", type=int, help="覆盖配置中的采集页数")
+    parser.add_argument("--pages", type=int, help="覆盖配置中的最大安全页数")
+    parser.add_argument("--days-ago", type=int, default=1, help="目标报告日期：1=昨天")
     parser.add_argument("--config", default="conf.json", help="配置文件路径")
     args = parser.parse_args()
     if requests is None:
         sys.exit("请先安装依赖: pip install -r requirements.txt")
 
     config = load_config(args.config)
-    page_count = args.pages or config.dakgg.page_count
-    if page_count < 1:
+    max_pages = args.pages or config.dakgg.max_pages
+    if max_pages < 1:
         parser.error("--pages 必须大于 0")
     players = list(config.players)
     if args.player:
@@ -189,12 +217,22 @@ def main() -> None:
 
     config.output.data_dir.mkdir(parents=True, exist_ok=True)
     scraped_at = datetime.now().astimezone()
+    target_start, target_end, _ = get_time_range(
+        args.days_ago,
+        config.time_period,
+        scraped_at,
+    )
     session = create_session()
     manifest_path = config.output.data_dir / MANIFEST_NAME
     player_pages = _existing_player_pages(manifest_path) if args.player else {}
     ok_count = 0
     fail_count = 0
-    print(f"📡 开始采集 {len(players)} 位玩家 × 最多 {page_count} 页数据")
+    print(
+        f"📡 开始采集 {len(players)} 位玩家，目标时段 "
+        f"{target_start.strftime('%Y-%m-%d %H:%M')} ~ "
+        f"{target_end.strftime('%Y-%m-%d %H:%M')}，"
+        f"每人最多 {max_pages} 页"
+    )
 
     with tempfile.TemporaryDirectory(
         prefix=".fetch_",
@@ -205,6 +243,7 @@ def main() -> None:
         for player in players:
             pages: list[dict[str, object]] = []
             staged_files[player.steam_id] = []
+            coverage_complete = False
             try:
                 account_id = fetch_player_account(session, config, player.steam_id)
             except Exception as exc:
@@ -212,43 +251,60 @@ def main() -> None:
                 fail_count += 1
                 continue
 
-            for page in range(1, page_count + 1):
+            for page in range(1, max_pages + 1):
                 final_path = _raw_path(config, player.steam_id, page)
                 staged_path = staging_dir / final_path.name
                 try:
-                    text = fetch_player_page(
+                    fetched = fetch_player_page(
                         session,
                         config,
                         player.steam_id,
                         account_id,
                         page,
                     )
-                    if not text:
+                    if not fetched.text:
                         print(f"⏭️  {player.alias:4s} page{page} → 已到最后一页")
+                        coverage_complete = True
                         break
                     page_scraped_at = datetime.now().astimezone()
-                    staged_path.write_text(text, encoding="utf-8")
-                    match_count = text.count("#### Match")
+                    staged_path.write_text(fetched.text, encoding="utf-8")
                     pages.append(
                         {
                             "page": page,
                             "file": final_path.name,
-                            "match_count": match_count,
+                            "match_count": fetched.match_count,
                             "scraped_at": page_scraped_at.isoformat(),
+                            "newest_match_at": fetched.newest_at.isoformat(),
+                            "oldest_match_at": fetched.oldest_at.isoformat(),
                         }
                     )
                     staged_files[player.steam_id].append(staged_path)
                     ok_count += 1
                     print(
                         f"✅ {player.alias:4s} page{page} → "
-                        f"{match_count} matches  {final_path.name}"
+                        f"{fetched.match_count} matches，最早 "
+                        f"{fetched.oldest_at.astimezone().strftime('%m-%d %H:%M')}"
                     )
+                    if page_covers_target_start(fetched, target_start):
+                        print(f"🎯 {player.alias:4s} 已覆盖目标时段，停止翻页")
+                        coverage_complete = True
+                        break
+                    if not fetched.has_more:
+                        print(f"⏭️  {player.alias:4s} 已到最后一页")
+                        coverage_complete = True
+                        break
                 except Exception as exc:
                     print(f"❌ {player.alias:4s} page{page} → {exc}")
                     fail_count += 1
                     break
                 time.sleep(0.4)
             player_pages[player.steam_id] = pages
+            if not coverage_complete and pages:
+                print(
+                    f"❌ {player.alias:4s} 达到 {max_pages} 页仍未覆盖目标时段；"
+                    "请提高 dakgg.max_pages 或 --pages"
+                )
+                fail_count += 1
 
         if fail_count:
             print(f"采集失败: ✅ {ok_count} 页  ❌ {fail_count} 项；保留上一版数据")
@@ -264,7 +320,13 @@ def main() -> None:
 
         manifest_path.write_text(
             json.dumps(
-                build_manifest(scraped_at, player_pages, page_count),
+                build_manifest(
+                    scraped_at,
+                    player_pages,
+                    max_pages,
+                    target_start,
+                    target_end,
+                ),
                 ensure_ascii=False,
                 indent=2,
             ),
@@ -287,6 +349,17 @@ def _find_participant(
         ):
             return participant
     return None
+
+
+def parse_api_time(value: str) -> datetime:
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        raise ValueError(f"DAK.GG 时间缺少时区: {value}")
+    return parsed
+
+
+def page_covers_target_start(page: FetchedPage, target_start: datetime) -> bool:
+    return page.oldest_at is not None and page.oldest_at <= target_start
 
 
 def _mode_name(game_mode: str) -> str:

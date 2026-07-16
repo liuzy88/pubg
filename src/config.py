@@ -26,7 +26,7 @@ class TimePeriodConfig:
 @dataclass(frozen=True)
 class DakggConfig:
     api_base_url: str
-    page_count: int
+    max_pages: int
     keep_modes: tuple[str, ...]
 
 
@@ -86,12 +86,12 @@ def load_config(path: str | Path) -> AppConfig:
             raise ValueError(f"time_period.{label} 超出范围")
 
     dakgg_raw = _require(raw, "dakgg", "root")
-    page_count = int(dakgg_raw.get("page_count", 1))
-    if page_count < 1:
-        raise ValueError("dakgg.page_count 必须大于 0")
+    max_pages = int(dakgg_raw.get("max_pages", dakgg_raw.get("page_count", 30)))
+    if max_pages < 1:
+        raise ValueError("dakgg.max_pages 必须大于 0")
     dakgg = DakggConfig(
         api_base_url=str(_require(dakgg_raw, "api_base_url", "dakgg")).rstrip("/"),
-        page_count=page_count,
+        max_pages=max_pages,
         keep_modes=tuple(str(mode) for mode in dakgg_raw.get("keep_modes", ["Squad"])),
     )
 

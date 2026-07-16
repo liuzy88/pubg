@@ -3,11 +3,37 @@ from __future__ import annotations
 import unittest
 from datetime import datetime
 
-from fetch_data import matches_json_to_markdown
-from pubg_report.parser import parse_dakgg_markdown
+from fetch_matches import (
+    FetchedPage,
+    matches_json_to_markdown,
+    page_covers_target_start,
+)
+from src.parser import parse_dakgg_markdown
 
 
 class FetchDataTests(unittest.TestCase):
+    def test_page_stops_when_oldest_match_covers_target_start(self) -> None:
+        target = datetime.fromisoformat("2026-07-15T06:00:00+08:00")
+        page = FetchedPage(
+            text="data",
+            match_count=10,
+            newest_at=datetime.fromisoformat("2026-07-15T10:00:00+08:00"),
+            oldest_at=datetime.fromisoformat("2026-07-15T05:30:00+08:00"),
+            has_more=True,
+        )
+        self.assertTrue(page_covers_target_start(page, target))
+
+    def test_page_continues_when_all_matches_are_too_new(self) -> None:
+        target = datetime.fromisoformat("2026-07-15T06:00:00+08:00")
+        page = FetchedPage(
+            text="data",
+            match_count=10,
+            newest_at=datetime.fromisoformat("2026-07-15T18:00:00+08:00"),
+            oldest_at=datetime.fromisoformat("2026-07-15T07:00:00+08:00"),
+            has_more=True,
+        )
+        self.assertFalse(page_covers_target_start(page, target))
+
     def test_api_match_is_converted_to_parser_format(self) -> None:
         matches = [
             {

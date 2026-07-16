@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from pubg_report.config import load_config
-from pubg_report.data_sources import load_raw_snapshot
+from src.config import load_config
+from src.data_sources import load_raw_snapshot
 
 
 class DataSourceTests(unittest.TestCase):

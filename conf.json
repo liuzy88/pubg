@@ -15,7 +15,7 @@
   },
   "dakgg": {
     "api_base_url": "https://pubg0.dakgg.io/api/v1",
-    "page_count": 4,
+    "max_pages": 30,
     "keep_modes": ["Squad"]
   },
   "output": {

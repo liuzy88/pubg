@@ -9,4 +9,3 @@ cron_*.log
 
 # 临时文件
 *.pyc
-.workbuddy/
