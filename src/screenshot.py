@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import shutil
 import subprocess
 import tempfile
@@ -10,17 +11,44 @@ from pathlib import Path
 
 
 def _find_chrome() -> str:
+    local_app_data = os.environ.get("LOCALAPPDATA")
+    program_files = os.environ.get("PROGRAMFILES")
+    program_files_x86 = os.environ.get("PROGRAMFILES(X86)")
+
     candidates = [
+        # Windows：Chrome 和 Edge 通常不会自动加入 PATH。
+        Path(local_app_data) / "Google/Chrome/Application/chrome.exe"
+        if local_app_data
+        else None,
+        Path(local_app_data) / "Microsoft/Edge/Application/msedge.exe"
+        if local_app_data
+        else None,
+        Path(program_files) / "Google/Chrome/Application/chrome.exe"
+        if program_files
+        else None,
+        Path(program_files) / "Microsoft/Edge/Application/msedge.exe"
+        if program_files
+        else None,
+        Path(program_files_x86) / "Google/Chrome/Application/chrome.exe"
+        if program_files_x86
+        else None,
+        Path(program_files_x86) / "Microsoft/Edge/Application/msedge.exe"
+        if program_files_x86
+        else None,
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
         "/Applications/Chromium.app/Contents/MacOS/Chromium",
+        shutil.which("chrome"),
+        shutil.which("msedge"),
         shutil.which("google-chrome"),
         shutil.which("chromium"),
         shutil.which("chromium-browser"),
     ]
     for candidate in candidates:
         if candidate and Path(candidate).is_file():
-            return candidate
-    raise FileNotFoundError("未找到 Google Chrome 或 Chromium，无法生成 PNG 截图")
+            return str(candidate)
+    raise FileNotFoundError(
+        "未找到 Google Chrome、Microsoft Edge 或 Chromium，无法生成 PNG 截图"
+    )
 
 
 def generate_report_screenshot(

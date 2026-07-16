@@ -4,6 +4,47 @@
 
 ## 使用
 
+### Windows
+
+需要 Python 3.9 或更高版本，以及 Google Chrome 或 Microsoft Edge。在 PowerShell
+中运行：
+
+```powershell
+python -m pip install -r requirements.txt
+.\run_daily_report.ps1
+```
+
+脚本会依次运行测试、抓取数据并生成昨天的 HTML 和 PNG 战报。常用参数：
+
+```powershell
+# 生成前天的战报
+.\run_daily_report.ps1 -DaysAgo 2
+
+# 只生成 HTML，不生成 PNG
+.\run_daily_report.ps1 -NoScreenshot
+
+# 只运行某个玩家，跳过测试
+.\run_daily_report.ps1 -Player steam_id -SkipTests
+```
+
+如果 PowerShell 阻止本地脚本，可在当前窗口临时允许后再执行：
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+```
+
+也可以不使用脚本，分别执行：
+
+```powershell
+python fetch_matches.py --config conf.json --days-ago 1
+python generate_report.py --config conf.json --days-ago 1
+```
+
+使用 Windows 任务计划程序定时运行时，程序填写 `powershell.exe`，参数填写
+`-NoProfile -ExecutionPolicy Bypass -File "项目路径\run_daily_report.ps1"`。
+
+### Linux / macOS
+
 ```bash
 make install
 make fetch
@@ -40,13 +81,14 @@ make report NO_SCREENSHOT=1
 - `data/matches.csv`：唯一的原始比赛库；每行是一位玩家的一场比赛，首列为精确比赛时间，按 `match_id + steam_id` 去重，只追加新记录。
 - `data/fetch_manifest.json`：记录本次采集目标时段、覆盖页数及抓取时间。
 - `generate_report.py`：生成统计 JSON、HTML 战报和 PNG 截图。
-- `run_daily_report.sh`：服务器每日采集、生成、提交和推送入口。
+- `run_daily_report.sh`：Linux 服务器每日采集、生成、提交和推送入口。
+- `run_daily_report.ps1`：Windows 每日测试、采集和生成入口。
 - `src/parser.py`：解析 DAK.GG 文本。
 - `src/stats.py`：玩家统计及比赛维度去重。
 - `src/awards.py`：确定性称号和评语。
 - `src/renderer.py`：渲染独立 HTML。
 - `src/templates/`、`src/static/`：HTML 模板和样式。
-- `src/screenshot.py`：Chrome 截图。
+- `src/screenshot.py`：使用 Chrome、Edge 或 Chromium 截图。
 - `src/pipeline.py`：主流程和文件输出。
 - `tests/`：解析、统计、数据清单和 HTML 安全测试。
 
