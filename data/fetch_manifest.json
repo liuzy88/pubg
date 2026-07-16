@@ -1,48 +1,48 @@
 {
   "schema_version": 1,
-  "scraped_at": "2026-07-16T18:47:53.948205+08:00",
+  "scraped_at": "2026-07-16T18:48:43.997699+08:00",
   "max_pages": 30,
-  "target_time_start": "2026-07-10T06:00:00+08:00",
-  "target_time_end": "2026-07-11T05:59:59.999999+08:00",
+  "target_time_start": "2026-07-15T06:00:00+08:00",
+  "target_time_end": "2026-07-16T05:59:59.999999+08:00",
   "players": {
     "Black--xbb": {
-      "pages_fetched": 2,
-      "records_collected": 20,
+      "pages_fetched": 1,
+      "records_collected": 10,
       "newest_match_at": "2026-07-13T14:38:49+00:00",
-      "oldest_match_at": "2026-07-09T16:13:52+00:00"
+      "oldest_match_at": "2026-07-13T03:05:52+00:00"
     },
     "FahaiGe": {
-      "pages_fetched": 5,
-      "records_collected": 50,
+      "pages_fetched": 1,
+      "records_collected": 10,
       "newest_match_at": "2026-07-15T14:15:23+00:00",
-      "oldest_match_at": "2026-07-01T12:46:19+00:00"
+      "oldest_match_at": "2026-07-14T14:00:29+00:00"
     },
     "Maureen99": {
-      "pages_fetched": 2,
-      "records_collected": 20,
+      "pages_fetched": 1,
+      "records_collected": 10,
       "newest_match_at": "2026-07-15T16:00:09+00:00",
-      "oldest_match_at": "2026-07-09T15:06:42+00:00"
+      "oldest_match_at": "2026-07-13T14:16:08+00:00"
     },
     "MyHsmm-_": {
-      "pages_fetched": 4,
-      "records_collected": 40,
+      "pages_fetched": 2,
+      "records_collected": 20,
       "newest_match_at": "2026-07-15T16:30:33+00:00",
-      "oldest_match_at": "2026-07-02T16:25:06+00:00"
+      "oldest_match_at": "2026-07-10T16:20:41+00:00"
     },
     "super_ADAM": {
-      "pages_fetched": 9,
-      "records_collected": 90,
+      "pages_fetched": 2,
+      "records_collected": 20,
       "newest_match_at": "2026-07-15T17:00:13+00:00",
-      "oldest_match_at": "2026-07-08T11:54:44+00:00"
+      "oldest_match_at": "2026-07-14T14:19:06+00:00"
     },
     "zhong8yang8": {
-      "pages_fetched": 8,
-      "records_collected": 80,
+      "pages_fetched": 1,
+      "records_collected": 10,
       "newest_match_at": "2026-07-15T16:00:09+00:00",
-      "oldest_match_at": "2026-07-05T13:05:53+00:00"
+      "oldest_match_at": "2026-07-14T13:54:23+00:00"
     }
   },
   "matches_file": "matches.csv",
   "format": "player-match-csv",
-  "new_rows": 60
+  "new_rows": 0
 }
