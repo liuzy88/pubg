@@ -20,8 +20,8 @@ stages:
           - pip3 install -i https://pypi.org/simple/ -r requirements.txt -q
           - python3 fetch_data.py --pages 4
           - python3 pubg_daily_report.py
-          - git config user.name "PUBG Bot"
-          - git config user.email "pubg-bot@gitee.com"
-          - git add data/ reports/
-          - git diff --cached --quiet || git commit -m "📊 每日战报 $(date +%Y-%m-%d)"
-          - git push origin main
+      - git config user.name "PUBG Bot"
+      - git config user.email "pubg-bot@gitee.com"
+      - git checkout main
+      - git add data/ reports/
+      - git diff --cached --quiet || (git commit -m "📊 每日战报 $(date +%Y-%m-%d)" && git push origin main)
