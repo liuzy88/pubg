@@ -19,6 +19,7 @@ class RawPage:
     page: int
     path: Path
     scraped_at: datetime
+    format: str = "legacy-markdown"
 
 
 @dataclass(frozen=True)
@@ -41,9 +42,49 @@ def _snapshot_from_manifest(config: AppConfig, manifest_path: Path) -> RawSnapsh
     scraped_at = datetime.fromisoformat(raw["scraped_at"])
     players_raw = raw.get("players", {})
     player_pages: dict[str, tuple[RawPage, ...]] = {}
+    matches_file = raw.get("matches_file")
+    if matches_file:
+        path = (config.output.data_dir / matches_file).resolve()
+        if path.parent != config.output.data_dir:
+            raise ValueError(f"抓取清单包含非法路径: {matches_file}")
+        if not path.exists():
+            raise FileNotFoundError(f"抓取清单声明的文件不存在: {path}")
+        for player in config.players:
+            player_pages[player.steam_id] = (
+                RawPage(
+                    page=0,
+                    path=path,
+                    scraped_at=scraped_at,
+                    format=raw.get("format", "player-match-csv"),
+                ),
+            )
+        return RawSnapshot(
+            scraped_at=scraped_at,
+            player_pages=player_pages,
+            source=manifest_path.name,
+        )
 
     for player in config.players:
-        page_entries = players_raw.get(player.steam_id, {}).get("pages", [])
+        player_entry = players_raw.get(player.steam_id, {})
+        if player_entry.get("file"):
+            path = (config.output.data_dir / player_entry["file"]).resolve()
+            if path.parent != config.output.data_dir:
+                raise ValueError(f"抓取清单包含非法路径: {player_entry['file']}")
+            if not path.exists():
+                raise FileNotFoundError(f"抓取清单声明的文件不存在: {path}")
+            player_pages[player.steam_id] = (
+                RawPage(
+                    page=0,
+                    path=path,
+                    scraped_at=datetime.fromisoformat(
+                        player_entry.get("scraped_at", raw["scraped_at"])
+                    ),
+                    format=player_entry.get("format", "dakgg-api-json"),
+                ),
+            )
+            continue
+
+        page_entries = player_entry.get("pages", [])
         pages = []
         for entry in sorted(page_entries, key=lambda item: int(item["page"])):
             path = (config.output.data_dir / entry["file"]).resolve()
@@ -59,6 +100,7 @@ def _snapshot_from_manifest(config: AppConfig, manifest_path: Path) -> RawSnapsh
                     page=int(entry["page"]),
                     path=path,
                     scraped_at=page_scraped_at,
+                    format="legacy-markdown",
                 )
             )
         player_pages[player.steam_id] = tuple(pages)
@@ -87,6 +129,7 @@ def _snapshot_from_configured_pages(config: AppConfig) -> RawSnapshot:
                         scraped_at=datetime.fromtimestamp(
                             path.stat().st_mtime
                         ).astimezone(),
+                        format="legacy-markdown",
                     )
                 )
                 all_files.append(path)
@@ -107,7 +150,7 @@ def _snapshot_from_configured_pages(config: AppConfig) -> RawSnapshot:
 
 def build_manifest(
     scraped_at: datetime,
-    player_pages: dict[str, list[dict[str, Any]]],
+    player_entries: dict[str, dict[str, Any]],
     max_pages: int,
     target_start: datetime,
     target_end: datetime,
@@ -118,8 +161,5 @@ def build_manifest(
         "max_pages": max_pages,
         "target_time_start": target_start.isoformat(),
         "target_time_end": target_end.isoformat(),
-        "players": {
-            steam_id: {"pages": pages}
-            for steam_id, pages in sorted(player_pages.items())
-        },
+        "players": dict(sorted(player_entries.items())),
     }

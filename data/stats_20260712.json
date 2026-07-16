@@ -2,38 +2,38 @@
   "date": "20260712",
   "time_start": "2026-07-12T06:00:00+08:00",
   "time_end": "2026-07-13T05:59:59.999999+08:00",
-  "generated_at": "2026-07-16T17:10:33.702147+08:00",
-  "scraped_at": "2026-07-16T14:50:45+08:00",
+  "generated_at": "2026-07-16T18:24:44.184987+08:00",
+  "scraped_at": "2026-07-16T18:24:34.935414+08:00",
   "raw_snapshot_source": "fetch_manifest.json",
   "stats": {
     "zhong8yang8": {
       "alias": "仲阳",
       "steam_id": "zhong8yang8",
-      "match_count": 13,
-      "total_kills": 5,
-      "total_damage": 1056,
-      "total_dbnos": 4,
-      "estimated_kd": 0.38,
-      "avg_kills": 0.38,
-      "avg_damage": 81.2,
+      "match_count": 6,
+      "total_kills": 3,
+      "total_damage": 513,
+      "total_dbnos": 2,
+      "estimated_kd": 0.5,
+      "avg_kills": 0.5,
+      "avg_damage": 85.5,
       "chicken_dinners": 0,
       "chicken_rate": 0.0,
-      "top10_rate": 53.8,
-      "best_placement": 6
+      "top10_rate": 66.7,
+      "best_placement": 7
     },
     "super_ADAM": {
       "alias": "旺仔",
       "steam_id": "super_ADAM",
-      "match_count": 8,
-      "total_kills": 7,
-      "total_damage": 913,
-      "total_dbnos": 8,
-      "estimated_kd": 0.88,
-      "avg_kills": 0.88,
-      "avg_damage": 114.1,
+      "match_count": 9,
+      "total_kills": 0,
+      "total_damage": 408,
+      "total_dbnos": 2,
+      "estimated_kd": 0.0,
+      "avg_kills": 0.0,
+      "avg_damage": 45.3,
       "chicken_dinners": 0,
       "chicken_rate": 0.0,
-      "top10_rate": 75.0,
+      "top10_rate": 66.7,
       "best_placement": 6
     },
     "Maureen99": {
@@ -69,17 +69,17 @@
     "FahaiGe": {
       "alias": "小明",
       "steam_id": "FahaiGe",
-      "match_count": 1,
-      "total_kills": 0,
-      "total_damage": 0,
-      "total_dbnos": 0,
-      "estimated_kd": 0.0,
-      "avg_kills": 0.0,
-      "avg_damage": 0.0,
+      "match_count": 7,
+      "total_kills": 3,
+      "total_damage": 457,
+      "total_dbnos": 3,
+      "estimated_kd": 0.43,
+      "avg_kills": 0.43,
+      "avg_damage": 65.3,
       "chicken_dinners": 0,
       "chicken_rate": 0.0,
-      "top10_rate": 0.0,
-      "best_placement": 12
+      "top10_rate": 57.1,
+      "best_placement": 7
     },
     "Black--xbb": {
       "alias": "彬彬",
@@ -98,10 +98,40 @@
     }
   },
   "team_stats": {
-    "unique_match_count": 16,
+    "unique_match_count": 10,
     "unique_chicken_count": 0,
     "team_games_count": 6,
     "combos": [
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 6,
+        "chickens": 0,
+        "avg_placement": 11.7
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 6,
+        "chickens": 0,
+        "avg_placement": 11.7
+      },
       {
         "players": [
           {
@@ -122,39 +152,45 @@
   "titles": [
     {
       "title": "🔫 击杀王",
-      "player": "旺仔",
-      "value": "7 杀",
-      "comment": "枪管子都打冒烟了！旺仔的瞄准镜里全是人头。"
+      "player": "仲阳",
+      "value": "3 杀",
+      "comment": "勉强拿了个击杀王，但😅这数据也好意思？"
     },
     {
       "title": "💥 伤害王",
       "player": "仲阳",
-      "value": "1,056 伤害",
-      "comment": "每颗子弹都写着尊重！"
+      "value": "513 伤害",
+      "comment": "每颗子弹都写着恐惧！"
     },
     {
       "title": "📈 估算KD之王",
-      "player": "旺仔",
-      "value": "估算KD 0.88",
-      "comment": "估算KD 0.88...💩 在玩跳伞模拟器？"
+      "player": "仲阳",
+      "value": "估算KD 0.5",
+      "comment": "估算KD 0.5...🤦 在玩跳伞模拟器？"
     },
     {
       "title": "🎯 场均之王",
+      "player": "仲阳",
+      "value": "场均 85.5 伤害",
+      "comment": "场均85.5...打绷带都不止这么多。"
+    },
+    {
+      "title": "🕊️ 和平大使",
       "player": "旺仔",
-      "value": "场均 114.1 伤害",
-      "comment": "场均114.1...打绷带都不止这么多。"
+      "value": "0 击杀",
+      "comment": "真正的和平主义者！旺仔：'我是来交朋友的'"
     },
     {
       "title": "💀 快递员",
-      "player": "小明",
+      "player": "旺仔",
       "value": "估算KD 0.0",
-      "comment": "小明：'落地→搜装备→送快递→下一把'，物流行业标杆！"
+      "comment": "旺仔：'落地→搜装备→送快递→下一把'，物流行业标杆！"
     },
     {
       "title": "🤝 最佳搭档",
-      "player": "旺仔 & 仲阳",
+      "player": "小明 & 旺仔",
       "value": "6 场同队",
-      "comment": "形影不离！旺仔和仲阳简直是用502粘在一起了。"
+      "comment": "形影不离！小明和旺仔简直是用502粘在一起了。"
     }
   ]
 }

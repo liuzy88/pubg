@@ -1,97 +1,48 @@
 {
   "schema_version": 1,
-  "scraped_at": "2026-07-16T18:08:15.373048+08:00",
+  "scraped_at": "2026-07-16T18:47:53.948205+08:00",
   "max_pages": 30,
-  "target_time_start": "2026-07-15T06:00:00+08:00",
-  "target_time_end": "2026-07-16T05:59:59.999999+08:00",
+  "target_time_start": "2026-07-10T06:00:00+08:00",
+  "target_time_end": "2026-07-11T05:59:59.999999+08:00",
   "players": {
     "Black--xbb": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "Black--xbb_raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:26.937396+08:00",
-          "newest_match_at": "2026-07-13T14:38:49+00:00",
-          "oldest_match_at": "2026-07-13T03:05:52+00:00"
-        }
-      ]
+      "pages_fetched": 2,
+      "records_collected": 20,
+      "newest_match_at": "2026-07-13T14:38:49+00:00",
+      "oldest_match_at": "2026-07-09T16:13:52+00:00"
     },
     "FahaiGe": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "FahaiGe_raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:26.041545+08:00",
-          "newest_match_at": "2026-07-15T14:15:23+00:00",
-          "oldest_match_at": "2026-07-14T14:00:29+00:00"
-        }
-      ]
+      "pages_fetched": 5,
+      "records_collected": 50,
+      "newest_match_at": "2026-07-15T14:15:23+00:00",
+      "oldest_match_at": "2026-07-01T12:46:19+00:00"
     },
     "Maureen99": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "Maureen99_raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:22.026015+08:00",
-          "newest_match_at": "2026-07-15T16:00:09+00:00",
-          "oldest_match_at": "2026-07-13T14:16:08+00:00"
-        }
-      ]
+      "pages_fetched": 2,
+      "records_collected": 20,
+      "newest_match_at": "2026-07-15T16:00:09+00:00",
+      "oldest_match_at": "2026-07-09T15:06:42+00:00"
     },
     "MyHsmm-_": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "MyHsmm-__raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:23.694056+08:00",
-          "newest_match_at": "2026-07-15T16:30:33+00:00",
-          "oldest_match_at": "2026-07-15T14:15:23+00:00"
-        },
-        {
-          "page": 2,
-          "file": "MyHsmm-__raw_2.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:24.741229+08:00",
-          "newest_match_at": "2026-07-15T13:58:57+00:00",
-          "oldest_match_at": "2026-07-10T16:20:41+00:00"
-        }
-      ]
+      "pages_fetched": 4,
+      "records_collected": 40,
+      "newest_match_at": "2026-07-15T16:30:33+00:00",
+      "oldest_match_at": "2026-07-02T16:25:06+00:00"
     },
     "super_ADAM": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "super_ADAM_raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:20.150372+08:00",
-          "newest_match_at": "2026-07-15T17:00:13+00:00",
-          "oldest_match_at": "2026-07-15T14:46:13+00:00"
-        },
-        {
-          "page": 2,
-          "file": "super_ADAM_raw_2.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:21.094190+08:00",
-          "newest_match_at": "2026-07-15T14:38:46+00:00",
-          "oldest_match_at": "2026-07-14T14:19:06+00:00"
-        }
-      ]
+      "pages_fetched": 9,
+      "records_collected": 90,
+      "newest_match_at": "2026-07-15T17:00:13+00:00",
+      "oldest_match_at": "2026-07-08T11:54:44+00:00"
     },
     "zhong8yang8": {
-      "pages": [
-        {
-          "page": 1,
-          "file": "zhong8yang8_raw.txt",
-          "match_count": 10,
-          "scraped_at": "2026-07-16T18:08:18.738008+08:00",
-          "newest_match_at": "2026-07-15T16:00:09+00:00",
-          "oldest_match_at": "2026-07-14T13:54:23+00:00"
-        }
-      ]
+      "pages_fetched": 8,
+      "records_collected": 80,
+      "newest_match_at": "2026-07-15T16:00:09+00:00",
+      "oldest_match_at": "2026-07-05T13:05:53+00:00"
     }
-  }
+  },
+  "matches_file": "matches.csv",
+  "format": "player-match-csv",
+  "new_rows": 60
 }

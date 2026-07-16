@@ -8,6 +8,13 @@ PLAYER ?=
 CONFIG ?= conf.json
 NO_SCREENSHOT ?=
 
+DAY_TARGETS := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+REQUESTED_DAY := $(filter $(DAY_TARGETS),$(MAKECMDGOALS))
+
+ifneq ($(strip $(REQUESTED_DAY)),)
+DAYS_AGO := $(lastword $(REQUESTED_DAY))
+endif
+
 FETCH_ARGS := --config $(CONFIG)
 REPORT_ARGS := --config $(CONFIG) --days-ago $(DAYS_AGO)
 
@@ -25,7 +32,7 @@ ifneq ($(strip $(NO_SCREENSHOT)),)
 REPORT_ARGS += --no-screenshot
 endif
 
-.PHONY: help install dev lint test compile check fetch report daily clean
+.PHONY: help install dev lint test compile check fetch report daily clean $(DAY_TARGETS)
 
 help:
 	@echo "PUBG 每日战报"
@@ -39,6 +46,7 @@ help:
 	@echo "  make report DAYS_AGO=2               生成历史报告"
 	@echo "  make report NO_SCREENSHOT=1          不生成 PNG"
 	@echo "  make daily                           抓取并生成昨天的报告"
+	@echo "  make daily 2                         抓取并生成前天的报告"
 	@echo "  make clean                           清理 Python 缓存"
 
 install:
@@ -66,6 +74,9 @@ report:
 	$(PYTHON) generate_report.py $(REPORT_ARGS)
 
 daily: fetch report
+
+$(DAY_TARGETS):
+	@:
 
 clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +

@@ -1,0 +1,301 @@
+created_at,match_id,steam_id,mode,type,placement,total_teams,map,weapon,kills,damage,dbnos,traveled,time_alive,longest_kill,teammates
+2026-07-11T00:20:41+08:00,4b859bdd-a52f-4a82-91cf-98bedd038f58,MyHsmm-_,Squad,Normal,14,26,Erangel,ACE32,2,451,4,1.54km,12m 47s,44m,cJ05DSf4b5vkE|MyHsmm-_|PPJJPAO|Doge-fa
+2026-07-11T00:36:25+08:00,384bff9d-e4d7-44cf-bf12-7d4b778633ab,MyHsmm-_,Squad,Normal,18,30,Erangel,AUG A3,0,178,1,0.25km,3m 31s,0m,cJ05DSf4b5vkE|PPJJPAO|Doge-fa|MyHsmm-_
+2026-07-11T00:45:12+08:00,93e30d08-e487-4856-85bb-05cc7b5876cc,MyHsmm-_,Squad,Normal,4,26,Taego,Mini 14,6,769,7,8.81km,23m 31s,123m,PPJJPAO|cJ05DSf4b5vkE|MyHsmm-_|Doge-fa
+2026-07-11T01:10:49+08:00,3b9a3a0b-730d-4fe6-861f-061c1b326725,MyHsmm-_,Squad,Normal,2,26,Taego,AUG A3,2,530,4,6.25km,23m 11s,33m,PPJJPAO|cJ05DSf4b5vkE|Doge-fa|MyHsmm-_
+2026-07-11T01:40:57+08:00,30b3bc46-cf8a-447d-bae8-be28f71f4a7b,MyHsmm-_,Squad,Normal,13,26,Taego,AUG A3,2,183,1,6.20km,14m 52s,241m,Doge-fa|PPJJPAO|MyHsmm-_
+2026-07-13T11:05:52+08:00,6ae36435-6910-49d4-b0ae-e83886690937,Black--xbb,Squad,Normal,29,32,Rondo,,0,0,0,0.40km,2m 56s,0m,ikun6780|qiangzhe86|kaixinjiuhaoyes|Black--xbb
+2026-07-13T11:12:37+08:00,7cbf105e-c6cc-41b4-b45e-4bb55a474258,Black--xbb,Squad,Normal,9,26,Erangel,ACE32,0,56,0,4.74km,12m 14s,0m,OTO3946|srgdfk|Black--xbb|beginner-cao
+2026-07-13T11:30:05+08:00,92267408-9870-4acf-9e51-753d7c6d184a,Black--xbb,Squad,Normal,4,25,Miramar,Mk12,1,179,1,6.56km,18m 32s,47m,Black--xbb|kshdoa-|Hong-da-iii|woccaiix
+2026-07-13T11:50:50+08:00,dc4f57ad-acc3-4f24-b66e-9e03c3f5c340,Black--xbb,Squad,Normal,3,29,Taego,Mk14,1,416,2,6.97km,26m 55s,209m,libsb|WuShenR0semary|Goattt3th|Black--xbb
+2026-07-13T12:34:50+08:00,24c9e2e2-aad1-472a-9458-3531761076c5,Black--xbb,Squad,Normal,9,20,Erangel,UMP45,0,60,0,2.33km,15m 39s,0m,XIAOLIQWER123|Black--xbb|SHUAI_GE_G|DaiTouDaGe27
+2026-07-13T12:52:28+08:00,248a63db-75e0-4506-a9ac-ef9d323b78c1,Black--xbb,Squad,Normal,16,18,Miramar,AUG A3,0,49,0,0.75km,4m 44s,0m,celestia_T|qpzxxka|zhwng-xiao-xuan|Black--xbb
+2026-07-13T13:00:33+08:00,ddd03130-dd0e-4f7c-8c8c-16a96aeda265,Black--xbb,Squad,Normal,4,22,Rondo,Kar98k,5,440,4,5.82km,22m 18s,33m,Black--xbb|HiganbanaMM|A-1433215891|come-on-kalami
+2026-07-13T22:04:22+08:00,0e760711-ff80-4c5b-9c1d-e6b7e4dd9d8c,Black--xbb,Squad,Normal,13,28,Sanhok,Beryl,1,100,1,1.72km,9m 14s,13m,Maureen99|Black--xbb|zhong8yang8
+2026-07-13T22:16:08+08:00,5c500ec7-b039-43ae-94b0-3c9b5a895d20,Maureen99,Squad,Normal,6,27,Sanhok,M16A4,3,507,3,3.78km,19m 46s,123m,Maureen99|Black--xbb|zhong8yang8|daohaozeisima5
+2026-07-13T22:16:08+08:00,5c500ec7-b039-43ae-94b0-3c9b5a895d20,Black--xbb,Squad,Normal,6,27,Sanhok,M24,1,69,1,3.54km,19m 7s,2m,Maureen99|Black--xbb|zhong8yang8|daohaozeisima5
+2026-07-13T22:38:49+08:00,87db252a-226b-4eb4-b027-680d4f063b58,Maureen99,Squad,Normal,1,29,Sanhok,UZI,0,32,0,2.28km,11m 27s,0m,zhong8yang8|143JacksonWang|Black--xbb|Maureen99
+2026-07-13T22:38:49+08:00,87db252a-226b-4eb4-b027-680d4f063b58,Black--xbb,Squad,Normal,1,29,Sanhok,M24,3,309,3,4.71km,23m 5s,151m,zhong8yang8|143JacksonWang|Black--xbb|Maureen99
+2026-07-14T21:54:23+08:00,e5f83e5a-a06c-4663-8705-ee1b7bcc6efc,zhong8yang8,Squad,Normal,22,29,Sanhok,,0,0,0,0.19km,3m 23s,0m,super_ADAM|FahaiGe|zhong8yang8|lliyafa911
+2026-07-14T22:00:29+08:00,103fbe4f-7a7e-4dba-b91a-6dc586ebc53c,zhong8yang8,Squad,Normal,10,27,Sanhok,AUG A3,0,22,0,1.58km,13m 37s,0m,FahaiGe|zhong8yang8|super_ADAM|MORANLIUNIAN2026
+2026-07-14T22:00:29+08:00,103fbe4f-7a7e-4dba-b91a-6dc586ebc53c,FahaiGe,Squad,Normal,10,27,Sanhok,Mk12,1,249,1,3.53km,16m 18s,178m,FahaiGe|zhong8yang8|super_ADAM|MORANLIUNIAN2026
+2026-07-14T22:19:06+08:00,a271844d-4701-42a9-ade4-46c1b245fe36,zhong8yang8,Squad,Normal,1,27,Sanhok,Beryl,1,253,1,3.97km,23m 34s,19m,FahaiGe|super_ADAM|zhong8yang8|wufengaiou
+2026-07-14T22:19:06+08:00,a271844d-4701-42a9-ade4-46c1b245fe36,super_ADAM,Squad,Normal,1,27,Sanhok,Beryl,6,696,5,3.96km,23m 34s,58m,FahaiGe|super_ADAM|zhong8yang8|wufengaiou
+2026-07-14T22:19:06+08:00,a271844d-4701-42a9-ade4-46c1b245fe36,FahaiGe,Squad,Normal,1,27,Sanhok,ACE32,2,230,0,3.63km,23m 34s,32m,FahaiGe|super_ADAM|zhong8yang8|wufengaiou
+2026-07-14T22:45:36+08:00,36f88b82-4e32-4a59-95f2-d2de06bbc2e3,zhong8yang8,Squad,Normal,17,26,Sanhok,,0,0,0,0.52km,3m 39s,0m,MITANG-T|FahaiGe|super_ADAM|zhong8yang8
+2026-07-14T22:45:36+08:00,36f88b82-4e32-4a59-95f2-d2de06bbc2e3,super_ADAM,Squad,Normal,17,26,Sanhok,Beryl,1,178,1,1.08km,5m 2s,1m,MITANG-T|FahaiGe|super_ADAM|zhong8yang8
+2026-07-14T22:45:36+08:00,36f88b82-4e32-4a59-95f2-d2de06bbc2e3,FahaiGe,Squad,Normal,17,26,Sanhok,,0,0,0,1.01km,5m 56s,0m,MITANG-T|FahaiGe|super_ADAM|zhong8yang8
+2026-07-14T22:52:29+08:00,3b3c08c4-3d28-4358-ad19-0ce3c0d073e5,zhong8yang8,Squad,Normal,1,25,Sanhok,Beryl,3,275,3,3.92km,18m 16s,41m,tiandou001|FahaiGe|super_ADAM|zhong8yang8
+2026-07-14T22:52:29+08:00,3b3c08c4-3d28-4358-ad19-0ce3c0d073e5,super_ADAM,Squad,Normal,1,25,Sanhok,Beryl,1,216,0,5.80km,23m 50s,13m,tiandou001|FahaiGe|super_ADAM|zhong8yang8
+2026-07-14T22:52:29+08:00,3b3c08c4-3d28-4358-ad19-0ce3c0d073e5,FahaiGe,Squad,Normal,1,25,Sanhok,DuncansHK416,0,0,0,4.86km,23m 50s,0m,tiandou001|FahaiGe|super_ADAM|zhong8yang8
+2026-07-15T21:14:06+08:00,49d469d7-78d0-4cb4-b7be-1bc759c4818c,super_ADAM,Squad,Normal,10,17,Karakin,,0,0,0,1.08km,6m 25s,0m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:14:06+08:00,49d469d7-78d0-4cb4-b7be-1bc759c4818c,MyHsmm-_,Squad,Normal,10,17,Karakin,AUG A3,1,397,3,1.21km,6m 59s,111m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:14:06+08:00,49d469d7-78d0-4cb4-b7be-1bc759c4818c,FahaiGe,Squad,Normal,10,17,Karakin,M16A4,0,26,0,1.07km,6m 19s,0m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:23:08+08:00,8c2254c8-d07b-4bfb-8e88-f8791063dc82,super_ADAM,Squad,Normal,14,17,Karakin,M416,1,100,1,0.64km,4m 15s,8m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:23:08+08:00,8c2254c8-d07b-4bfb-8e88-f8791063dc82,MyHsmm-_,Squad,Normal,14,17,Karakin,ACE32,0,100,1,0.42km,4m 26s,0m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:23:08+08:00,8c2254c8-d07b-4bfb-8e88-f8791063dc82,FahaiGe,Squad,Normal,14,17,Karakin,,0,0,0,0.08km,1m 38s,0m,MyHsmm-_|super_ADAM|FahaiGe
+2026-07-15T21:29:43+08:00,17f4cba8-62d0-49e3-a23e-6868422df13c,super_ADAM,Squad,Normal,2,17,Karakin,AK47,2,179,1,1.82km,11m 35s,29m,FahaiGe|super_ADAM|MyHsmm-_
+2026-07-15T21:29:43+08:00,17f4cba8-62d0-49e3-a23e-6868422df13c,MyHsmm-_,Squad,Normal,2,17,Karakin,AUG A3,1,118,1,1.11km,8m 2s,54m,FahaiGe|super_ADAM|MyHsmm-_
+2026-07-15T21:29:43+08:00,17f4cba8-62d0-49e3-a23e-6868422df13c,FahaiGe,Squad,Normal,2,17,Karakin,UMP45,4,800,4,2.49km,16m 19s,57m,FahaiGe|super_ADAM|MyHsmm-_
+2026-07-15T21:48:06+08:00,0927a400-cd3f-4bee-b917-c7e2ed057580,super_ADAM,Squad,Normal,9,17,Karakin,ACE32,0,182,1,1.68km,8m 18s,0m,super_ADAM|MyHsmm-_|FahaiGe
+2026-07-15T21:48:06+08:00,0927a400-cd3f-4bee-b917-c7e2ed057580,MyHsmm-_,Squad,Normal,9,17,Karakin,Dragunov,1,194,1,1.69km,8m 18s,101m,super_ADAM|MyHsmm-_|FahaiGe
+2026-07-15T21:48:06+08:00,0927a400-cd3f-4bee-b917-c7e2ed057580,FahaiGe,Squad,Normal,9,17,Karakin,,0,0,0,1.22km,8m 10s,0m,super_ADAM|MyHsmm-_|FahaiGe
+2026-07-15T21:58:57+08:00,45eb901e-831a-43a2-832b-8069e9d60537,super_ADAM,Squad,Normal,7,18,Karakin,Beryl,0,141,1,0.88km,5m 21s,0m,FahaiGe|Maureen99|MyHsmm-_|super_ADAM
+2026-07-15T21:58:57+08:00,45eb901e-831a-43a2-832b-8069e9d60537,Maureen99,Squad,Normal,7,18,Karakin,M16A4,0,32,0,1.27km,8m 30s,0m,FahaiGe|Maureen99|MyHsmm-_|super_ADAM
+2026-07-15T21:58:57+08:00,45eb901e-831a-43a2-832b-8069e9d60537,MyHsmm-_,Squad,Normal,7,18,Karakin,AUG A3,1,340,2,1.22km,8m 16s,89m,FahaiGe|Maureen99|MyHsmm-_|super_ADAM
+2026-07-15T21:58:57+08:00,45eb901e-831a-43a2-832b-8069e9d60537,FahaiGe,Squad,Normal,7,18,Karakin,UMP45,0,106,0,1.72km,9m 23s,0m,FahaiGe|Maureen99|MyHsmm-_|super_ADAM
+2026-07-15T22:15:23+08:00,2d854cf6-905a-4b4b-bc17-43cc53e878b1,super_ADAM,Squad,Normal,2,19,Karakin,Beryl,2,282,1,3.16km,16m 50s,38m,FahaiGe|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:15:23+08:00,2d854cf6-905a-4b4b-bc17-43cc53e878b1,Maureen99,Squad,Normal,2,19,Karakin,M16A4,1,34,1,2.14km,12m 39s,27m,FahaiGe|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:15:23+08:00,2d854cf6-905a-4b4b-bc17-43cc53e878b1,MyHsmm-_,Squad,Normal,2,19,Karakin,AUG A3,2,451,4,3.26km,16m 50s,52m,FahaiGe|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:15:23+08:00,2d854cf6-905a-4b4b-bc17-43cc53e878b1,FahaiGe,Squad,Normal,2,19,Karakin,MP5K,1,139,0,3.22km,16m 50s,10m,FahaiGe|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:38:46+08:00,cfb04d7d-8f42-4017-8de7-376fe9d8fef1,super_ADAM,Squad,Normal,12,17,Karakin,UMP45,3,197,2,0.60km,5m 24s,23m,super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:38:46+08:00,cfb04d7d-8f42-4017-8de7-376fe9d8fef1,Maureen99,Squad,Normal,12,17,Karakin,UZI,0,19,0,0.29km,2m 45s,0m,super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:38:46+08:00,cfb04d7d-8f42-4017-8de7-376fe9d8fef1,MyHsmm-_,Squad,Normal,12,17,Karakin,Berreta686,4,442,3,0.54km,5m 24s,17m,super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T22:46:13+08:00,207469bb-5faf-4f22-897c-099c83269da3,zhong8yang8,Squad,Normal,12,17,Karakin,Mini 14,0,87,0,0.99km,6m 53s,0m,MyHsmm-_|super_ADAM|zhong8yang8|Maureen99
+2026-07-15T22:46:13+08:00,207469bb-5faf-4f22-897c-099c83269da3,super_ADAM,Squad,Normal,12,17,Karakin,,0,0,0,1.39km,6m 58s,0m,MyHsmm-_|super_ADAM|zhong8yang8|Maureen99
+2026-07-15T22:46:13+08:00,207469bb-5faf-4f22-897c-099c83269da3,Maureen99,Squad,Normal,12,17,Karakin,M24,0,41,0,0.94km,6m 33s,0m,MyHsmm-_|super_ADAM|zhong8yang8|Maureen99
+2026-07-15T22:46:13+08:00,207469bb-5faf-4f22-897c-099c83269da3,MyHsmm-_,Squad,Normal,12,17,Karakin,M416,1,191,1,1.40km,9m 34s,14m,MyHsmm-_|super_ADAM|zhong8yang8|Maureen99
+2026-07-15T22:58:23+08:00,8391e228-6f01-4c83-b5f6-3cdbebfa096e,zhong8yang8,Squad,Normal,1,18,Karakin,FNFal,3,275,0,2.67km,18m 1s,195m,zhong8yang8|MyHsmm-_|Maureen99|super_ADAM
+2026-07-15T22:58:23+08:00,8391e228-6f01-4c83-b5f6-3cdbebfa096e,super_ADAM,Squad,Normal,1,18,Karakin,Beryl,0,67,0,2.35km,14m 49s,0m,zhong8yang8|MyHsmm-_|Maureen99|super_ADAM
+2026-07-15T22:58:23+08:00,8391e228-6f01-4c83-b5f6-3cdbebfa096e,Maureen99,Squad,Normal,1,18,Karakin,UMP45,3,174,3,2.22km,14m 51s,112m,zhong8yang8|MyHsmm-_|Maureen99|super_ADAM
+2026-07-15T22:58:23+08:00,8391e228-6f01-4c83-b5f6-3cdbebfa096e,MyHsmm-_,Squad,Normal,1,18,Karakin,MP5K,5,619,4,3.40km,18m 1s,53m,zhong8yang8|MyHsmm-_|Maureen99|super_ADAM
+2026-07-15T23:18:58+08:00,2fbec94b-3e7f-4d4f-a969-ac0749db5f8d,zhong8yang8,Squad,Normal,6,18,Karakin,Mini 14,2,311,2,2.29km,13m 32s,30m,super_ADAM|zhong8yang8|Maureen99|MyHsmm-_
+2026-07-15T23:18:58+08:00,2fbec94b-3e7f-4d4f-a969-ac0749db5f8d,super_ADAM,Squad,Normal,6,18,Karakin,Beryl,1,82,1,2.63km,13m 36s,28m,super_ADAM|zhong8yang8|Maureen99|MyHsmm-_
+2026-07-15T23:18:58+08:00,2fbec94b-3e7f-4d4f-a969-ac0749db5f8d,Maureen99,Squad,Normal,6,18,Karakin,Beryl,2,162,1,2.16km,13m 15s,18m,super_ADAM|zhong8yang8|Maureen99|MyHsmm-_
+2026-07-15T23:18:58+08:00,2fbec94b-3e7f-4d4f-a969-ac0749db5f8d,MyHsmm-_,Squad,Normal,6,18,Karakin,MP5K,0,358,0,1.69km,10m 2s,0m,super_ADAM|zhong8yang8|Maureen99|MyHsmm-_
+2026-07-15T23:34:56+08:00,4df44494-dda1-4384-917d-a85d68eea3e5,zhong8yang8,Squad,Normal,2,17,Karakin,M416,2,231,0,3.32km,18m 1s,44m,zhong8yang8|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T23:34:56+08:00,4df44494-dda1-4384-917d-a85d68eea3e5,super_ADAM,Squad,Normal,2,17,Karakin,Mk12,0,335,1,3.01km,17m 53s,0m,zhong8yang8|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T23:34:56+08:00,4df44494-dda1-4384-917d-a85d68eea3e5,Maureen99,Squad,Normal,2,17,Karakin,VSS,0,100,0,1.68km,10m 58s,0m,zhong8yang8|super_ADAM|MyHsmm-_|Maureen99
+2026-07-15T23:34:56+08:00,4df44494-dda1-4384-917d-a85d68eea3e5,MyHsmm-_,Squad,Normal,2,17,Karakin,Win94,5,428,5,2.08km,12m 35s,14m,zhong8yang8|super_ADAM|MyHsmm-_|Maureen99
+2026-07-16T00:00:09+08:00,008f9b31-1acd-4c62-9fd6-1848ac6c9dcd,zhong8yang8,Squad,Normal,7,16,Karakin,Win94,0,51,0,2.04km,12m 59s,0m,Maureen99|MyHsmm-_|zhong8yang8|super_ADAM
+2026-07-16T00:00:09+08:00,008f9b31-1acd-4c62-9fd6-1848ac6c9dcd,super_ADAM,Squad,Normal,7,16,Karakin,Dragunov,2,204,2,2.63km,12m 44s,67m,Maureen99|MyHsmm-_|zhong8yang8|super_ADAM
+2026-07-16T00:00:09+08:00,008f9b31-1acd-4c62-9fd6-1848ac6c9dcd,Maureen99,Squad,Normal,7,16,Karakin,UMP45,0,191,2,2.50km,14m 7s,0m,Maureen99|MyHsmm-_|zhong8yang8|super_ADAM
+2026-07-16T00:00:09+08:00,008f9b31-1acd-4c62-9fd6-1848ac6c9dcd,MyHsmm-_,Squad,Normal,7,16,Karakin,AUG A3,4,479,2,2.56km,13m 8s,42m,Maureen99|MyHsmm-_|zhong8yang8|super_ADAM
+2026-07-16T00:16:52+08:00,5d9f4971-a3c3-444a-869f-ccba7c5b6e82,MyHsmm-_,Squad,Normal,27,27,Erangel,,0,0,0,0.05km,1m 16s,0m,MyHsmm-_
+2026-07-16T00:17:38+08:00,aae92069-8ebf-4205-8adc-83fedfbe85e4,super_ADAM,Solo,Normal,1,1,Training Mode,,0,0,0,0.57km,8m 45s,0m,super_ADAM
+2026-07-16T00:19:10+08:00,d71f2f9c-c2ed-4f61-9d2a-b1fe4d65d5e2,MyHsmm-_,Solo,Normal,0,1,Training Mode,MP5K,19,1651,0,0.75km,9m 11s,55m,MyHsmm-_
+2026-07-16T00:27:01+08:00,d288426a-9fd3-4474-a925-9510aae3f9cc,super_ADAM,Solo,Normal,0,1,Training Mode,,18,1571,0,0.97km,12m 27s,51m,super_ADAM
+2026-07-16T00:30:33+08:00,b73f48fe-f473-4f32-b554-b03feae5a123,MyHsmm-_,Squad,Normal,3,29,Erangel,Vector,4,401,2,0.43km,3m 50s,33m,ALT_LongCc|YoHo_Jasmine|MyHsmm-_
+2026-07-16T00:41:09+08:00,4c299eab-b68a-45a2-993f-87262207212d,super_ADAM,Solo,Normal,0,1,Training Mode,MP5K,19,1657,0,0.76km,8m 32s,50m,super_ADAM
+2026-07-16T00:53:50+08:00,19c17425-c21e-4b8b-b7af-7a213e74e41f,super_ADAM,Solo,Normal,97,100,Erangel,,0,0,0,0.35km,2m 0s,0m,super_ADAM
+2026-07-16T01:00:13+08:00,c69f430a-78e7-4e64-8f51-30ff9c929fd2,super_ADAM,Squad,Normal,17,27,Erangel,,0,0,0,10.15km,6m 48s,0m,super_ADAM
+2026-07-12T11:36:11+08:00,8ded0df2-0031-4596-86f4-f59c82fa1b0b,FahaiGe,Squad,Normal,7,25,Erangel,ACE32,1,50,0,5.19km,18m 11s,9m,zhong8yang8|FahaiGe|super_ADAM|ID-Mge
+2026-07-12T11:57:06+08:00,c65e9766-7db6-4fe2-ac3a-9704ba47dd35,FahaiGe,Squad,Normal,10,22,Miramar,SCAR-L,0,59,0,7.00km,15m 46s,0m,zhong8yang8|Amazing_xD_XTLLL|FahaiGe|super_ADAM
+2026-07-12T12:16:03+08:00,39739ce6-eecd-4e3b-b4ea-ee727a6e6836,FahaiGe,Squad,Normal,16,23,Rondo,M416,0,41,0,2.47km,10m 24s,0m,FahaiGe|super_ADAM|zhong8yang8|ooppwang
+2026-07-12T12:28:43+08:00,4663917f-f15b-4e65-953d-6a8c7b52ae18,FahaiGe,Squad,Normal,8,22,Rondo,,0,0,0,5.80km,17m 13s,0m,FahaiGe|zhong8yang8|xovz5305|super_ADAM
+2026-07-12T19:26:10+08:00,9961dc7d-e9d5-498b-ba07-72c4fd580259,FahaiGe,Squad,Normal,25,28,Sanhok,MP5K,1,125,1,0.32km,2m 52s,1m,FahaiGe|xllikalover|nmmsl223|CNM698
+2026-07-12T19:31:11+08:00,fd684007-b40e-4967-bce6-0ab241482e86,FahaiGe,Solo,Normal,2,95,Sanhok,ACE32,2,355,0,4.63km,25m 11s,60m,FahaiGe
+2026-07-12T19:58:16+08:00,77de6ee1-d50b-4ff5-9b4b-f7abcf206a9c,FahaiGe,Solo,Normal,16,96,Sanhok,Kar98k,0,68,0,2.99km,16m 5s,0m,FahaiGe
+2026-07-13T20:49:00+08:00,89f83b5c-c491-4c41-a42f-3c86ad52abf8,super_ADAM,Squad,Normal,10,26,Sanhok,Beryl,2,334,3,1.91km,12m 42s,55m,zhong8yang8|super_ADAM|Black_Yueee|Doritos_0487
+2026-07-13T21:09:59+08:00,a1f7ade5-2a06-4985-b9c6-a984aa8bd453,super_ADAM,Squad,Normal,6,27,Sanhok,,0,0,0,2.22km,11m 31s,0m,Uvql7jz34|Maureen99|zhong8yang8|super_ADAM
+2026-07-13T21:23:45+08:00,cf413927-cee4-493a-8c9f-318e25f0f2f3,super_ADAM,Squad,Normal,6,27,Sanhok,,0,0,0,3.77km,17m 27s,0m,Maureen99|zhong8yang8|super_ADAM|yyds8815
+2026-07-13T21:43:53+08:00,d465f238-48dd-41e1-84d2-d4f7dbf530b6,super_ADAM,Squad,Normal,9,27,Sanhok,Saiga12,2,200,2,2.15km,15m 42s,11m,pw-6666|super_ADAM|zhong8yang8|Maureen99
+2026-07-13T22:04:22+08:00,0e760711-ff80-4c5b-9c1d-e6b7e4dd9d8c,zhong8yang8,Squad,Normal,13,28,Sanhok,,0,0,0,0.95km,9m 10s,0m,Maureen99|Black--xbb|zhong8yang8
+2026-07-13T22:16:08+08:00,5c500ec7-b039-43ae-94b0-3c9b5a895d20,zhong8yang8,Squad,Normal,6,27,Sanhok,,0,0,0,2.83km,15m 29s,0m,Maureen99|Black--xbb|zhong8yang8|daohaozeisima5
+2026-07-13T22:38:49+08:00,87db252a-226b-4eb4-b027-680d4f063b58,zhong8yang8,Squad,Normal,1,29,Sanhok,Mk12,6,641,5,4.48km,24m 7s,171m,zhong8yang8|143JacksonWang|Black--xbb|Maureen99
+2026-07-14T19:55:26+08:00,fed4ff29-bdc4-4815-af19-5aa030ae7785,zhong8yang8,Squad,Normal,6,28,Sanhok,,0,0,0,0.80km,13m 2s,0m,loves2222|LOEV997|LiuMengNa--|zhong8yang8
+2026-07-14T20:26:40+08:00,ea3c5889-536c-4941-9540-a2a643e11540,zhong8yang8,Squad,Normal,1,28,Sanhok,Mini 14,0,215,0,6.90km,22m 57s,0m,ZeroTrace-Ccc|northalien|AWM-98KYYDS|zhong8yang8
+2026-07-14T20:52:01+08:00,bd7e24ba-1e18-41d7-a4c3-6fbebb63a8ef,zhong8yang8,Squad,Normal,14,27,Sanhok,ACE32,0,86,0,2.62km,8m 11s,0m,zhong8yang8|WangLYB686|heccc566|Bigdaddyi
+2026-07-14T21:02:25+08:00,87985cb4-4d3e-4918-917b-8d2dbdd12f3f,zhong8yang8,Squad,Normal,21,28,Sanhok,QBZ95,1,74,0,0.29km,4m 47s,5m,X1AO_2E-KUI|zhong8yang8|LICHANQUNBABY|super_ADAM
+2026-07-14T21:02:25+08:00,87985cb4-4d3e-4918-917b-8d2dbdd12f3f,super_ADAM,Squad,Normal,21,28,Sanhok,AK47,0,60,0,0.19km,2m 42s,0m,X1AO_2E-KUI|zhong8yang8|LICHANQUNBABY|super_ADAM
+2026-07-14T21:09:17+08:00,2fa7c864-693e-4f3b-964d-a8cacb1d8b1c,zhong8yang8,Squad,Normal,11,27,Sanhok,,0,0,0,0.30km,4m 16s,0m,La326-Tt_xbn|zhong8yang8|super_ADAM
+2026-07-14T21:09:17+08:00,2fa7c864-693e-4f3b-964d-a8cacb1d8b1c,super_ADAM,Squad,Normal,11,27,Sanhok,Beryl,0,80,0,0.43km,3m 54s,0m,La326-Tt_xbn|zhong8yang8|super_ADAM
+2026-07-14T21:21:26+08:00,c67e0ccc-db23-4efb-be2f-3c2450830f44,zhong8yang8,Squad,Normal,7,24,Sanhok,AWM,3,499,3,3.65km,19m 37s,59m,super_ADAM|zhong8yang8|FahaiGe|lovecyd9
+2026-07-14T21:21:26+08:00,c67e0ccc-db23-4efb-be2f-3c2450830f44,super_ADAM,Squad,Normal,7,24,Sanhok,VSS,4,242,4,3.44km,19m 37s,83m,super_ADAM|zhong8yang8|FahaiGe|lovecyd9
+2026-07-14T21:21:26+08:00,c67e0ccc-db23-4efb-be2f-3c2450830f44,FahaiGe,Squad,Normal,7,24,Sanhok,FNFal,1,277,0,3.56km,18m 33s,11m,super_ADAM|zhong8yang8|FahaiGe|lovecyd9
+2026-07-14T21:43:22+08:00,062fd615-8c47-4d98-a085-755d3e42ecbc,zhong8yang8,Squad,Normal,21,28,Sanhok,,0,0,0,0.47km,4m 20s,0m,FahaiGe|zhong8yang8|moonberger|super_ADAM
+2026-07-14T21:43:22+08:00,062fd615-8c47-4d98-a085-755d3e42ecbc,super_ADAM,Squad,Normal,21,28,Sanhok,Beryl,0,100,1,0.53km,3m 58s,0m,FahaiGe|zhong8yang8|moonberger|super_ADAM
+2026-07-14T21:43:22+08:00,062fd615-8c47-4d98-a085-755d3e42ecbc,FahaiGe,Squad,Normal,21,28,Sanhok,,0,0,0,0.43km,4m 20s,0m,FahaiGe|zhong8yang8|moonberger|super_ADAM
+2026-07-14T21:54:23+08:00,e5f83e5a-a06c-4663-8705-ee1b7bcc6efc,super_ADAM,Squad,Normal,22,29,Sanhok,ACE32,0,49,0,0.44km,3m 41s,0m,super_ADAM|FahaiGe|zhong8yang8|lliyafa911
+2026-07-14T21:54:23+08:00,e5f83e5a-a06c-4663-8705-ee1b7bcc6efc,FahaiGe,Squad,Normal,22,29,Sanhok,MP5K,1,112,1,0.32km,3m 27s,22m,super_ADAM|FahaiGe|zhong8yang8|lliyafa911
+2026-07-14T22:00:29+08:00,103fbe4f-7a7e-4dba-b91a-6dc586ebc53c,super_ADAM,Squad,Normal,10,27,Sanhok,Beryl,1,97,1,3.15km,13m 23s,30m,FahaiGe|zhong8yang8|super_ADAM|MORANLIUNIAN2026
+2026-07-09T23:06:42+08:00,5be848fe-265e-47c7-8074-5380eb4963c6,Maureen99,Squad,Normal,12,20,Rondo,Kar98k,0,64,0,1.71km,8m 20s,0m,Black--xbb|Necy9527|Maureen99|Yangguo-1
+2026-07-09T23:18:06+08:00,69e52dce-f812-492c-919d-2661e49398d7,Maureen99,Squad,Normal,5,21,Erangel,,0,0,0,5.72km,11m 0s,0m,MrWhite_510|Black--xbb|WUHENIAN|Maureen99
+2026-07-09T23:36:03+08:00,fff2ebe4-b117-4ce2-bbaa-e2df38f1f2ee,Maureen99,Squad,Normal,3,17,Rondo,MP5K,0,96,0,6.46km,17m 14s,0m,Maureen99|Black--xbb|1Yng|YUYUYUZIIII
+2026-07-09T23:55:55+08:00,320b25c7-421a-48fe-aba9-5dec71fd3607,Maureen99,Squad,Normal,8,20,Miramar,,0,0,0,5.21km,10m 24s,0m,DYTV-10390413|Black--xbb|kangkang1114|Maureen99
+2026-07-10T00:13:52+08:00,d3f9a5d9-e354-447e-859f-a935521009fc,Maureen99,Squad,Normal,4,21,Taego,ACE32,0,39,0,8.97km,22m 6s,0m,Black--xbb|Maureen99|huanghui1212|gtxzh7ckgb
+2026-07-10T00:13:52+08:00,d3f9a5d9-e354-447e-859f-a935521009fc,Black--xbb,Squad,Normal,4,21,Taego,AUG A3,1,287,3,6.98km,22m 10s,38m,Black--xbb|Maureen99|huanghui1212|gtxzh7ckgb
+2026-07-10T00:37:51+08:00,7706ddb6-c092-43b2-b945-28fabea56581,Maureen99,Squad,Normal,5,21,Taego,,0,0,0,5.10km,17m 1s,0m,Maureen99|honey-1986|Black--xbb|ftyrdt24557665
+2026-07-10T00:37:51+08:00,7706ddb6-c092-43b2-b945-28fabea56581,Black--xbb,Squad,Normal,5,21,Taego,AUG A3,0,85,0,1.56km,12m 34s,0m,Maureen99|honey-1986|Black--xbb|ftyrdt24557665
+2026-07-10T00:57:25+08:00,7c6f8bde-4602-4238-b746-d8528fc95567,Black--xbb,Squad,Normal,2,21,Rondo,ACE32,2,145,0,2.85km,17m 23s,387m,lixiangL789|heheda121382|Black--xbb|XL981012
+2026-07-10T01:20:10+08:00,eb51d9c4-3c02-4432-9a31-b56c93d466a3,Black--xbb,Squad,Normal,3,24,Miramar,M416,1,228,1,3.83km,22m 13s,61m,Black--xbb|XXLLXBB|ren20011101|YUDI6851083
+2026-07-10T01:51:29+08:00,12db8251-82db-4eb5-981c-ed306fb925b4,Black--xbb,Squad,Normal,7,25,Rondo,M24,1,100,0,9.94km,13m 38s,67m,yonghe_777|Black--xbb|XL981012|ZZZ_ys_
+2026-07-10T09:33:46+08:00,29fa66bd-f329-4183-8d25-e5e04292d1ad,Black--xbb,Squad,Normal,35,37,Taego,UMP45,1,144,2,0.37km,4m 14s,11m,Black--xbb|Zhangxiyu8|84longge|chinaNWW
+2026-07-10T09:40:40+08:00,0173e73d-7c05-4d5f-a0ed-60a321157e54,Black--xbb,Squad,Normal,2,32,Erangel,M416,4,540,3,6.98km,25m 29s,67m,mV3qD5qStQ8BZ|Black--xbb|WXTYGYXY|f8hez7
+2026-07-10T10:08:50+08:00,423940a4-9c0e-4a37-9d87-81545d118304,Black--xbb,Squad,Normal,20,30,Miramar,VSS,0,146,0,0.86km,7m 26s,0m,M-min_G|DASDASDS1233|Wvvvplb754|Black--xbb
+2026-07-10T10:22:15+08:00,23601681-e59f-46e5-a217-f45d60d22e29,Black--xbb,Squad,Normal,4,32,Taego,Mini 14,1,273,0,4.69km,18m 4s,23m,Black--xbb|xiantaomaozui|Unchanging_love|shangsansan123
+2026-07-11T23:57:56+08:00,66af38bf-b9f1-48a0-9487-f75688480c51,super_ADAM,Squad,Normal,7,19,Miramar,M416,7,562,6,4.49km,19m 58s,120m,super_ADAM|Ace_God32|ZK-aimini|Yoyo-Bao
+2026-07-12T11:02:50+08:00,d6437051-c929-4333-8f93-2288bbc3f3a1,super_ADAM,Squad,Normal,8,25,Miramar,,0,0,0,5.14km,13m 54s,0m,iui_7|FahaiGe|zhong8yang8|super_ADAM
+2026-07-12T11:24:58+08:00,a5d5bf79-3749-4528-b55d-6e049e09980e,super_ADAM,Squad,Normal,21,24,Rondo,,0,0,0,1.96km,8m 2s,0m,FahaiGe|kun0426|super_ADAM|zhong8yang8
+2026-07-12T11:36:11+08:00,8ded0df2-0031-4596-86f4-f59c82fa1b0b,zhong8yang8,Squad,Normal,7,25,Erangel,ACE32,1,257,0,4.91km,18m 22s,2m,zhong8yang8|FahaiGe|super_ADAM|ID-Mge
+2026-07-12T11:36:11+08:00,8ded0df2-0031-4596-86f4-f59c82fa1b0b,super_ADAM,Squad,Normal,7,25,Erangel,,0,30,0,4.10km,14m 55s,0m,zhong8yang8|FahaiGe|super_ADAM|ID-Mge
+2026-07-12T11:57:06+08:00,c65e9766-7db6-4fe2-ac3a-9704ba47dd35,zhong8yang8,Squad,Normal,10,22,Miramar,MP5K,0,110,0,5.58km,16m 48s,0m,zhong8yang8|Amazing_xD_XTLLL|FahaiGe|super_ADAM
+2026-07-12T11:57:06+08:00,c65e9766-7db6-4fe2-ac3a-9704ba47dd35,super_ADAM,Squad,Normal,10,22,Miramar,AUG A3,0,148,1,5.93km,15m 27s,0m,zhong8yang8|Amazing_xD_XTLLL|FahaiGe|super_ADAM
+2026-07-12T12:16:03+08:00,39739ce6-eecd-4e3b-b4ea-ee727a6e6836,zhong8yang8,Squad,Normal,16,23,Rondo,ACE32,1,27,1,2.50km,10m 24s,13m,FahaiGe|super_ADAM|zhong8yang8|ooppwang
+2026-07-12T12:16:03+08:00,39739ce6-eecd-4e3b-b4ea-ee727a6e6836,super_ADAM,Squad,Normal,16,23,Rondo,,0,0,0,3.36km,10m 24s,0m,FahaiGe|super_ADAM|zhong8yang8|ooppwang
+2026-07-12T12:28:43+08:00,4663917f-f15b-4e65-953d-6a8c7b52ae18,zhong8yang8,Squad,Normal,8,22,Rondo,,0,0,0,5.30km,16m 12s,0m,FahaiGe|zhong8yang8|xovz5305|super_ADAM
+2026-07-12T12:28:43+08:00,4663917f-f15b-4e65-953d-6a8c7b52ae18,super_ADAM,Squad,Normal,8,22,Rondo,,0,0,0,5.49km,15m 20s,0m,FahaiGe|zhong8yang8|xovz5305|super_ADAM
+2026-07-12T13:13:48+08:00,71fb6375-ddfd-425c-a096-e5c13a9ee460,super_ADAM,Squad,Normal,6,16,Taego,Dragunov,0,173,1,7.01km,16m 38s,0m,dianfeng20010804|AAHPH-_-|super_ADAM|fumobenmo
+2026-07-12T17:47:57+08:00,0cf2eb7d-364f-4304-9b15-d8797a1ced68,super_ADAM,Squad,Normal,13,17,Erangel,,0,57,0,3.04km,11m 22s,0m,yiqiangzuodiao_6|zy458888|super_ADAM|ooppwang
+2026-07-12T20:44:41+08:00,6e424288-0094-460f-a17e-70360b16626e,super_ADAM,Squad,Normal,6,17,Taego,,0,0,0,2.65km,15m 20s,0m,super_ADAM
+2026-07-13T10:55:20+08:00,cf24ac43-1ca5-4963-9e53-67cadafa33e4,Black--xbb,Squad,Normal,19,24,Taego,ACE32,1,219,2,0.91km,8m 14s,14m,Black--xbb|BinBinShiDSB|yiqi-Ronin|Aresmiss
+2026-07-13T19:59:48+08:00,f9967b81-fcea-4058-9a5d-4467d47fbe1e,zhong8yang8,Squad,Normal,2,27,Sanhok,Kar98k,0,61,0,4.48km,22m 42s,0m,Qiaolezixuegao|543694|zhong8yang8|Daoxiang_daoguan
+2026-07-13T20:27:52+08:00,8760892a-ca96-4971-81ad-eda27458db9c,zhong8yang8,Squad,Normal,11,31,Sanhok,,0,0,0,1.51km,13m 16s,0m,Rrxegr771|QDSDJXHXBAA|Ynctgwpx688|zhong8yang8
+2026-07-13T20:49:00+08:00,89f83b5c-c491-4c41-a42f-3c86ad52abf8,zhong8yang8,Squad,Normal,10,26,Sanhok,M416,0,36,0,1.78km,13m 16s,0m,zhong8yang8|super_ADAM|Black_Yueee|Doritos_0487
+2026-07-13T21:09:59+08:00,a1f7ade5-2a06-4985-b9c6-a984aa8bd453,zhong8yang8,Squad,Normal,6,27,Sanhok,,0,0,0,1.80km,11m 45s,0m,Uvql7jz34|Maureen99|zhong8yang8|super_ADAM
+2026-07-13T21:09:59+08:00,a1f7ade5-2a06-4985-b9c6-a984aa8bd453,Maureen99,Squad,Normal,6,27,Sanhok,UMP45,1,100,1,1.92km,12m 25s,7m,Uvql7jz34|Maureen99|zhong8yang8|super_ADAM
+2026-07-13T21:23:45+08:00,cf413927-cee4-493a-8c9f-318e25f0f2f3,zhong8yang8,Squad,Normal,6,27,Sanhok,MP5K,0,30,0,1.42km,17m 30s,0m,Maureen99|zhong8yang8|super_ADAM|yyds8815
+2026-07-13T21:23:45+08:00,cf413927-cee4-493a-8c9f-318e25f0f2f3,Maureen99,Squad,Normal,6,27,Sanhok,,0,0,0,3.43km,17m 38s,0m,Maureen99|zhong8yang8|super_ADAM|yyds8815
+2026-07-13T21:43:53+08:00,d465f238-48dd-41e1-84d2-d4f7dbf530b6,zhong8yang8,Squad,Normal,9,27,Sanhok,Vector,1,31,0,2.26km,15m 32s,29m,pw-6666|super_ADAM|zhong8yang8|Maureen99
+2026-07-13T21:43:53+08:00,d465f238-48dd-41e1-84d2-d4f7dbf530b6,Maureen99,Squad,Normal,9,27,Sanhok,Berreta686,1,100,1,1.53km,12m 42s,4m,pw-6666|super_ADAM|zhong8yang8|Maureen99
+2026-07-13T22:04:22+08:00,0e760711-ff80-4c5b-9c1d-e6b7e4dd9d8c,Maureen99,Squad,Normal,13,28,Sanhok,ACE32,0,66,0,1.88km,9m 38s,0m,Maureen99|Black--xbb|zhong8yang8
+2026-07-11T13:58:22+08:00,d747952a-3b76-4a2c-8ea1-15967c056f06,zhong8yang8,Squad,Normal,9,21,Taego,Beryl,1,100,0,2.57km,12m 58s,25m,super_ADAM|Esports_Feng|zhong8yang8|xionggen1205
+2026-07-11T21:05:32+08:00,fdbc791b-2585-462d-a444-78cb0bd0bca1,FahaiGe,Squad,Normal,9,19,Erangel,Mini 14,0,28,0,3.65km,11m 5s,0m,LGE-kvkj878ij92|ZhangMren-|cdsoh26395|FahaiGe
+2026-07-11T21:21:07+08:00,f9d276fe-42d4-4c78-b4c2-2db2b80d0bab,zhong8yang8,Squad,Normal,6,19,Miramar,M416,2,242,2,5.66km,16m 43s,51m,zhong8yang8|FahaiGe|sgagwwnterB|bbmQT
+2026-07-11T21:21:07+08:00,f9d276fe-42d4-4c78-b4c2-2db2b80d0bab,FahaiGe,Squad,Normal,6,19,Miramar,,0,0,0,6.09km,16m 41s,0m,zhong8yang8|FahaiGe|sgagwwnterB|bbmQT
+2026-07-11T21:39:55+08:00,9646e796-a519-4b8e-8d3f-6b0bc0cebfbd,zhong8yang8,Squad,Normal,16,17,Erangel,,0,0,0,0.21km,4m 38s,0m,Passerby_du|FahaiGe|zhong8yang8|TJA-Lzy
+2026-07-11T21:39:55+08:00,9646e796-a519-4b8e-8d3f-6b0bc0cebfbd,FahaiGe,Squad,Normal,16,17,Erangel,UZI,0,26,0,0.23km,4m 40s,0m,Passerby_du|FahaiGe|zhong8yang8|TJA-Lzy
+2026-07-11T21:47:54+08:00,b253a657-5764-4761-a9ad-ef1d7abda1d4,zhong8yang8,Squad,Normal,24,27,Sanhok,,0,0,0,0.22km,2m 47s,0m,FahaiGe|zhong8yang8|DC9880|mutou2046
+2026-07-11T21:47:54+08:00,b253a657-5764-4761-a9ad-ef1d7abda1d4,FahaiGe,Squad,Normal,24,27,Sanhok,,0,0,0,0.20km,2m 47s,0m,FahaiGe|zhong8yang8|DC9880|mutou2046
+2026-07-11T21:54:25+08:00,cced1f90-f035-4f4c-bfbb-f5aa0ffe0df4,zhong8yang8,Squad,Normal,8,26,Sanhok,JuliesKar98k,0,105,0,2.72km,17m 2s,0m,3468147|FahaiGe|zhong8yang8|super_ADAM
+2026-07-11T21:54:25+08:00,cced1f90-f035-4f4c-bfbb-f5aa0ffe0df4,FahaiGe,Squad,Normal,8,26,Sanhok,Mk12,0,76,0,3.12km,18m 58s,0m,3468147|FahaiGe|zhong8yang8|super_ADAM
+2026-07-11T22:15:10+08:00,2b939b22-b675-4d0c-8df5-8c05fab1132f,zhong8yang8,Squad,Normal,13,27,Sanhok,,0,0,0,1.18km,9m 18s,0m,FahaiGe|super_ADAM|Nidalee_313|zhong8yang8
+2026-07-11T22:15:10+08:00,2b939b22-b675-4d0c-8df5-8c05fab1132f,FahaiGe,Squad,Normal,13,27,Sanhok,ACE32,0,106,0,1.48km,10m 15s,0m,FahaiGe|super_ADAM|Nidalee_313|zhong8yang8
+2026-07-11T22:27:20+08:00,2a9fb267-3996-40fe-9bab-404b1307c71a,zhong8yang8,Squad,Normal,10,28,Sanhok,ACE32,0,64,0,2.76km,16m 44s,0m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T22:27:20+08:00,2a9fb267-3996-40fe-9bab-404b1307c71a,FahaiGe,Squad,Normal,10,28,Sanhok,M416,0,79,0,4.19km,15m 1s,0m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T22:45:45+08:00,98c11bae-d400-4217-88aa-253acfccc3e6,zhong8yang8,Squad,Normal,13,26,Sanhok,ACE32,0,132,0,4.26km,11m 17s,0m,FahaiGe|super_ADAM|zhong8yang8|mengnan1v99
+2026-07-11T22:45:45+08:00,98c11bae-d400-4217-88aa-253acfccc3e6,FahaiGe,Squad,Normal,13,26,Sanhok,M16A4,1,51,1,3.89km,11m 17s,56m,FahaiGe|super_ADAM|zhong8yang8|mengnan1v99
+2026-07-12T11:02:50+08:00,d6437051-c929-4333-8f93-2288bbc3f3a1,zhong8yang8,Squad,Normal,8,25,Miramar,Mini 14,1,119,1,4.41km,15m 36s,162m,iui_7|FahaiGe|zhong8yang8|super_ADAM
+2026-07-12T11:02:50+08:00,d6437051-c929-4333-8f93-2288bbc3f3a1,FahaiGe,Squad,Normal,8,25,Miramar,AUG A3,1,82,1,4.90km,18m 20s,4m,iui_7|FahaiGe|zhong8yang8|super_ADAM
+2026-07-12T11:24:58+08:00,a5d5bf79-3749-4528-b55d-6e049e09980e,zhong8yang8,Squad,Normal,21,24,Rondo,,0,0,0,2.01km,7m 46s,0m,FahaiGe|kun0426|super_ADAM|zhong8yang8
+2026-07-12T11:24:58+08:00,a5d5bf79-3749-4528-b55d-6e049e09980e,FahaiGe,Squad,Normal,21,24,Rondo,Win94,0,100,1,1.57km,8m 59s,0m,FahaiGe|kun0426|super_ADAM|zhong8yang8
+2026-07-10T20:09:31+08:00,bd24c63e-112a-48d1-9622-265f253be2b8,zhong8yang8,tdm,Normal,1,2,Italy_TDM_Main,ACE32,6,1050,0,2.52km,13m 34s,74m,super_ADAM|Moquan123456|zhong8yang8|CCTV-NBSIX|Yi_Luv|rinidimaye123|V_ni50KanKanBi
+2026-07-10T20:25:28+08:00,50d52569-073a-434a-876c-00915a9b66a0,zhong8yang8,tdm,Normal,2,2,Sanhok,ACE32,0,12,0,2.64km,10m 49s,0m,super_ADAM|syedou|zhong8yang8|LAZAEUSB0WIE|XXGIVENCHYXX|KR-no111|JhyouDao|RV-HT
+2026-07-10T20:40:19+08:00,fea3dce8-1327-41e0-a9db-916ba975bc81,zhong8yang8,Squad,Normal,2,28,Sanhok,MP5K,4,409,2,3.62km,23m 27s,107m,zhong8yang8|super_ADAM|FahaiGe|Ahckk
+2026-07-10T20:40:19+08:00,fea3dce8-1327-41e0-a9db-916ba975bc81,FahaiGe,Squad,Normal,2,28,Sanhok,,0,0,0,1.12km,6m 45s,0m,zhong8yang8|super_ADAM|FahaiGe|Ahckk
+2026-07-10T21:05:41+08:00,3813a32a-15fa-4436-9eba-b0b38f91249c,zhong8yang8,Squad,Normal,4,27,Sanhok,Kar98k,1,100,1,2.79km,21m 51s,117m,FahaiGe|super_ADAM|zhong8yang8|libaba688
+2026-07-10T21:05:41+08:00,3813a32a-15fa-4436-9eba-b0b38f91249c,FahaiGe,Squad,Normal,4,27,Sanhok,Mk12,0,167,1,3.24km,22m 26s,0m,FahaiGe|super_ADAM|zhong8yang8|libaba688
+2026-07-10T21:30:28+08:00,c366f5e7-8cf4-407d-8959-164049f447c8,zhong8yang8,Squad,Normal,5,28,Sanhok,UMP45,2,286,2,4.84km,20m 41s,43m,FahaiGe|JohnJason1|zhong8yang8|super_ADAM
+2026-07-10T21:30:28+08:00,c366f5e7-8cf4-407d-8959-164049f447c8,FahaiGe,Squad,Normal,5,28,Sanhok,SKS,0,59,0,4.59km,21m 14s,0m,FahaiGe|JohnJason1|zhong8yang8|super_ADAM
+2026-07-10T21:54:04+08:00,6b05b50d-6401-45da-9dda-6dc60671223a,zhong8yang8,Squad,Normal,27,29,Sanhok,Thompson,0,42,0,0.26km,3m 8s,0m,FahaiGe|zhong8yang8|super_ADAM|CQ_sunshine-boy
+2026-07-10T21:54:04+08:00,6b05b50d-6401-45da-9dda-6dc60671223a,FahaiGe,Squad,Normal,27,29,Sanhok,,0,0,0,0.27km,3m 8s,0m,FahaiGe|zhong8yang8|super_ADAM|CQ_sunshine-boy
+2026-07-10T21:59:21+08:00,eb8ab8db-4fa3-44a4-81ba-fc062368f843,zhong8yang8,Squad,Normal,20,29,Sanhok,UMP45,0,200,2,0.32km,4m 16s,0m,JJLzx|Ss1232|zhong8yang8|super_ADAM
+2026-07-10T22:05:42+08:00,98c31e4f-14d1-45dc-882e-9fcf7009b149,zhong8yang8,Squad,Normal,13,28,Sanhok,MP5K,1,100,0,2.08km,8m 51s,4m,zhong8yang8|PanMan-Zzy|3P2b|super_ADAM
+2026-07-10T22:05:42+08:00,98c31e4f-14d1-45dc-882e-9fcf7009b149,super_ADAM,Squad,Normal,13,28,Sanhok,,0,0,0,0.04km,1m 13s,0m,zhong8yang8|PanMan-Zzy|3P2b|super_ADAM
+2026-07-10T22:17:07+08:00,2a61fca3-ec1d-4ef1-98d7-0674dc525184,zhong8yang8,Squad,Normal,15,16,Erangel,ACE32,0,23,0,0.64km,6m 1s,0m,DunDaYa|03Wking|super_ADAM|zhong8yang8
+2026-07-10T22:17:07+08:00,2a61fca3-ec1d-4ef1-98d7-0674dc525184,super_ADAM,Squad,Normal,15,16,Erangel,,0,0,0,0.62km,6m 6s,0m,DunDaYa|03Wking|super_ADAM|zhong8yang8
+2026-07-11T08:38:05+08:00,ef626b6b-3857-4acb-a2ac-7a5a0091aae5,zhong8yang8,Squad,Normal,23,28,Sanhok,UMP45,0,78,0,0.22km,2m 38s,0m,AxlLeft|XiaoB1n_|zhong8yang8|zhangyx__
+2026-07-11T08:42:32+08:00,574e20c7-5373-49b0-9e98-1bfb61fdf341,zhong8yang8,Squad,Normal,7,31,Sanhok,ACE32,1,72,1,2.34km,19m 28s,18m,zhong8yang8|Kvpsad487|zhengzaiksss|XiaoB1n_
+2026-07-11T09:08:41+08:00,5e09fb68-92ad-41a2-80c5-619280c415b8,zhong8yang8,Squad,Normal,15,29,Sanhok,VSS,1,145,1,0.83km,7m 4s,34m,zhong8yang8|super_ADAM|fiuqo|xinghettt
+2026-07-11T09:08:41+08:00,5e09fb68-92ad-41a2-80c5-619280c415b8,super_ADAM,Squad,Normal,15,29,Sanhok,MP5K,0,101,1,0.58km,5m 16s,0m,zhong8yang8|super_ADAM|fiuqo|xinghettt
+2026-07-11T09:18:02+08:00,53eb1a5b-b9e0-42a8-a5d9-562babc1f6d1,zhong8yang8,Squad,Normal,6,29,Sanhok,ACE32,2,175,2,2.83km,15m 56s,71m,super_ADAM|Piggy-Xzz|zhong8yang8|Mylnng-
+2026-07-11T09:18:02+08:00,53eb1a5b-b9e0-42a8-a5d9-562babc1f6d1,super_ADAM,Squad,Normal,6,29,Sanhok,Beryl,2,222,2,4.13km,18m 33s,50m,super_ADAM|Piggy-Xzz|zhong8yang8|Mylnng-
+2026-07-11T09:39:12+08:00,400125ab-48ca-41be-8a32-7581a399b9f2,zhong8yang8,Squad,Normal,32,34,Erangel,,0,0,0,0.20km,2m 43s,0m,super_ADAM|zhong8yang8|Yixing-Stars|PleasecallmeCB
+2026-07-11T09:39:12+08:00,400125ab-48ca-41be-8a32-7581a399b9f2,super_ADAM,Squad,Normal,32,34,Erangel,MP5K,1,182,1,0.48km,4m 53s,1m,super_ADAM|zhong8yang8|Yixing-Stars|PleasecallmeCB
+2026-07-11T09:46:08+08:00,4149dcf7-bdc7-45da-b000-1c9bafb14f91,zhong8yang8,Squad,Normal,23,24,Erangel,Win94,0,93,0,0.34km,4m 46s,0m,super_ADAM|zhong8yang8|ERBIN-ZHANGWUJI|SunPupuuu-
+2026-07-11T09:46:08+08:00,4149dcf7-bdc7-45da-b000-1c9bafb14f91,super_ADAM,Squad,Normal,23,24,Erangel,,0,0,0,0.34km,4m 46s,0m,super_ADAM|zhong8yang8|ERBIN-ZHANGWUJI|SunPupuuu-
+2026-07-11T09:53:20+08:00,e13d63ed-44b6-4a23-b708-5d101b705963,zhong8yang8,Squad,Normal,10,28,Taego,Kar98k,0,46,1,2.27km,15m 33s,0m,zhong8yang8|yueci18|super_ADAM|shengcai9
+2026-07-11T09:53:20+08:00,e13d63ed-44b6-4a23-b708-5d101b705963,super_ADAM,Squad,Normal,10,28,Taego,,0,0,0,2.42km,15m 6s,0m,zhong8yang8|yueci18|super_ADAM|shengcai9
+2026-07-11T10:11:17+08:00,80e4dca1-fda6-44ac-8fbf-bb89e049be19,zhong8yang8,Squad,Normal,7,27,Rondo,ACE32,1,13,1,4.50km,18m 2s,44m,super_ADAM|zhong8yang8|KuaiDiYiBaoYou|XingChen-DADA
+2026-07-11T10:11:17+08:00,80e4dca1-fda6-44ac-8fbf-bb89e049be19,super_ADAM,Squad,Normal,7,27,Rondo,M24,0,156,1,8.99km,19m 41s,0m,super_ADAM|zhong8yang8|KuaiDiYiBaoYou|XingChen-DADA
+2026-07-11T10:33:08+08:00,c64b08d9-4e72-4c02-8272-139d5122a4b9,zhong8yang8,Squad,Normal,6,28,Erangel,AUG A3,5,677,5,2.47km,14m 2s,83m,2022_10_20|pldbs|zhong8yang8|super_ADAM
+2026-07-11T10:33:08+08:00,c64b08d9-4e72-4c02-8272-139d5122a4b9,super_ADAM,Squad,Normal,6,28,Erangel,Saiga12,1,139,1,1.77km,11m 37s,2m,2022_10_20|pldbs|zhong8yang8|super_ADAM
+2026-07-11T10:55:52+08:00,38763864-ad4d-4198-bb95-0140aa315183,zhong8yang8,Squad,Normal,5,24,Taego,M24,0,41,0,4.37km,18m 59s,0m,super_ADAM|zhong8yang8|ElegantArcticFox|Jerrrry_-
+2026-07-11T10:55:52+08:00,38763864-ad4d-4198-bb95-0140aa315183,super_ADAM,Squad,Normal,5,24,Taego,Kar98k,0,144,1,5.26km,18m 59s,0m,super_ADAM|zhong8yang8|ElegantArcticFox|Jerrrry_-
+2026-07-11T11:16:51+08:00,eeb4c844-7e31-4699-9ba9-1d3a6006d665,zhong8yang8,Squad,Normal,7,19,Taego,,0,0,0,0.19km,2m 12s,0m,Mvps-kar98k|Ms-696969|super_ADAM|zhong8yang8
+2026-07-11T11:16:51+08:00,eeb4c844-7e31-4699-9ba9-1d3a6006d665,super_ADAM,Squad,Normal,7,19,Taego,,0,0,0,0.27km,2m 19s,0m,Mvps-kar98k|Ms-696969|super_ADAM|zhong8yang8
+2026-07-11T11:21:12+08:00,55d48e30-a91a-4cb9-b137-da9e48102646,zhong8yang8,Squad,Normal,12,29,Rondo,Mini 14,2,200,0,3.09km,12m 7s,103m,YZpuag|zhong8yang8|A-Zwumang|super_ADAM
+2026-07-11T11:21:12+08:00,55d48e30-a91a-4cb9-b137-da9e48102646,super_ADAM,Squad,Normal,12,29,Rondo,,0,0,0,1.51km,9m 0s,0m,YZpuag|zhong8yang8|A-Zwumang|super_ADAM
+2026-07-11T11:39:20+08:00,74e60ba0-d0cf-4ee3-9a28-1645d1b801bb,zhong8yang8,Squad,Normal,14,26,Sanhok,,0,0,0,1.15km,7m 34s,0m,FahaiGe|super_ADAM|JennyQvQ__|zhong8yang8
+2026-07-11T11:39:20+08:00,74e60ba0-d0cf-4ee3-9a28-1645d1b801bb,super_ADAM,Squad,Normal,14,26,Sanhok,Beryl,1,100,1,1.28km,7m 34s,12m,FahaiGe|super_ADAM|JennyQvQ__|zhong8yang8
+2026-07-11T11:39:20+08:00,74e60ba0-d0cf-4ee3-9a28-1645d1b801bb,FahaiGe,Squad,Normal,14,26,Sanhok,,0,0,0,1.23km,7m 34s,0m,FahaiGe|super_ADAM|JennyQvQ__|zhong8yang8
+2026-07-11T11:49:55+08:00,fe2874fe-0b59-4066-8aab-a4dd7f820c0b,zhong8yang8,Squad,Normal,12,27,Sanhok,SCAR-L,1,202,0,2.03km,13m 26s,14m,FahaiGe|zhong8yang8|super_ADAM|Loveling-824
+2026-07-11T11:49:55+08:00,fe2874fe-0b59-4066-8aab-a4dd7f820c0b,super_ADAM,Squad,Normal,12,27,Sanhok,Beryl,2,172,1,2.21km,13m 0s,21m,FahaiGe|zhong8yang8|super_ADAM|Loveling-824
+2026-07-11T11:49:55+08:00,fe2874fe-0b59-4066-8aab-a4dd7f820c0b,FahaiGe,Squad,Normal,12,27,Sanhok,ACE32,1,233,1,1.49km,14m 11s,25m,FahaiGe|zhong8yang8|super_ADAM|Loveling-824
+2026-07-11T12:08:06+08:00,72147cd0-be4b-4fe6-aa89-7341a8c2f5e6,zhong8yang8,Squad,Normal,5,31,Sanhok,ACE32,1,58,0,4.04km,22m 10s,56m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T12:08:06+08:00,72147cd0-be4b-4fe6-aa89-7341a8c2f5e6,super_ADAM,Squad,Normal,5,31,Sanhok,,0,96,0,4.40km,21m 19s,0m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T12:08:06+08:00,72147cd0-be4b-4fe6-aa89-7341a8c2f5e6,FahaiGe,Squad,Normal,5,31,Sanhok,AUG A3,0,28,0,3.97km,21m 13s,0m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T12:32:30+08:00,7cceef37-39c4-4392-a934-24bc62ea2565,zhong8yang8,Squad,Normal,9,27,Sanhok,Thompson,4,400,4,3.30km,16m 58s,75m,super_ADAM|zhong8yang8|FahaiGe|oouku
+2026-07-11T12:32:30+08:00,7cceef37-39c4-4392-a934-24bc62ea2565,super_ADAM,Squad,Normal,9,27,Sanhok,Beryl,2,348,1,3.46km,16m 58s,44m,super_ADAM|zhong8yang8|FahaiGe|oouku
+2026-07-11T12:32:30+08:00,7cceef37-39c4-4392-a934-24bc62ea2565,FahaiGe,Squad,Normal,9,27,Sanhok,Dragunov,1,101,0,3.20km,15m 46s,33m,super_ADAM|zhong8yang8|FahaiGe|oouku
+2026-07-11T12:51:25+08:00,1d750946-f753-48d8-982c-4747b565e684,zhong8yang8,Squad,Normal,6,30,Sanhok,,0,0,0,3.06km,17m 6s,0m,FahaiGe|super_ADAM|zhong8yang8|Papagoggggg
+2026-07-11T12:51:25+08:00,1d750946-f753-48d8-982c-4747b565e684,super_ADAM,Squad,Normal,6,30,Sanhok,Kar98k,0,86,0,3.63km,17m 6s,0m,FahaiGe|super_ADAM|zhong8yang8|Papagoggggg
+2026-07-11T12:51:25+08:00,1d750946-f753-48d8-982c-4747b565e684,FahaiGe,Squad,Normal,6,30,Sanhok,AUG A3,1,69,2,3.05km,17m 6s,11m,FahaiGe|super_ADAM|zhong8yang8|Papagoggggg
+2026-07-11T13:10:44+08:00,12115e07-6993-445f-ad2e-8f61f71dcdd4,zhong8yang8,Squad,Normal,15,16,Erangel,MP5K,0,102,1,0.68km,5m 47s,0m,super_ADAM|zhong8yang8|jhidr80160|ZSF1997629
+2026-07-11T13:10:44+08:00,12115e07-6993-445f-ad2e-8f61f71dcdd4,super_ADAM,Squad,Normal,15,16,Erangel,,1,100,1,0.67km,5m 47s,63m,super_ADAM|zhong8yang8|jhidr80160|ZSF1997629
+2026-07-11T13:18:22+08:00,03edfc0b-28d9-4b0b-9fe8-c3a5163bb07f,zhong8yang8,Squad,Normal,4,20,Miramar,VSS,1,184,0,7.07km,20m 19s,5m,MoAnzZ|Important0213|zhong8yang8|super_ADAM
+2026-07-11T13:18:22+08:00,03edfc0b-28d9-4b0b-9fe8-c3a5163bb07f,super_ADAM,Squad,Normal,4,20,Miramar,M24,0,44,0,6.39km,20m 7s,0m,MoAnzZ|Important0213|zhong8yang8|super_ADAM
+2026-07-11T13:41:32+08:00,30d229f2-8991-4af3-a7b3-bec716b13be5,zhong8yang8,Squad,Normal,16,19,Taego,Kar98k,0,37,0,0.87km,6m 10s,0m,zhong8yang8|super_ADAM|Hicky-GuYi|argle-w
+2026-07-11T13:41:32+08:00,30d229f2-8991-4af3-a7b3-bec716b13be5,super_ADAM,Squad,Normal,16,19,Taego,,0,0,0,0.62km,5m 49s,0m,zhong8yang8|super_ADAM|Hicky-GuYi|argle-w
+2026-07-11T13:49:34+08:00,d506190e-31d1-4aee-a7dd-ea7886a98446,zhong8yang8,Squad,Normal,16,20,Erangel,ACE32,1,100,1,0.74km,6m 59s,18m,zhong8yang8|super_ADAM|183CM_85KG_19CM|fenfen_c
+2026-07-11T13:49:34+08:00,d506190e-31d1-4aee-a7dd-ea7886a98446,super_ADAM,Squad,Normal,16,20,Erangel,AK47,0,0,0,0.65km,6m 57s,0m,zhong8yang8|super_ADAM|183CM_85KG_19CM|fenfen_c
+2026-07-11T13:58:22+08:00,d747952a-3b76-4a2c-8ea1-15967c056f06,super_ADAM,Squad,Normal,9,21,Taego,,1,151,1,2.92km,13m 44s,32m,super_ADAM|Esports_Feng|zhong8yang8|xionggen1205
+2026-07-11T19:20:07+08:00,7ee7fb5a-ce64-4ae2-a042-6427b2e88315,super_ADAM,Squad,Normal,5,18,Erangel,ACE32,1,162,1,0.92km,8m 42s,2m,LLD9508|Azi707|XXXXXX0030|super_ADAM
+2026-07-11T19:49:01+08:00,638feaea-1103-414b-a0a2-dc981cde2580,super_ADAM,Squad,Normal,11,16,Rondo,M416,1,93,1,0.49km,4m 8s,6m,TianJin-Ackman|KingDK1314|super_ADAM|Favor_Kevin
+2026-07-11T20:58:15+08:00,92ab8fe8-2b3e-49b5-8fc6-cdfd929e0316,FahaiGe,Squad,Normal,12,17,Taego,,0,0,0,0.36km,5m 17s,0m,FahaiGe|Iridescent-Jay|oy_5am_8437|58pmw7q
+2026-07-11T21:54:25+08:00,cced1f90-f035-4f4c-bfbb-f5aa0ffe0df4,super_ADAM,Squad,Normal,8,26,Sanhok,Beryl,0,100,1,2.81km,12m 27s,0m,3468147|FahaiGe|zhong8yang8|super_ADAM
+2026-07-11T22:15:10+08:00,2b939b22-b675-4d0c-8df5-8c05fab1132f,super_ADAM,Squad,Normal,13,27,Sanhok,Vector,2,174,2,1.33km,10m 15s,4m,FahaiGe|super_ADAM|Nidalee_313|zhong8yang8
+2026-07-11T22:27:20+08:00,2a9fb267-3996-40fe-9bab-404b1307c71a,super_ADAM,Squad,Normal,10,28,Sanhok,ACE32,0,69,1,2.32km,15m 13s,0m,zhong8yang8|super_ADAM|FahaiGe
+2026-07-11T22:45:45+08:00,98c11bae-d400-4217-88aa-253acfccc3e6,super_ADAM,Squad,Normal,13,26,Sanhok,Beryl,1,188,1,3.87km,11m 17s,18m,FahaiGe|super_ADAM|zhong8yang8|mengnan1v99
+2026-07-11T23:04:35+08:00,3cc9ca06-83f1-463c-8334-f9ba9a1f173f,super_ADAM,Squad,Normal,11,17,Erangel,UZI,0,71,0,0.12km,2m 9s,0m,Huang_Zed|BannyLyx|FuringdeFontaing|super_ADAM
+2026-07-11T23:27:38+08:00,442647ae-2429-4fe6-b999-4ed59c180ef1,super_ADAM,Squad,Normal,3,16,Erangel,Beryl,1,226,1,5.38km,28m 27s,6m,super_ADAM|Z-Z-PAPA|chenlaoshiniubi|Apple-U--QwQ
+2026-07-01T20:46:19+08:00,98f81f9d-12ed-4d81-8b35-de82d2bdf260,FahaiGe,Squad,Normal,6,18,Karakin,Mk12,1,294,1,2.44km,13m 42s,8m,FahaiGe|super_ADAM|zhong8yang8|MyHsmm-_
+2026-07-01T21:02:19+08:00,4652102e-f364-4ad6-bf57-6a4d1fdfe348,FahaiGe,Squad,Normal,1,15,Karakin,Mini 14,3,423,2,3.16km,18m 12s,124m,FahaiGe|super_ADAM|zhong8yang8|MyHsmm-_
+2026-07-01T21:22:44+08:00,5bdb7c71-243f-41e4-9cf5-99df5c7f8213,FahaiGe,Squad,Normal,11,16,Karakin,,0,0,0,0.52km,3m 33s,0m,MyHsmm-_|zhong8yang8|super_ADAM|FahaiGe
+2026-07-01T21:31:27+08:00,65df7a48-fd0d-427e-bb0c-5b1cc647370d,FahaiGe,Squad,Normal,9,16,Karakin,VSS,1,250,2,1.65km,10m 58s,9m,FahaiGe|super_ADAM|MyHsmm-_|zhong8yang8
+2026-07-01T21:44:37+08:00,3c41640a-984c-4ad5-8685-27493a663deb,FahaiGe,Squad,Normal,3,17,Karakin,FNFal,4,202,3,2.28km,12m 42s,312m,MyHsmm-_|zhong8yang8|FahaiGe|super_ADAM
+2026-07-01T22:04:10+08:00,b44dcf65-c0ce-4153-babf-7bfd4287cdaf,FahaiGe,Squad,Normal,2,17,Karakin,MP5K,3,374,2,1.65km,11m 35s,14m,zhong8yang8|MyHsmm-_|FahaiGe|super_ADAM
+2026-07-03T00:25:06+08:00,93cfd229-6d4a-4814-b0c8-f45c02ecc228,MyHsmm-_,Squad,Normal,5,17,Karakin,Mk12,0,342,0,0.89km,6m 45s,0m,super_ADAM|Black--xbb|MyHsmm-_|zhong8yang8
+2026-07-03T00:45:13+08:00,541e529a-ad7d-444a-9e26-4c849236795e,MyHsmm-_,Squad,Normal,10,25,Rondo,Mini 14,0,39,1,5.34km,15m 51s,0m,QiQi_Cute|SWD_DT|MyHsmm-_|SWzxcr
+2026-07-03T01:04:31+08:00,33e531d3-d6bb-49f4-999d-db48b367aca4,MyHsmm-_,Squad,Normal,16,27,Rondo,M416,1,121,1,0.75km,6m 50s,54m,MyHsmm-_|SWD_DT|QiQi_Cute
+2026-07-03T21:50:10+08:00,b78f68e5-5055-4d3c-8253-6641ca15f759,MyHsmm-_,Squad,Normal,7,26,Taego,Mk47Mutant,0,268,2,3.15km,18m 28s,0m,Doge-fa|MyHsmm-_|cJ05DSf4b5vkE
+2026-07-04T01:18:02+08:00,cb6d486c-3483-4edc-8807-7096fef5c135,MyHsmm-_,Squad,Normal,1,27,Erangel,,0,0,0,0.00km,12m 14s,0m,Ctan_|zhuanzhichuiniuB|sarang4097|MyHsmm-_
+2026-07-05T21:05:53+08:00,e268db08-d4f9-4958-add1-c7b4d3195ecf,zhong8yang8,Squad,Normal,14,16,Karakin,Vector,0,15,0,0.71km,3m 55s,0m,zhong8yang8|ShiYonGod_79|super_ADAM|S55555SSS
+2026-07-05T21:11:55+08:00,32a6a166-922f-41a2-99b3-2eec08b4d5f6,zhong8yang8,Duo,Normal,29,33,Karakin,,0,0,0,0.10km,1m 58s,0m,zhong8yang8|super_ADAM
+2026-07-06T20:01:39+08:00,085048c6-7e98-4557-89cf-b7f2c17c7e66,FahaiGe,Squad,Normal,15,16,Karakin,,0,0,0,0.11km,3m 22s,0m,FahaiGe|super_ADAM|Black--xbb|LX591
+2026-07-06T20:39:21+08:00,fb992bf7-f42b-4dac-9585-6946277e21b3,FahaiGe,Squad,Normal,2,18,Karakin,M16A4,2,331,3,1.72km,11m 23s,209m,super_ADAM|Black--xbb|FahaiGe|Maureen99
+2026-07-06T22:16:46+08:00,d5566b51-3d90-4f61-a0e8-1e0b0cab5acf,zhong8yang8,Squad,Normal,12,16,Karakin,UMP45,1,219,2,0.94km,8m 6s,5m,zhong8yang8|Maureen99|super_ADAM|Black--xbb
+2026-07-06T22:27:40+08:00,e8602a9c-4856-4125-ad91-fb2c0743d459,zhong8yang8,Squad,Normal,5,18,Karakin,AK47,0,47,0,0.69km,14m 3s,0m,Maureen99|zhong8yang8|super_ADAM|Black--xbb
+2026-07-08T19:28:46+08:00,09bc2958-5371-4643-b754-c25f77715a1a,zhong8yang8,Squad,Normal,3,18,Erangel,,0,0,0,6.02km,22m 34s,0m,MSJLAOBA888|zhong8yang8|Black--xbb|super_ADAM
+2026-07-08T19:54:44+08:00,2138a5f9-3cb5-4cdc-933d-8c00fc90c578,zhong8yang8,Squad,Normal,9,16,Taego,Beryl,0,32,0,5.42km,11m 39s,0m,FahaiGe|super_ADAM|zhong8yang8|Black--xbb
+2026-07-08T19:54:44+08:00,2138a5f9-3cb5-4cdc-933d-8c00fc90c578,super_ADAM,Squad,Normal,9,16,Taego,M24,0,36,0,5.85km,11m 39s,0m,FahaiGe|super_ADAM|zhong8yang8|Black--xbb
+2026-07-08T19:54:44+08:00,2138a5f9-3cb5-4cdc-933d-8c00fc90c578,FahaiGe,Squad,Normal,9,16,Taego,,0,0,0,5.51km,11m 39s,0m,FahaiGe|super_ADAM|zhong8yang8|Black--xbb
+2026-07-08T20:08:27+08:00,740a89a3-014b-4cfa-8029-5f5db5f447de,zhong8yang8,Squad,Normal,9,27,Sanhok,,0,0,0,3.61km,13m 23s,0m,super_ADAM|Black--xbb|zhong8yang8|FahaiGe
+2026-07-08T20:08:27+08:00,740a89a3-014b-4cfa-8029-5f5db5f447de,super_ADAM,Squad,Normal,9,27,Sanhok,Kar98k,1,296,0,3.98km,17m 46s,8m,super_ADAM|Black--xbb|zhong8yang8|FahaiGe
+2026-07-08T20:08:27+08:00,740a89a3-014b-4cfa-8029-5f5db5f447de,FahaiGe,Squad,Normal,9,27,Sanhok,AUG A3,0,22,0,2.40km,12m 40s,0m,super_ADAM|Black--xbb|zhong8yang8|FahaiGe
+2026-07-08T21:24:50+08:00,24c0830d-1e89-4fc6-9b93-417401a55ef5,super_ADAM,Squad,Normal,4,18,Miramar,,0,0,0,7.59km,19m 30s,0m,super_ADAM|BC-2026227|Maureen99|Black--xbb
+2026-07-08T22:43:49+08:00,093f0168-8b6d-413f-b186-dba3706e323d,super_ADAM,Squad,Normal,3,18,Miramar,ACE32,1,66,0,5.58km,23m 26s,39m,Lyoung9|super_ADAM|jiuXLAN43|lvfengxian0920
+2026-07-08T23:13:34+08:00,ce3f2276-4eab-4403-a312-b9c5dcc5eacf,super_ADAM,tdm,Normal,1,2,Erangel,AUG A3,2,220,0,0.73km,6m 36s,29m,1023arrogant|Zei_Cool|HHRWWDS|7NooNE|aaa-ltian|super_ADAM|minhosee65|Sy-cc6
+2026-07-09T19:43:59+08:00,0d03e7af-e914-4705-94ae-506f4ef8b37a,super_ADAM,Squad,Normal,14,16,Rondo,AK47,2,141,2,1.49km,8m 55s,20m,super_ADAM|MyHsmm-_|Sqlz798_|ma11223
+2026-07-09T19:43:59+08:00,0d03e7af-e914-4705-94ae-506f4ef8b37a,MyHsmm-_,Squad,Normal,14,16,Rondo,Mini 14,2,291,1,1.47km,8m 55s,20m,super_ADAM|MyHsmm-_|Sqlz798_|ma11223
+2026-07-09T20:22:11+08:00,b65f1c29-f67e-4d0c-8048-d164a538a5b8,super_ADAM,Squad,Normal,17,19,Miramar,AK47,0,49,0,0.22km,2m 27s,0m,ZYG621|Black--xbb|MyHsmm-_|super_ADAM
+2026-07-09T20:22:11+08:00,b65f1c29-f67e-4d0c-8048-d164a538a5b8,MyHsmm-_,Squad,Normal,17,19,Miramar,Kar98k,0,97,0,0.24km,2m 31s,0m,ZYG621|Black--xbb|MyHsmm-_|super_ADAM
+2026-07-09T20:29:03+08:00,25ab38d4-b102-4581-b5af-3b4aa01f7b1e,super_ADAM,Squad,Normal,3,17,Taego,,0,22,1,6.79km,20m 20s,0m,Maureen99|MyHsmm-_|super_ADAM|Black--xbb
+2026-07-09T20:29:03+08:00,25ab38d4-b102-4581-b5af-3b4aa01f7b1e,MyHsmm-_,Squad,Normal,3,17,Taego,Mini 14,1,163,1,6.90km,20m 50s,29m,Maureen99|MyHsmm-_|super_ADAM|Black--xbb
+2026-07-09T21:21:59+08:00,5f6924c3-dcf6-49a6-b08e-4e357de1d98a,super_ADAM,Squad,Normal,11,18,Erangel,ACE32,0,26,0,4.52km,14m 53s,0m,super_ADAM|Maureen99|MyHsmm-_|Black--xbb
+2026-07-09T21:21:59+08:00,5f6924c3-dcf6-49a6-b08e-4e357de1d98a,MyHsmm-_,Squad,Normal,11,18,Erangel,FNFal,0,134,0,3.95km,14m 29s,0m,super_ADAM|Maureen99|MyHsmm-_|Black--xbb
+2026-07-09T22:08:02+08:00,1ee131ea-5f93-489e-a8e3-ce7a600ab815,super_ADAM,Squad,Normal,7,18,Miramar,,0,0,0,2.04km,14m 54s,0m,super_ADAM|ltgg3244|Black--xbb|MyHsmm-_
+2026-07-09T22:08:02+08:00,1ee131ea-5f93-489e-a8e3-ce7a600ab815,MyHsmm-_,Squad,Normal,7,18,Miramar,AUG A3,1,244,2,0.46km,4m 1s,68m,super_ADAM|ltgg3244|Black--xbb|MyHsmm-_
+2026-07-10T19:37:42+08:00,45b43ba2-2aaf-4de0-98a9-4ec89652e107,zhong8yang8,tdm,Normal,2,2,Sanhok,AUG A3,5,716,0,1.73km,7m 13s,64m,zhong8yang8|Piixxxx|A-B-H-B|Abrakada_bra|KJTZh|super_ADAM|IIIUxUIII|Geek-aAgui_91
+2026-07-10T19:37:42+08:00,45b43ba2-2aaf-4de0-98a9-4ec89652e107,super_ADAM,tdm,Normal,2,2,Sanhok,Beryl,3,586,0,1.36km,7m 8s,56m,zhong8yang8|Piixxxx|A-B-H-B|Abrakada_bra|KJTZh|super_ADAM|IIIUxUIII|Geek-aAgui_91
+2026-07-10T19:47:18+08:00,f6df0936-5a62-465e-8b4d-fdb383d82579,zhong8yang8,tdm,Normal,1,2,Sanhok,AUG A3,5,754,0,1.46km,8m 11s,43m,super_ADAM|ACL_JIDDON9|mrj200200125|Echo_-1012|YWC10086|zhong8yang8|ioo7|ping220
+2026-07-10T19:47:18+08:00,f6df0936-5a62-465e-8b4d-fdb383d82579,super_ADAM,tdm,Normal,1,2,Sanhok,Beryl,6,909,0,1.34km,8m 15s,41m,super_ADAM|ACL_JIDDON9|mrj200200125|Echo_-1012|YWC10086|zhong8yang8|ioo7|ping220
+2026-07-10T19:57:53+08:00,db03d0f9-24f9-4c34-9cf3-eda4d796419c,zhong8yang8,tdm,Normal,1,2,Boardwalk_Main,AUG A3,1,156,0,1.32km,9m 32s,68m,Motccc|super_ADAM|WCZHENDESHUAIA|zhong8yang8|ricole233|8JB7|zoujixin|Sinmango
+2026-07-10T19:57:53+08:00,db03d0f9-24f9-4c34-9cf3-eda4d796419c,super_ADAM,tdm,Normal,1,2,Boardwalk_Main,Vector,5,739,0,3.29km,9m 32s,27m,Motccc|super_ADAM|WCZHENDESHUAIA|zhong8yang8|ricole233|8JB7|zoujixin|Sinmango
+2026-07-10T20:09:31+08:00,bd24c63e-112a-48d1-9622-265f253be2b8,super_ADAM,tdm,Normal,1,2,Italy_TDM_Main,Beryl,17,1672,0,2.63km,13m 34s,85m,super_ADAM|Moquan123456|zhong8yang8|CCTV-NBSIX|Yi_Luv|rinidimaye123|V_ni50KanKanBi
+2026-07-10T20:25:28+08:00,50d52569-073a-434a-876c-00915a9b66a0,super_ADAM,tdm,Normal,2,2,Sanhok,AUG A3,4,959,0,2.46km,10m 49s,65m,super_ADAM|syedou|zhong8yang8|LAZAEUSB0WIE|XXGIVENCHYXX|KR-no111|JhyouDao|RV-HT
+2026-07-10T20:40:19+08:00,fea3dce8-1327-41e0-a9db-916ba975bc81,super_ADAM,Squad,Normal,2,28,Sanhok,,0,0,0,1.33km,8m 6s,0m,zhong8yang8|super_ADAM|FahaiGe|Ahckk
+2026-07-10T20:43:51+08:00,2d6138dc-857a-41ea-a43a-146204c471f5,MyHsmm-_,Squad,Normal,14,27,Taego,FamasG2,0,26,0,0.17km,4m 32s,0m,PPJJPAO|Doge-fa|cJ05DSf4b5vkE|MyHsmm-_
+2026-07-10T20:53:53+08:00,98ead711-c24b-43b3-ae5a-cc5559abb895,MyHsmm-_,Squad,Normal,12,28,Taego,AUG A3,2,303,3,6.16km,15m 38s,47m,MyHsmm-_|Doge-fa|PPJJPAO|cJ05DSf4b5vkE
+2026-07-10T21:05:41+08:00,3813a32a-15fa-4436-9eba-b0b38f91249c,super_ADAM,Squad,Normal,4,27,Sanhok,Beryl,0,45,0,3.72km,22m 3s,0m,FahaiGe|super_ADAM|zhong8yang8|libaba688
+2026-07-10T21:30:28+08:00,c366f5e7-8cf4-407d-8959-164049f447c8,super_ADAM,Squad,Normal,5,28,Sanhok,UMP45,0,66,0,3.34km,16m 24s,0m,FahaiGe|JohnJason1|zhong8yang8|super_ADAM
+2026-07-10T21:54:04+08:00,6b05b50d-6401-45da-9dda-6dc60671223a,super_ADAM,Squad,Normal,27,29,Sanhok,UZI,4,369,3,0.22km,2m 40s,20m,FahaiGe|zhong8yang8|super_ADAM|CQ_sunshine-boy
+2026-07-10T21:59:21+08:00,eb8ab8db-4fa3-44a4-81ba-fc062368f843,super_ADAM,Squad,Normal,20,29,Sanhok,,0,0,0,0.45km,4m 7s,0m,JJLzx|Ss1232|zhong8yang8|super_ADAM
+2026-07-10T21:59:29+08:00,29d3872a-4889-4ae9-af64-b2b78df27ed1,MyHsmm-_,Squad,Normal,27,27,Taego,SCAR-L,0,179,1,0.07km,2m 3s,0m,Doge-fa|PPJJPAO|MyHsmm-_|cJ05DSf4b5vkE
+2026-07-10T22:16:10+08:00,1737a474-14f6-4764-a05f-387d2be45e62,MyHsmm-_,Squad,Normal,23,27,Taego,UZI,1,136,1,0.42km,3m 29s,8m,Doge-fa|cJ05DSf4b5vkE|MyHsmm-_|PPJJPAO
+2026-07-10T22:39:37+08:00,7db74344-cc94-4c92-9297-0220904cd524,MyHsmm-_,Squad,Normal,26,26,Taego,,0,17,0,0.06km,2m 14s,0m,Doge-fa|MyHsmm-_|cJ05DSf4b5vkE|PPJJPAO
+2026-07-10T23:04:21+08:00,085cb825-0212-4552-b550-83f5e887432f,MyHsmm-_,Squad,Normal,15,26,Taego,FNFal,1,138,0,0.71km,5m 17s,8m,PPJJPAO|MyHsmm-_|cJ05DSf4b5vkE|Doge-fa
+2026-07-10T23:11:47+08:00,c860d358-a18e-442d-bf90-84d61d93233d,MyHsmm-_,Squad,Normal,7,28,Erangel,SKS,1,187,0,5.65km,20m 13s,1m,Doge-fa|PPJJPAO|cJ05DSf4b5vkE|MyHsmm-_
+2026-07-10T23:42:18+08:00,3e5d68b5-0973-436e-acb2-9ecbe1a29db1,MyHsmm-_,Squad,Normal,12,27,Sanhok,M24,4,485,3,3.48km,14m 0s,86m,PPJJPAO|cJ05DSf4b5vkE|Doge-fa|MyHsmm-_
+2026-07-10T23:59:58+08:00,dd2cbda2-e3cd-4a6c-9b16-a476e29d812d,MyHsmm-_,Squad,Normal,14,27,Taego,AK47,5,577,5,1.46km,9m 25s,27m,Doge-fa|cJ05DSf4b5vkE|PPJJPAO|MyHsmm-_
+2026-07-11T00:11:52+08:00,c5386a12-f01d-4edd-a519-528902216f24,MyHsmm-_,Squad,Normal,17,26,Deston,AUG A3,0,70,0,0.55km,4m 22s,0m,cJ05DSf4b5vkE|Doge-fa|MyHsmm-_|PPJJPAO

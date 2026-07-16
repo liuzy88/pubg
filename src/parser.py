@@ -74,6 +74,33 @@ MONTHS = {
     "december": 12,
 }
 
+API_MAP_NAMES = {
+    "Erangel_Main": "Erangel",
+    "Baltic_Main": "Erangel",
+    "Desert_Main": "Miramar",
+    "Savage_Main": "Sanhok",
+    "Range_Main": "Training Mode",
+    "DihorOtok_Main": "Vikendi",
+    "Summerland_Main": "Karakin",
+    "Chimera_Main": "Paramo",
+    "Heaven_Main": "Haven",
+    "Tiger_Main": "Taego",
+    "Kiki_Main": "Deston",
+    "Neon_Main": "Rondo",
+}
+
+API_WEAPON_NAMES = {
+    "WeapAUG_C": "AUG A3",
+    "WeapBerylM762_C": "Beryl",
+    "WeapDragunov_C": "Dragunov",
+    "WeapHK416_C": "M416",
+    "WeapMini14_C": "Mini 14",
+    "WeapMP5K_C": "MP5K",
+    "WeapUMP_C": "UMP45",
+    "WeapWin94_C": "Win94",
+    "WeapWinchester_C": "Win94",
+}
+
 
 def parse_time_label(text: str, scraped_at: datetime) -> tuple[datetime | None, str | None]:
     """解析相对或固定日期，返回时间及精度。"""
@@ -161,6 +188,111 @@ def parse_dakgg_markdown(
         matches.append(match_data)
 
     return matches
+
+
+def parse_dakgg_api_matches(
+    matches: list[dict[str, Any]],
+    steam_id: str,
+    player_alias: str,
+    time_start: datetime,
+    time_end: datetime,
+    keep_modes: tuple[str, ...] | list[str] = ("Squad",),
+) -> list[dict[str, Any]]:
+    """将 DAK.GG API 原始比赛数据转换为内部结构并按目标时段过滤。"""
+    parsed_matches = []
+    for match in matches:
+        parsed = api_match_to_record(match, steam_id, player_alias)
+        if parsed is None:
+            continue
+        if not time_start <= parsed["approx_time"] <= time_end:
+            continue
+        if parsed["mode"] not in keep_modes or parsed["map"] == "Training Mode":
+            continue
+        parsed_matches.append(parsed)
+    return parsed_matches
+
+
+def api_match_to_record(
+    match: dict[str, Any],
+    steam_id: str,
+    player_alias: str,
+) -> dict[str, Any] | None:
+    """将一条 API 比赛转换为稳定、可持久化的玩家比赛记录。"""
+    participant = _find_api_participant(match, steam_id)
+    match_id = match.get("id")
+    if participant is None or not match_id:
+        return None
+    map_name = API_MAP_NAMES.get(
+        str(match.get("mapName", "")),
+        str(match.get("mapName") or "Unknown"),
+    )
+    created_at, precision = parse_time_label(
+        str(match.get("createdAt", "")),
+        datetime.now().astimezone(),
+    )
+    if created_at is None:
+        return None
+    traveled = sum(
+        float(participant.get(field) or 0)
+        for field in ("walkDistance", "rideDistance", "swimDistance")
+    )
+    time_survived = int(participant.get("timeSurvived") or 0)
+    minutes, seconds = divmod(max(time_survived, 0), 60)
+    return {
+        "match_id": match_id,
+        "match_key": f"dakgg:{match_id}",
+        "mode": _api_mode_name(str(match.get("gameMode", ""))),
+        "type": "Custom" if match.get("isCustomMatch") else "Normal",
+        "placement": int(
+            participant.get("teamRank") or participant.get("winPlace") or 0
+        ),
+        "total_teams": int(participant.get("teamTotal") or 0),
+        "map": map_name,
+        "weapon": _api_weapon_name(participant.get("mainWeapon")),
+        "kills": int(participant.get("kills") or 0),
+        "damage": round(float(participant.get("damageDealt") or 0)),
+        "dbnos": int(participant.get("dbnos") or 0),
+        "traveled": f"{traveled / 1000:.2f}km",
+        "time_alive": f"{minutes}m {seconds}s",
+        "longest_kill": f"{round(float(participant.get('longestKill') or 0))}m",
+        "time_ago_text": match.get("createdAt"),
+        "approx_time": created_at,
+        "time_precision": precision,
+        "teammates": [
+            member["name"]
+            for member in match.get("participants", [])
+            if member.get("name")
+        ],
+        "player_alias": player_alias,
+        "in_period": True,
+    }
+
+
+def csv_row_to_record(row: dict[str, str], player_alias: str) -> dict[str, Any]:
+    """将 matches.csv 的一行恢复为内部比赛记录。"""
+    created_at = datetime.fromisoformat(row["created_at"])
+    return {
+        "match_id": row["match_id"],
+        "match_key": f"dakgg:{row['match_id']}",
+        "mode": row["mode"],
+        "type": row["type"],
+        "placement": int(row["placement"]),
+        "total_teams": int(row["total_teams"]),
+        "map": row["map"],
+        "weapon": row["weapon"] or None,
+        "kills": int(row["kills"]),
+        "damage": int(row["damage"]),
+        "dbnos": int(row["dbnos"]),
+        "traveled": row["traveled"],
+        "time_alive": row["time_alive"],
+        "longest_kill": row["longest_kill"],
+        "time_ago_text": row["created_at"],
+        "approx_time": created_at,
+        "time_precision": "exact",
+        "teammates": row["teammates"].split("|") if row["teammates"] else [],
+        "player_alias": player_alias,
+        "in_period": True,
+    }
 
 
 def _shared_match_signature(match: dict[str, Any]) -> str:
@@ -276,3 +408,33 @@ def _integer_field(lines: list[str], index: int, line: str, label: str) -> int:
         return int((value or "0").replace(",", ""))
     except ValueError:
         return 0
+
+
+def _find_api_participant(
+    match: dict[str, Any],
+    steam_id: str,
+) -> dict[str, Any] | None:
+    for participant in match.get("participants", []):
+        if participant.get("name") == steam_id:
+            return participant
+    return None
+
+
+def _api_mode_name(game_mode: str) -> str:
+    normalized = game_mode.lower()
+    if "squad" in normalized:
+        return "Squad"
+    if "duo" in normalized:
+        return "Duo"
+    if "solo" in normalized:
+        return "Solo"
+    return game_mode or "Unknown"
+
+
+def _api_weapon_name(value: Any) -> str | None:
+    if not value:
+        return None
+    code = str(value)
+    if code in API_WEAPON_NAMES:
+        return API_WEAPON_NAMES[code]
+    return code.removeprefix("Weap").removesuffix("_C").replace("_", " ")

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import random
 import shutil
@@ -13,7 +14,7 @@ from typing import Any
 from .awards import generate_titles_and_comments
 from .config import AppConfig, get_time_range, load_config
 from .data_sources import load_raw_snapshot
-from .parser import parse_dakgg_markdown
+from .parser import csv_row_to_record, parse_dakgg_api_matches, parse_dakgg_markdown
 from .renderer import generate_html_report
 from .screenshot import generate_report_screenshot
 from .stats import compute_stats, compute_team_stats
@@ -150,17 +151,46 @@ def _parse_players(
         matches = []
         occurrence_counts: dict[str, int] = defaultdict(int)
         for raw_page in raw_pages:
-            matches.extend(
-                parse_dakgg_markdown(
-                    raw_page.path.read_text(encoding="utf-8"),
-                    player.alias,
-                    raw_page.scraped_at,
-                    time_start,
-                    time_end,
-                    config.dakgg.keep_modes,
-                    occurrence_counts,
+            if raw_page.format == "player-match-csv":
+                with raw_page.path.open("r", encoding="utf-8", newline="") as source:
+                    for row in csv.DictReader(source):
+                        if row.get("steam_id") != player.steam_id:
+                            continue
+                        record = csv_row_to_record(row, player.alias)
+                        if not time_start <= record["approx_time"] <= time_end:
+                            continue
+                        if record["mode"] not in config.dakgg.keep_modes:
+                            continue
+                        if record["map"] == "Training Mode":
+                            continue
+                        matches.append(record)
+            elif raw_page.format == "dakgg-api-json":
+                payload = json.loads(raw_page.path.read_text(encoding="utf-8"))
+                api_matches = payload.get("matches")
+                if not isinstance(api_matches, list):
+                    raise ValueError(f"比赛数据文件格式异常: {raw_page.path}")
+                matches.extend(
+                    parse_dakgg_api_matches(
+                        api_matches,
+                        player.steam_id,
+                        player.alias,
+                        time_start,
+                        time_end,
+                        config.dakgg.keep_modes,
+                    )
                 )
-            )
+            else:
+                matches.extend(
+                    parse_dakgg_markdown(
+                        raw_page.path.read_text(encoding="utf-8"),
+                        player.alias,
+                        raw_page.scraped_at,
+                        time_start,
+                        time_end,
+                        config.dakgg.keep_modes,
+                        occurrence_counts,
+                    )
+                )
         all_player_data[player.steam_id] = {
             "alias": player.alias,
             "steam_id": player.steam_id,

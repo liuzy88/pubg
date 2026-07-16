@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import sys
 import tempfile
@@ -24,6 +25,7 @@ except ImportError:
 
 from src.config import AppConfig, get_time_range, load_config
 from src.data_sources import MANIFEST_NAME, build_manifest
+from src.parser import api_match_to_record
 
 
 HEADERS = {
@@ -38,37 +40,9 @@ HEADERS = {
     "Referer": "https://dak.gg/",
 }
 
-MAP_NAMES = {
-    "Erangel_Main": "Erangel",
-    "Baltic_Main": "Erangel",
-    "Desert_Main": "Miramar",
-    "Savage_Main": "Sanhok",
-    "Range_Main": "Training Mode",
-    "DihorOtok_Main": "Vikendi",
-    "Summerland_Main": "Karakin",
-    "Chimera_Main": "Paramo",
-    "Heaven_Main": "Haven",
-    "Tiger_Main": "Taego",
-    "Kiki_Main": "Deston",
-    "Neon_Main": "Rondo",
-}
-
-WEAPON_NAMES = {
-    "WeapAUG_C": "AUG A3",
-    "WeapBerylM762_C": "Beryl",
-    "WeapDragunov_C": "Dragunov",
-    "WeapHK416_C": "M416",
-    "WeapMini14_C": "Mini 14",
-    "WeapMP5K_C": "MP5K",
-    "WeapUMP_C": "UMP45",
-    "WeapWin94_C": "Win94",
-    "WeapWinchester_C": "Win94",
-}
-
-
 @dataclass(frozen=True)
 class FetchedPage:
-    text: str
+    matches: list[dict[str, Any]]
     match_count: int
     oldest_at: datetime | None
     newest_at: datetime | None
@@ -113,7 +87,6 @@ def fetch_player_account(
 def fetch_player_page(
     session: requests.Session,
     config: AppConfig,
-    steam_id: str,
     account_id: str,
     page: int,
 ) -> FetchedPage:
@@ -128,7 +101,7 @@ def fetch_player_page(
     if not isinstance(matches, list):
         raise ValueError("DAK.GG 比赛接口响应格式异常")
     if not matches:
-        return FetchedPage("", 0, None, None, False)
+        return FetchedPage([], 0, None, None, False)
     match_times = [
         parse_api_time(match["createdAt"])
         for match in matches
@@ -141,58 +114,12 @@ def fetch_player_page(
     per_page = int(meta.get("perPage") or len(matches))
     total_count = int(meta.get("totalCount") or len(matches))
     return FetchedPage(
-        text=matches_json_to_markdown(matches, steam_id, account_id),
+        matches=matches,
         match_count=len(matches),
         oldest_at=min(match_times),
         newest_at=max(match_times),
         has_more=current_page * per_page < total_count,
     )
-
-
-def matches_json_to_markdown(
-    matches: list[dict[str, Any]],
-    steam_id: str,
-    account_id: str,
-) -> str:
-    sections = []
-    for match in matches:
-        participant = _find_participant(match, steam_id, account_id)
-        if participant is None:
-            continue
-        mode = _mode_name(str(match.get("gameMode", "")))
-        match_type = "Custom" if match.get("isCustomMatch") else "Normal"
-        map_name = MAP_NAMES.get(
-            str(match.get("mapName", "")),
-            str(match.get("mapName") or "Unknown"),
-        )
-        weapon = _weapon_name(participant.get("mainWeapon"))
-        traveled = sum(
-            float(participant.get(field) or 0)
-            for field in ("walkDistance", "rideDistance", "swimDistance")
-        )
-        teammates = "\n".join(
-            f"- [{member.get('name', '')}]"
-            f"(https://dak.gg/pubg/profile/steam/{member.get('name', '')})"
-            for member in match.get("participants", [])
-            if member.get("name")
-        )
-        section = f"""#### Match
-Match ID {match.get("id", "")}
-**{mode} _({match_type})_**
-#{int(participant.get("teamRank") or participant.get("winPlace") or 0)}/{int(participant.get("teamTotal") or 0)}
-{match.get("createdAt", "")}
-Map {map_name}
-Weapon {weapon or "-"}
-Kills {int(participant.get("kills") or 0)}
-Damage {round(float(participant.get("damageDealt") or 0))}
-DBNOs {int(participant.get("dbnos") or 0)}
-Traveled {traveled / 1000:.2f}km
-Time Alive {_duration_text(int(participant.get("timeSurvived") or 0))}
-Longest {round(float(participant.get("longestKill") or 0))}m
-{teammates}
-"""
-        sections.append(section.strip())
-    return "\n\n".join(sections)
 
 
 def main() -> None:
@@ -224,7 +151,7 @@ def main() -> None:
     )
     session = create_session()
     manifest_path = config.output.data_dir / MANIFEST_NAME
-    player_pages = _existing_player_pages(manifest_path) if args.player else {}
+    player_entries = _existing_player_entries(manifest_path) if args.player else {}
     ok_count = 0
     fail_count = 0
     print(
@@ -239,10 +166,12 @@ def main() -> None:
         dir=config.output.data_dir,
     ) as staging_name:
         staging_dir = Path(staging_name)
-        staged_files: dict[str, list[Path]] = {}
+        collected_rows: list[dict[str, str]] = []
         for player in players:
-            pages: list[dict[str, object]] = []
-            staged_files[player.steam_id] = []
+            collected_matches: list[dict[str, Any]] = []
+            pages_fetched = 0
+            oldest_match_at: datetime | None = None
+            newest_match_at: datetime | None = None
             coverage_complete = False
             try:
                 account_id = fetch_player_account(session, config, player.steam_id)
@@ -252,33 +181,29 @@ def main() -> None:
                 continue
 
             for page in range(1, max_pages + 1):
-                final_path = _raw_path(config, player.steam_id, page)
-                staged_path = staging_dir / final_path.name
                 try:
                     fetched = fetch_player_page(
                         session,
                         config,
-                        player.steam_id,
                         account_id,
                         page,
                     )
-                    if not fetched.text:
+                    if not fetched.matches:
                         print(f"⏭️  {player.alias:4s} page{page} → 已到最后一页")
                         coverage_complete = True
                         break
-                    page_scraped_at = datetime.now().astimezone()
-                    staged_path.write_text(fetched.text, encoding="utf-8")
-                    pages.append(
-                        {
-                            "page": page,
-                            "file": final_path.name,
-                            "match_count": fetched.match_count,
-                            "scraped_at": page_scraped_at.isoformat(),
-                            "newest_match_at": fetched.newest_at.isoformat(),
-                            "oldest_match_at": fetched.oldest_at.isoformat(),
-                        }
+                    collected_matches.extend(fetched.matches)
+                    pages_fetched += 1
+                    oldest_match_at = (
+                        fetched.oldest_at
+                        if oldest_match_at is None
+                        else min(oldest_match_at, fetched.oldest_at)
                     )
-                    staged_files[player.steam_id].append(staged_path)
+                    newest_match_at = (
+                        fetched.newest_at
+                        if newest_match_at is None
+                        else max(newest_match_at, fetched.newest_at)
+                    )
                     ok_count += 1
                     print(
                         f"✅ {player.alias:4s} page{page} → "
@@ -298,57 +223,66 @@ def main() -> None:
                     fail_count += 1
                     break
                 time.sleep(0.4)
-            player_pages[player.steam_id] = pages
-            if not coverage_complete and pages:
+            if not coverage_complete and collected_matches:
                 print(
                     f"❌ {player.alias:4s} 达到 {max_pages} 页仍未覆盖目标时段；"
                     "请提高 dakgg.max_pages 或 --pages"
                 )
                 fail_count += 1
+                continue
+
+            for match in collected_matches:
+                record = api_match_to_record(match, player.steam_id, player.alias)
+                if record is not None:
+                    collected_rows.append(_record_to_csv_row(record, player.steam_id))
+            player_entries[player.steam_id] = {
+                "pages_fetched": pages_fetched,
+                "records_collected": len(collected_matches),
+                "newest_match_at": (
+                    newest_match_at.isoformat() if newest_match_at else None
+                ),
+                "oldest_match_at": (
+                    oldest_match_at.isoformat() if oldest_match_at else None
+                ),
+            }
 
         if fail_count:
             print(f"采集失败: ✅ {ok_count} 页  ❌ {fail_count} 项；保留上一版数据")
             raise SystemExit(1)
 
+        csv_path = config.output.data_dir / "matches.csv"
+        new_count = _append_new_rows(csv_path, collected_rows)
         for player in players:
             for old_path in config.output.data_dir.glob(
                 f"{player.steam_id}_raw*.txt"
             ):
                 old_path.unlink()
-            for staged_path in staged_files[player.steam_id]:
-                staged_path.replace(config.output.data_dir / staged_path.name)
-
-        manifest_path.write_text(
-            json.dumps(
-                build_manifest(
-                    scraped_at,
-                    player_pages,
-                    max_pages,
-                    target_start,
-                    target_end,
-                ),
-                ensure_ascii=False,
-                indent=2,
-            ),
+            (config.output.data_dir / f"{player.steam_id}_matches.json").unlink(
+                missing_ok=True
+            )
+        manifest = build_manifest(
+            scraped_at,
+            player_entries,
+            max_pages,
+            target_start,
+            target_end,
+        )
+        manifest.update(
+            {
+                "matches_file": csv_path.name,
+                "format": "player-match-csv",
+                "new_rows": new_count,
+            }
+        )
+        staged_manifest = staging_dir / manifest_path.name
+        staged_manifest.write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        staged_manifest.replace(manifest_path)
 
     print(f"🧾 抓取清单: {manifest_path}")
-    print(f"采集完成: ✅ {ok_count} 页  ❌ {fail_count} 项")
-
-
-def _find_participant(
-    match: dict[str, Any],
-    steam_id: str,
-    account_id: str,
-) -> dict[str, Any] | None:
-    for participant in match.get("participants", []):
-        if (
-            participant.get("playerId") == account_id
-            or participant.get("name") == steam_id
-        ):
-            return participant
-    return None
+    print(f"采集完成: ✅ {ok_count} 页，新增 {new_count} 行  ❌ {fail_count} 项")
 
 
 def parse_api_time(value: str) -> datetime:
@@ -362,46 +296,85 @@ def page_covers_target_start(page: FetchedPage, target_start: datetime) -> bool:
     return page.oldest_at is not None and page.oldest_at <= target_start
 
 
-def _mode_name(game_mode: str) -> str:
-    normalized = game_mode.lower()
-    if "squad" in normalized:
-        return "Squad"
-    if "duo" in normalized:
-        return "Duo"
-    if "solo" in normalized:
-        return "Solo"
-    return game_mode or "Unknown"
-
-
-def _weapon_name(value: Any) -> str | None:
-    if not value:
-        return None
-    code = str(value)
-    if code in WEAPON_NAMES:
-        return WEAPON_NAMES[code]
-    return code.removeprefix("Weap").removesuffix("_C").replace("_", " ")
-
-
-def _duration_text(seconds: int) -> str:
-    minutes, remaining = divmod(max(seconds, 0), 60)
-    return f"{minutes}m {remaining}s"
-
-
-def _raw_path(config: AppConfig, steam_id: str, page: int) -> Path:
-    suffix = "" if page == 1 else f"_{page}"
-    return config.output.data_dir / f"{steam_id}_raw{suffix}.txt"
-
-
-def _existing_player_pages(
+def _existing_player_entries(
     manifest_path: Path,
-) -> dict[str, list[dict[str, object]]]:
+) -> dict[str, dict[str, Any]]:
     if not manifest_path.exists():
         return {}
     raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return dict(raw.get("players", {}))
+
+
+CSV_FIELDS = [
+    "created_at",
+    "match_id",
+    "steam_id",
+    "mode",
+    "type",
+    "placement",
+    "total_teams",
+    "map",
+    "weapon",
+    "kills",
+    "damage",
+    "dbnos",
+    "traveled",
+    "time_alive",
+    "longest_kill",
+    "teammates",
+]
+
+
+def _record_to_csv_row(record: dict[str, Any], steam_id: str) -> dict[str, str]:
     return {
-        steam_id: list(player_data.get("pages", []))
-        for steam_id, player_data in raw.get("players", {}).items()
+        "created_at": record["approx_time"].isoformat(),
+        "match_id": str(record["match_id"]),
+        "steam_id": steam_id,
+        "mode": str(record["mode"]),
+        "type": str(record["type"]),
+        "placement": str(record["placement"]),
+        "total_teams": str(record["total_teams"]),
+        "map": str(record["map"]),
+        "weapon": str(record["weapon"] or ""),
+        "kills": str(record["kills"]),
+        "damage": str(record["damage"]),
+        "dbnos": str(record["dbnos"]),
+        "traveled": str(record["traveled"] or ""),
+        "time_alive": str(record["time_alive"] or ""),
+        "longest_kill": str(record["longest_kill"] or ""),
+        "teammates": "|".join(record["teammates"]),
     }
+
+
+def _append_new_rows(
+    existing_path: Path,
+    collected_rows: list[dict[str, str]],
+) -> int:
+    existing_keys: set[tuple[str, str]] = set()
+    if existing_path.exists():
+        with existing_path.open("r", encoding="utf-8", newline="") as source:
+            reader = csv.DictReader(source)
+            if reader.fieldnames != CSV_FIELDS:
+                raise ValueError(f"{existing_path} CSV 列格式不兼容")
+            for row in reader:
+                existing_keys.add((row["match_id"], row["steam_id"]))
+
+    new_rows = []
+    for row in sorted(collected_rows, key=lambda item: item["created_at"]):
+        key = (row["match_id"], row["steam_id"])
+        if key not in existing_keys:
+            existing_keys.add(key)
+            new_rows.append(row)
+
+    if not new_rows and existing_path.exists():
+        return 0
+    file_exists = existing_path.exists()
+    with existing_path.open("a", encoding="utf-8", newline="") as destination:
+        writer = csv.DictWriter(destination, fieldnames=CSV_FIELDS)
+        if not file_exists:
+            writer.writeheader()
+        writer.writerows(new_rows)
+    return len(new_rows)
 
 
 if __name__ == "__main__":
