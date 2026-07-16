@@ -1,0 +1,237 @@
+{
+  "date": "20260713",
+  "time_start": "2026-07-13T06:00:00",
+  "time_end": "2026-07-14T05:59:59.999999",
+  "generated_at": "2026-07-16T15:51:11.628435",
+  "stats": {
+    "zhong8yang8": {
+      "alias": "仲阳",
+      "steam_id": "zhong8yang8",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    },
+    "super_ADAM": {
+      "alias": "旺仔",
+      "steam_id": "super_ADAM",
+      "match_count": 2,
+      "total_kills": 0,
+      "total_damage": 57,
+      "total_dbnos": 0,
+      "kda": 0.0,
+      "avg_kills": 0.0,
+      "avg_damage": 28.5,
+      "chicken_dinners": 0,
+      "chicken_rate": 0.0,
+      "top10_rate": 50.0,
+      "best_placement": 6
+    },
+    "Maureen99": {
+      "alias": "老付",
+      "steam_id": "Maureen99",
+      "match_count": 2,
+      "total_kills": 1,
+      "total_damage": 185,
+      "total_dbnos": 1,
+      "kda": 0.5,
+      "avg_kills": 0.5,
+      "avg_damage": 92.5,
+      "chicken_dinners": 0,
+      "chicken_rate": 0.0,
+      "top10_rate": 100.0,
+      "best_placement": 2
+    },
+    "MyHsmm-_": {
+      "alias": "照诚",
+      "steam_id": "MyHsmm-_",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    },
+    "FahaiGe": {
+      "alias": "小明",
+      "steam_id": "FahaiGe",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    },
+    "Black--xbb": {
+      "alias": "彬彬",
+      "steam_id": "Black--xbb",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    }
+  },
+  "team_stats": {
+    "team_games_count": 2,
+    "combos": [
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          }
+        ],
+        "games": 2,
+        "chickens": 0,
+        "avg_placement": 4.5
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      }
+    ]
+  },
+  "titles": [
+    {
+      "title": "🔫 击杀王",
+      "player": "老付",
+      "value": "1 杀",
+      "comment": "勉强拿了个击杀王，但🤡这数据也好意思？"
+    },
+    {
+      "title": "💥 伤害王",
+      "player": "老付",
+      "value": "185 伤害",
+      "comment": "这伤害量...打得挺热闹的，就是没打死人。"
+    },
+    {
+      "title": "📈 KDA之王",
+      "player": "老付",
+      "value": "KDA 0.5",
+      "comment": "KDA 0.5...🤦 在玩跳伞模拟器？"
+    },
+    {
+      "title": "🎯 场均之王",
+      "player": "老付",
+      "value": "场均 92.5 伤害",
+      "comment": "场均92.5...打绷带都不止这么多。"
+    },
+    {
+      "title": "🕊️ 和平大使",
+      "player": "旺仔",
+      "value": "0 击杀",
+      "comment": "真正的和平主义者！旺仔：'我是来交朋友的'"
+    },
+    {
+      "title": "💀 快递员",
+      "player": "旺仔",
+      "value": "KDA 0.0",
+      "comment": "旺仔：'落地→搜装备→送快递→下一把'，物流行业标杆！"
+    },
+    {
+      "title": "🤝 最佳搭档",
+      "player": "彬彬 & 老付",
+      "value": "2 场同队",
+      "comment": "也就一起打了几把，别想太多。"
+    }
+  ]
+}

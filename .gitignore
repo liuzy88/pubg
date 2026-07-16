@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.idea
+.DS_Store
+
+# 运行日志
+cron.log
+cron_*.log
+
+# 临时文件
+*.pyc
+.workbuddy/

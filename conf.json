@@ -1,0 +1,29 @@
+{
+  "players": [
+    {"alias": "仲阳", "steam_id": "zhong8yang8"},
+    {"alias": "旺仔", "steam_id": "super_ADAM"},
+    {"alias": "老付", "steam_id": "Maureen99"},
+    {"alias": "照诚", "steam_id": "MyHsmm-_"},
+    {"alias": "小明", "steam_id": "FahaiGe"},
+    {"alias": "彬彬", "steam_id": "Black--xbb"}
+  ],
+  "time_period": {
+    "day_offset": -1,
+    "start_hour": 6,
+    "start_minute": 0,
+    "end_hour": 5,
+    "end_minute": 59,
+    "description": "昨天 06:00 到次日 05:59"
+  },
+  "dakgg": {
+    "base_url": "https://dak.gg/pubg/profile/steam/{steam_id}/pc-2018-42/matches",
+    "page_url": "https://dak.gg/pubg/profile/steam/{steam_id}/pc-2018-42/matches/{page}",
+    "page_count": 3,
+    "keep_modes": ["Squad"],
+    "comment": "只统计四排普通/竞技。训练场(Training Mode)自动排除。"
+  },
+  "output": {
+    "data_dir": "data",
+    "report_dir": "reports"
+  }
+}

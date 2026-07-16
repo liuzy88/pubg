@@ -1,0 +1,282 @@
+{
+  "date": "20260714",
+  "time_start": "2026-07-14T06:00:00",
+  "time_end": "2026-07-15T05:59:59.999999",
+  "generated_at": "2026-07-16T15:51:07.480592",
+  "stats": {
+    "zhong8yang8": {
+      "alias": "仲阳",
+      "steam_id": "zhong8yang8",
+      "match_count": 8,
+      "total_kills": 7,
+      "total_damage": 799,
+      "total_dbnos": 5,
+      "kda": 1.0,
+      "avg_kills": 0.88,
+      "avg_damage": 99.9,
+      "chicken_dinners": 1,
+      "chicken_rate": 12.5,
+      "top10_rate": 87.5,
+      "best_placement": 1
+    },
+    "super_ADAM": {
+      "alias": "旺仔",
+      "steam_id": "super_ADAM",
+      "match_count": 4,
+      "total_kills": 4,
+      "total_damage": 534,
+      "total_dbnos": 5,
+      "kda": 1.0,
+      "avg_kills": 1.0,
+      "avg_damage": 133.5,
+      "chicken_dinners": 0,
+      "chicken_rate": 0.0,
+      "top10_rate": 100.0,
+      "best_placement": 6
+    },
+    "Maureen99": {
+      "alias": "老付",
+      "steam_id": "Maureen99",
+      "match_count": 6,
+      "total_kills": 2,
+      "total_damage": 383,
+      "total_dbnos": 2,
+      "kda": 0.4,
+      "avg_kills": 0.33,
+      "avg_damage": 63.8,
+      "chicken_dinners": 1,
+      "chicken_rate": 16.7,
+      "top10_rate": 83.3,
+      "best_placement": 1
+    },
+    "MyHsmm-_": {
+      "alias": "照诚",
+      "steam_id": "MyHsmm-_",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    },
+    "FahaiGe": {
+      "alias": "小明",
+      "steam_id": "FahaiGe",
+      "match_count": 0,
+      "total_kills": 0,
+      "total_damage": 0,
+      "total_dbnos": 0,
+      "kda": 0,
+      "avg_kills": 0,
+      "avg_damage": 0,
+      "chicken_dinners": 0,
+      "chicken_rate": 0,
+      "top10_rate": 0,
+      "best_placement": 999
+    },
+    "Black--xbb": {
+      "alias": "彬彬",
+      "steam_id": "Black--xbb",
+      "match_count": 9,
+      "total_kills": 12,
+      "total_damage": 1678,
+      "total_dbnos": 12,
+      "kda": 1.5,
+      "avg_kills": 1.33,
+      "avg_damage": 186.4,
+      "chicken_dinners": 1,
+      "chicken_rate": 11.1,
+      "top10_rate": 77.8,
+      "best_placement": 1
+    }
+  },
+  "team_stats": {
+    "team_games_count": 19,
+    "combos": [
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 15,
+        "chickens": 3,
+        "avg_placement": 6.5
+      },
+      {
+        "players": [
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 10,
+        "chickens": 0,
+        "avg_placement": 7.7
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          }
+        ],
+        "games": 9,
+        "chickens": 3,
+        "avg_placement": 5.6
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 9,
+        "chickens": 0,
+        "avg_placement": 6.6
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 7,
+        "chickens": 3,
+        "avg_placement": 5.9
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Black--xbb",
+            "alias": "彬彬"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 1,
+        "chickens": 0,
+        "avg_placement": 2.0
+      }
+    ]
+  },
+  "titles": [
+    {
+      "title": "🔫 击杀王",
+      "player": "彬彬",
+      "value": "12 杀",
+      "comment": "枪管子都打冒烟了！彬彬的瞄准镜里全是人头。"
+    },
+    {
+      "title": "💥 伤害王",
+      "player": "彬彬",
+      "value": "1,678 伤害",
+      "comment": "每颗子弹都写着恐惧！"
+    },
+    {
+      "title": "📈 KDA之王",
+      "player": "彬彬",
+      "value": "KDA 1.5",
+      "comment": "KDA 1.5...🤦 在玩跳伞模拟器？"
+    },
+    {
+      "title": "🍗 吃鸡王者",
+      "player": "仲阳",
+      "value": "1 次吃鸡",
+      "comment": "就吃了一次鸡，但也是鸡！比鸡屁股都没摸到的强。"
+    },
+    {
+      "title": "🎯 场均之王",
+      "player": "彬彬",
+      "value": "场均 186.4 伤害",
+      "comment": "稳如老狗，每把都有稳定输出。"
+    },
+    {
+      "title": "💀 快递员",
+      "player": "老付",
+      "value": "KDA 0.4",
+      "comment": "老付：'落地→搜装备→送快递→下一把'，物流行业标杆！"
+    },
+    {
+      "title": "🤝 最佳搭档",
+      "player": "老付 & 仲阳",
+      "value": "15 场同队",
+      "comment": "形影不离！老付和仲阳简直是用502粘在一起了。"
+    }
+  ]
+}

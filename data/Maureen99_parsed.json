@@ -1,0 +1,54 @@
+{
+  "alias": "老付",
+  "steam_id": "Maureen99",
+  "matches": [
+    {
+      "mode": null,
+      "type": null,
+      "placement": 7,
+      "total_teams": 18,
+      "map": "Miramar",
+      "weapon": "Dragunov",
+      "kills": 0,
+      "damage": 71,
+      "dbnos": 0,
+      "traveled": "6.47km",
+      "time_alive": "20m 34s",
+      "longest_kill": "0m",
+      "time_ago_text": null,
+      "approx_time": null,
+      "teammates": [
+        "Maureen99",
+        "Black--xbb",
+        "kimogen",
+        "Yuki0130-_-"
+      ],
+      "in_period": true,
+      "player_alias": "老付"
+    },
+    {
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 2,
+      "total_teams": 18,
+      "map": "Karakin",
+      "weapon": "MP5K",
+      "kills": 1,
+      "damage": 114,
+      "dbnos": 1,
+      "traveled": "1.71km",
+      "time_alive": "10m 57s",
+      "longest_kill": "28m",
+      "time_ago_text": null,
+      "approx_time": null,
+      "teammates": [
+        "super_ADAM",
+        "Black--xbb",
+        "FahaiGe",
+        "Maureen99"
+      ],
+      "in_period": true,
+      "player_alias": "老付"
+    }
+  ]
+}

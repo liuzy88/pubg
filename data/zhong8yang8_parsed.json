@@ -1,0 +1,30 @@
+{
+  "alias": "仲阳",
+  "steam_id": "zhong8yang8",
+  "matches": [
+    {
+      "mode": null,
+      "type": null,
+      "placement": 9,
+      "total_teams": 21,
+      "map": "Taego",
+      "weapon": "Beryl",
+      "kills": 1,
+      "damage": 100,
+      "dbnos": 0,
+      "traveled": "2.57km",
+      "time_alive": "12m 58s",
+      "longest_kill": "24m",
+      "time_ago_text": "5d ago",
+      "approx_time": "2026-07-11T15:51:18.711461",
+      "teammates": [
+        "super_ADAM",
+        "Esports_Feng",
+        "zhong8yang8",
+        "xionggen1205"
+      ],
+      "in_period": true,
+      "player_alias": "仲阳"
+    }
+  ]
+}

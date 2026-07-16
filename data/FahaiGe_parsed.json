@@ -1,0 +1,30 @@
+{
+  "alias": "小明",
+  "steam_id": "FahaiGe",
+  "matches": [
+    {
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 6,
+      "total_teams": 30,
+      "map": "Sanhok",
+      "weapon": "AUG A3",
+      "kills": 1,
+      "damage": 69,
+      "dbnos": 2,
+      "traveled": "3.05km",
+      "time_alive": "17m 6s",
+      "longest_kill": "10m",
+      "time_ago_text": "5d ago",
+      "approx_time": "2026-07-11T15:51:18.711461",
+      "teammates": [
+        "FahaiGe",
+        "super_ADAM",
+        "zhong8yang8",
+        "Papagoggggg"
+      ],
+      "in_period": true,
+      "player_alias": "小明"
+    }
+  ]
+}
