@@ -1,100 +1,178 @@
-FahaiGe - PUBG stats search results | PUBG DAK.GG
-
-## FahaiGe
-
-Last Updated:
-4h ago
-
-- #### 매치 요약 정보
-
-**Squad**
-
-#12/17
-
-
-4d ago
-
-
-Map
-Taego
-
-
-Weapon
-   -
-
-
-Kills
-0
-
-
-Damage
-0
-
-
-DBNOs
-0
-
-
-Traveled
-0.36km
-
-
-Time Alive
-5m 17s
-
-
-Longest
-0m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [Iridescent-Jay](https://dak.gg/pubg/profile/steam/Iridescent-Jay/pc-2018-42)
-- [oy_5am_8437](https://dak.gg/pubg/profile/steam/oy_5am_8437/pc-2018-42)
-- [58pmw7q](https://dak.gg/pubg/profile/steam/58pmw7q/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 92ab8fe8-2b3e-49b5-8fc6-cdfd929e0316
 **Squad _(Normal)_**
+#12/17
+2026-07-11T12:58:15.000Z
+Map Taego
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 0.36km
+Time Alive 5m 17s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [Iridescent-Jay](https://dak.gg/pubg/profile/steam/Iridescent-Jay)
+- [oy_5am_8437](https://dak.gg/pubg/profile/steam/oy_5am_8437)
+- [58pmw7q](https://dak.gg/pubg/profile/steam/58pmw7q)
 
+#### Match
+Match ID 1d750946-f753-48d8-982c-4747b565e684
+**Squad _(Normal)_**
 #6/30
+2026-07-11T04:51:25.000Z
+Map Sanhok
+Weapon AUG A3
+Kills 1
+Damage 69
+DBNOs 2
+Traveled 3.05km
+Time Alive 17m 6s
+Longest 11m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [Papagoggggg](https://dak.gg/pubg/profile/steam/Papagoggggg)
 
+#### Match
+Match ID 7cceef37-39c4-4392-a934-24bc62ea2565
+**Squad _(Normal)_**
+#9/27
+2026-07-11T04:32:30.000Z
+Map Sanhok
+Weapon Dragunov
+Kills 1
+Damage 101
+DBNOs 0
+Traveled 3.20km
+Time Alive 15m 46s
+Longest 33m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [oouku](https://dak.gg/pubg/profile/steam/oouku)
 
-5d ago
+#### Match
+Match ID 72147cd0-be4b-4fe6-aa89-7341a8c2f5e6
+**Squad _(Normal)_**
+#5/31
+2026-07-11T04:08:06.000Z
+Map Sanhok
+Weapon AUG A3
+Kills 0
+Damage 28
+DBNOs 0
+Traveled 3.97km
+Time Alive 21m 13s
+Longest 0m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
 
+#### Match
+Match ID fe2874fe-0b59-4066-8aab-a4dd7f820c0b
+**Squad _(Normal)_**
+#12/27
+2026-07-11T03:49:55.000Z
+Map Sanhok
+Weapon ACE32
+Kills 1
+Damage 233
+DBNOs 1
+Traveled 1.49km
+Time Alive 14m 11s
+Longest 25m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Loveling-824](https://dak.gg/pubg/profile/steam/Loveling-824)
 
-Map
-Sanhok
+#### Match
+Match ID 74e60ba0-d0cf-4ee3-9a28-1645d1b801bb
+**Squad _(Normal)_**
+#14/26
+2026-07-11T03:39:20.000Z
+Map Sanhok
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 1.23km
+Time Alive 7m 34s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [JennyQvQ__](https://dak.gg/pubg/profile/steam/JennyQvQ__)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
 
+#### Match
+Match ID 6b05b50d-6401-45da-9dda-6dc60671223a
+**Squad _(Normal)_**
+#27/29
+2026-07-10T13:54:04.000Z
+Map Sanhok
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 0.27km
+Time Alive 3m 8s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [CQ_sunshine-boy](https://dak.gg/pubg/profile/steam/CQ_sunshine-boy)
 
-Weapon
-AUG A3
+#### Match
+Match ID c366f5e7-8cf4-407d-8959-164049f447c8
+**Squad _(Normal)_**
+#5/28
+2026-07-10T13:30:28.000Z
+Map Sanhok
+Weapon SKS
+Kills 0
+Damage 59
+DBNOs 0
+Traveled 4.59km
+Time Alive 21m 14s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [JohnJason1](https://dak.gg/pubg/profile/steam/JohnJason1)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
+#### Match
+Match ID 3813a32a-15fa-4436-9eba-b0b38f91249c
+**Squad _(Normal)_**
+#4/27
+2026-07-10T13:05:41.000Z
+Map Sanhok
+Weapon Mk12
+Kills 0
+Damage 167
+DBNOs 1
+Traveled 3.24km
+Time Alive 22m 26s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [libaba688](https://dak.gg/pubg/profile/steam/libaba688)
 
-Kills
-1
-
-
-Damage
-69
-
-
-DBNOs
-2
-
-
-Traveled
-3.05km
-
-
-Time Alive
-17m 6s
-
-
-Longest
-10m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [Papagoggggg](https://dak.gg/pubg/profile/steam/Papagoggggg/pc-2018-42)
+#### Match
+Match ID fea3dce8-1327-41e0-a9db-916ba975bc81
+**Squad _(Normal)_**
+#2/28
+2026-07-10T12:40:19.000Z
+Map Sanhok
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 1.12km
+Time Alive 6m 45s
+Longest 0m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [Ahckk](https://dak.gg/pubg/profile/steam/Ahckk)

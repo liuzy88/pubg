@@ -25,8 +25,7 @@ class TimePeriodConfig:
 
 @dataclass(frozen=True)
 class DakggConfig:
-    base_url: str
-    page_url: str
+    api_base_url: str
     page_count: int
     keep_modes: tuple[str, ...]
 
@@ -91,8 +90,7 @@ def load_config(path: str | Path) -> AppConfig:
     if page_count < 1:
         raise ValueError("dakgg.page_count 必须大于 0")
     dakgg = DakggConfig(
-        base_url=str(_require(dakgg_raw, "base_url", "dakgg")),
-        page_url=str(_require(dakgg_raw, "page_url", "dakgg")),
+        api_base_url=str(_require(dakgg_raw, "api_base_url", "dakgg")).rstrip("/"),
         page_count=page_count,
         keep_modes=tuple(str(mode) for mode in dakgg_raw.get("keep_modes", ["Squad"])),
     )

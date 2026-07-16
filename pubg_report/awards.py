@@ -19,7 +19,9 @@ def generate_titles_and_comments(
     titles: list[dict[str, str]] = []
     comments: list[str] = []
     active = [player for player in players if player["match_count"] > 0]
-    clown = lambda: rng.choice(["🤡", "😅", "💩", "🤦", "😬"])
+
+    def clown() -> str:
+        return rng.choice(["🤡", "😅", "💩", "🤦", "😬"])
 
     if active:
         kill_king = max(active, key=lambda player: player["total_kills"])

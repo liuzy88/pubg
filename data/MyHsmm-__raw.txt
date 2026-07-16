@@ -1,40 +1,25 @@
-MyHsmm-_ - PUBG stats search results | PUBG DAK.GG
-
-## MyHsmm-_
-
-Last Updated: 25m ago
-
-### Recent Match History
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID b73f48fe-f473-4f32-b554-b03feae5a123
 **Squad _(Normal)_**
-
 #3/29
-
-10h ago
-
+2026-07-15T16:30:33.000Z
 Map Erangel
 Weapon Vector
 Kills 4
 Damage 401
 DBNOs 2
-Traveled 0.37km
+Traveled 0.43km
 Time Alive 3m 50s
-Longest 32m
+Longest 33m
+- [ALT_LongCc](https://dak.gg/pubg/profile/steam/ALT_LongCc)
+- [YoHo_Jasmine](https://dak.gg/pubg/profile/steam/YoHo_Jasmine)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-- [ALT_LongCc](https://dak.gg/pubg/profile/steam/ALT_LongCc/pc-2018-42)
-- [YoHo_Jasmine](https://dak.gg/pubg/profile/steam/YoHo_Jasmine/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID d71f2f9c-c2ed-4f61-9d2a-b1fe4d65d5e2
 **Solo _(Normal)_**
-
 #0/1
-
-10h ago
-
+2026-07-15T16:19:10.000Z
 Map Training Mode
 Weapon MP5K
 Kills 19
@@ -43,80 +28,64 @@ DBNOs 0
 Traveled 0.75km
 Time Alive 9m 11s
 Longest 55m
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 5d9f4971-a3c3-444a-869f-ccba7c5b6e82
 **Squad _(Normal)_**
-
 #27/27
-
-10h ago
-
+2026-07-15T16:16:52.000Z
 Map Erangel
 Weapon -
 Kills 0
 Damage 0
 DBNOs 0
-Traveled 0.00km
+Traveled 0.05km
 Time Alive 1m 16s
 Longest 0m
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 008f9b31-1acd-4c62-9fd6-1848ac6c9dcd
 **Squad _(Normal)_**
-
 #7/16
-
-10h ago
-
+2026-07-15T16:00:09.000Z
 Map Karakin
 Weapon AUG A3
 Kills 4
 Damage 479
 DBNOs 2
-Traveled 2.49km
+Traveled 2.56km
 Time Alive 13m 8s
 Longest 42m
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 4df44494-dda1-4384-917d-a85d68eea3e5
 **Squad _(Normal)_**
-
 #2/17
-
-11h ago
-
+2026-07-15T15:34:56.000Z
 Map Karakin
-Weapon S1897
+Weapon Win94
 Kills 5
 Damage 428
 DBNOs 5
 Traveled 2.08km
 Time Alive 12m 35s
 Longest 14m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
 
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 2fbec94b-3e7f-4d4f-a969-ac0749db5f8d
 **Squad _(Normal)_**
-
 #6/18
-
-11h ago
-
+2026-07-15T15:18:58.000Z
 Map Karakin
 Weapon MP5K
 Kills 0
@@ -125,20 +94,16 @@ DBNOs 0
 Traveled 1.69km
 Time Alive 10m 2s
 Longest 0m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 8391e228-6f01-4c83-b5f6-3cdbebfa096e
 **Squad _(Normal)_**
-
 #1/18
-
-11h ago
-
+2026-07-15T14:58:23.000Z
 Map Karakin
 Weapon MP5K
 Kills 5
@@ -146,21 +111,17 @@ Damage 619
 DBNOs 4
 Traveled 3.40km
 Time Alive 18m 1s
-Longest 52m
+Longest 53m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 207469bb-5faf-4f22-897c-099c83269da3
 **Squad _(Normal)_**
-
 #12/17
-
-12h ago
-
+2026-07-15T14:46:13.000Z
 Map Karakin
 Weapon M416
 Kills 1
@@ -168,42 +129,34 @@ Damage 191
 DBNOs 1
 Traveled 1.40km
 Time Alive 9m 34s
-Longest 13m
+Longest 14m
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
 
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID cfb04d7d-8f42-4017-8de7-376fe9d8fef1
 **Squad _(Normal)_**
-
 #12/17
-
-12h ago
-
+2026-07-15T14:38:46.000Z
 Map Karakin
-Weapon S686
+Weapon Berreta686
 Kills 4
 Damage 442
 DBNOs 3
 Traveled 0.54km
 Time Alive 5m 24s
-Longest 16m
+Longest 17m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
 
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 2d854cf6-905a-4b4b-bc17-43cc53e878b1
 **Squad _(Normal)_**
-
 #2/19
-
-12h ago
-
+2026-07-15T14:15:23.000Z
 Map Karakin
 Weapon AUG A3
 Kills 2
@@ -211,9 +164,8 @@ Damage 451
 DBNOs 4
 Traveled 3.26km
 Time Alive 16m 50s
-Longest 51m
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
+Longest 52m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)

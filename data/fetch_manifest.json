@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "scraped_at": "2026-07-16T17:42:13.077978+08:00",
+  "page_count": 4,
+  "players": {
+    "Black--xbb": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "Black--xbb_raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:37.092922+08:00"
+        },
+        {
+          "page": 2,
+          "file": "Black--xbb_raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:38.036560+08:00"
+        },
+        {
+          "page": 3,
+          "file": "Black--xbb_raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:38.984234+08:00"
+        },
+        {
+          "page": 4,
+          "file": "Black--xbb_raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:39.959641+08:00"
+        }
+      ]
+    },
+    "FahaiGe": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "FahaiGe_raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:32.758679+08:00"
+        },
+        {
+          "page": 2,
+          "file": "FahaiGe_raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:33.680223+08:00"
+        },
+        {
+          "page": 3,
+          "file": "FahaiGe_raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:34.655204+08:00"
+        },
+        {
+          "page": 4,
+          "file": "FahaiGe_raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:35.691439+08:00"
+        }
+      ]
+    },
+    "Maureen99": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "Maureen99_raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:23.796935+08:00"
+        },
+        {
+          "page": 2,
+          "file": "Maureen99_raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:24.708209+08:00"
+        },
+        {
+          "page": 3,
+          "file": "Maureen99_raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:25.468158+08:00"
+        },
+        {
+          "page": 4,
+          "file": "Maureen99_raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:26.651758+08:00"
+        }
+      ]
+    },
+    "MyHsmm-_": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "MyHsmm-__raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:28.005155+08:00"
+        },
+        {
+          "page": 2,
+          "file": "MyHsmm-__raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:29.011425+08:00"
+        },
+        {
+          "page": 3,
+          "file": "MyHsmm-__raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:29.976782+08:00"
+        },
+        {
+          "page": 4,
+          "file": "MyHsmm-__raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:31.181309+08:00"
+        }
+      ]
+    },
+    "super_ADAM": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "super_ADAM_raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:19.632272+08:00"
+        },
+        {
+          "page": 2,
+          "file": "super_ADAM_raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:20.579552+08:00"
+        },
+        {
+          "page": 3,
+          "file": "super_ADAM_raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:21.541931+08:00"
+        },
+        {
+          "page": 4,
+          "file": "super_ADAM_raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:22.457508+08:00"
+        }
+      ]
+    },
+    "zhong8yang8": {
+      "pages": [
+        {
+          "page": 1,
+          "file": "zhong8yang8_raw.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:15.074886+08:00"
+        },
+        {
+          "page": 2,
+          "file": "zhong8yang8_raw_2.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:16.121021+08:00"
+        },
+        {
+          "page": 3,
+          "file": "zhong8yang8_raw_3.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:17.203325+08:00"
+        },
+        {
+          "page": 4,
+          "file": "zhong8yang8_raw_4.txt",
+          "match_count": 10,
+          "scraped_at": "2026-07-16T17:42:18.315557+08:00"
+        }
+      ]
+    }
+  }
+}

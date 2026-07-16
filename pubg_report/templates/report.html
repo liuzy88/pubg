@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0d0c">
+<title>PUBG战报·$date_str</title>
+<script>if(new URLSearchParams(location.search).has('capture'))document.documentElement.classList.add('capture')</script>
+<style>
+$css
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <div class="topline"><span class="kicker">BATTLEGROUND INTELLIGENCE</span><span class="edition">DAILY</span></div>
+  <div class="hero-row">
+    <div class="title-wrap"><div class="title-mark" aria-hidden="true">▰</div><div><h1><span>PUBG</span> 每日战报</h1><div class="subtitle">Survival performance report</div></div></div>
+    <div class="info"><div class="info-date">$friendly_date</div><div class="info-range">$time_range</div><div class="info-count"><b>$active_count/$player_count</b> 人出战</div></div>
+  </div>
+</header>
+<section class="nums" aria-label="战队核心数据">
+  <div class="num-item"><span class="n">$unique_matches</span><span class="l">实际比赛</span></div>
+  <div class="num-item"><span class="n">$player_games</span><span class="l">人次</span></div>
+  <div class="num-item"><span class="n">$total_kills</span><span class="l">总击杀</span></div>
+  <div class="num-item"><span class="n">$total_damage</span><span class="l">总伤害</span></div>
+  <div class="num-item"><span class="n">$unique_chickens</span><span class="l">吃鸡🍗</span></div>
+  <div class="num-item"><span class="n">$avg_damage</span><span class="l">人均伤害</span></div>
+</section>
+
+<h2 class="section-title">🏆 领奖台</h2>
+<div class="podium">$podium_html</div>
+
+$rest_section
+
+<h2 class="section-title">🎖️ 荣誉称号</h2>
+<div class="honors"><div class="tl-list">$titles_html</div></div>
+
+<h2 class="section-title">📝 小编锐评</h2>
+<div class="comments"><ul class="cmt-list">$comments_html</ul></div>
+
+<div class="partner-bar">🤝 最佳搭档：$combos_html</div>
+<div class="foot">📊 DAK.GG · $generated_at · 大吉大利今晚吃鸡</div>
+</main>
+</body>
+</html>

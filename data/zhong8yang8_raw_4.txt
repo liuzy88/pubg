@@ -1,478 +1,178 @@
-zhong8yang8 - PUBG stats search results | PUBG DAK.GG
-
-## zhong8yang8
-
-Last Updated:
-3h ago
-
-
-### Recent Match History
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID a5d5bf79-3749-4528-b55d-6e049e09980e
+**Squad _(Normal)_**
 #21/24
+2026-07-12T03:24:58.000Z
+Map Rondo
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 2.01km
+Time Alive 7m 46s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [kun0426](https://dak.gg/pubg/profile/steam/kun0426)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
 
-
-4d ago
-
-
-Map
-Rondo
-
-
-Weapon
-   -
-
-
-Kills
-0
-
-
-Damage
-0
-
-
-DBNOs
-0
-
-
-Traveled
-2.01km
-
-
-Time Alive
-7m 46s
-
-
-Longest
-0m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [kun0426](https://dak.gg/pubg/profile/steam/kun0426/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID d6437051-c929-4333-8f93-2288bbc3f3a1
+**Squad _(Normal)_**
 #8/25
+2026-07-12T03:02:50.000Z
+Map Miramar
+Weapon Mini 14
+Kills 1
+Damage 119
+DBNOs 1
+Traveled 4.41km
+Time Alive 15m 36s
+Longest 162m
+- [iui_7](https://dak.gg/pubg/profile/steam/iui_7)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-
-4d ago
-
-
-Map
-Miramar
-
-
-Weapon
-Mini 14
-
-
-Kills
-1
-
-
-Damage
-119
-
-
-DBNOs
-1
-
-
-Traveled
-4.41km
-
-
-Time Alive
-15m 36s
-
-
-Longest
-161m
-
-
-- [iui_7](https://dak.gg/pubg/profile/steam/iui_7/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 98c11bae-d400-4217-88aa-253acfccc3e6
 **Squad _(Normal)_**
-
 #13/26
+2026-07-11T14:45:45.000Z
+Map Sanhok
+Weapon ACE32
+Kills 0
+Damage 132
+DBNOs 0
+Traveled 4.26km
+Time Alive 11m 17s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [mengnan1v99](https://dak.gg/pubg/profile/steam/mengnan1v99)
 
-
-4d ago
-
-
-Map
-Sanhok
-
-
-Weapon
-ACE32
-
-
-Kills
-0
-
-
-Damage
-132
-
-
-DBNOs
-0
-
-
-Traveled
-4.26km
-
-
-Time Alive
-11m 17s
-
-
-Longest
-0m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [mengnan1v99](https://dak.gg/pubg/profile/steam/mengnan1v99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 2a9fb267-3996-40fe-9bab-404b1307c71a
 **Squad _(Normal)_**
-
 #10/28
+2026-07-11T14:27:20.000Z
+Map Sanhok
+Weapon ACE32
+Kills 0
+Damage 64
+DBNOs 0
+Traveled 2.76km
+Time Alive 16m 44s
+Longest 0m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
 
-
-4d ago
-
-
-Map
-Sanhok
-
-
-Weapon
-ACE32
-
-
-Kills
-0
-
-
-Damage
-64
-
-
-DBNOs
-0
-
-
-Traveled
-2.76km
-
-
-Time Alive
-16m 44s
-
-
-Longest
-0m
-
-
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 2b939b22-b675-4d0c-8df5-8c05fab1132f
 **Squad _(Normal)_**
-
 #13/27
+2026-07-11T14:15:10.000Z
+Map Sanhok
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 1.18km
+Time Alive 9m 18s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Nidalee_313](https://dak.gg/pubg/profile/steam/Nidalee_313)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
 
-
-4d ago
-
-
-Map
-Sanhok
-
-
-Weapon
-   -
-
-
-Kills
-0
-
-
-Damage
-0
-
-
-DBNOs
-0
-
-
-Traveled
-1.18km
-
-
-Time Alive
-9m 18s
-
-
-Longest
-0m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [Nidalee_313](https://dak.gg/pubg/profile/steam/Nidalee_313/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID cced1f90-f035-4f4c-bfbb-f5aa0ffe0df4
 **Squad _(Normal)_**
-
 #8/26
+2026-07-11T13:54:25.000Z
+Map Sanhok
+Weapon JuliesKar98k
+Kills 0
+Damage 105
+DBNOs 0
+Traveled 2.72km
+Time Alive 17m 2s
+Longest 0m
+- [3468147](https://dak.gg/pubg/profile/steam/3468147)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-
-4d ago
-
-
-Map
-Sanhok
-
-
-Weapon
-Kar98k
-
-
-Kills
-0
-
-
-Damage
-105
-
-
-DBNOs
-0
-
-
-Traveled
-2.70km
-
-
-Time Alive
-17m 2s
-
-
-Longest
-0m
-
-
-- [3468147](https://dak.gg/pubg/profile/steam/3468147/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID b253a657-5764-4761-a9ad-ef1d7abda1d4
 **Squad _(Normal)_**
-
 #24/27
+2026-07-11T13:47:54.000Z
+Map Sanhok
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 0.22km
+Time Alive 2m 47s
+Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [DC9880](https://dak.gg/pubg/profile/steam/DC9880)
+- [mutou2046](https://dak.gg/pubg/profile/steam/mutou2046)
 
-
-4d ago
-
-
-Map
-Sanhok
-
-
-Weapon
-   -
-
-
-Kills
-0
-
-
-Damage
-0
-
-
-DBNOs
-0
-
-
-Traveled
-0.22km
-
-
-Time Alive
-2m 47s
-
-
-Longest
-0m
-
-
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [DC9880](https://dak.gg/pubg/profile/steam/DC9880/pc-2018-42)
-- [mutou2046](https://dak.gg/pubg/profile/steam/mutou2046/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID 9646e796-a519-4b8e-8d3f-6b0bc0cebfbd
+**Squad _(Normal)_**
 #16/17
+2026-07-11T13:39:55.000Z
+Map Erangel
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 0.21km
+Time Alive 4m 38s
+Longest 0m
+- [Passerby_du](https://dak.gg/pubg/profile/steam/Passerby_du)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [TJA-Lzy](https://dak.gg/pubg/profile/steam/TJA-Lzy)
 
-
-4d ago
-
-
-Map
-Erangel
-
-
-Weapon
-   -
-
-
-Kills
-0
-
-
-Damage
-0
-
-
-DBNOs
-0
-
-
-Traveled
-0.21km
-
-
-Time Alive
-4m 38s
-
-
-Longest
-0m
-
-
-- [Passerby_du](https://dak.gg/pubg/profile/steam/Passerby_du/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [TJA-Lzy](https://dak.gg/pubg/profile/steam/TJA-Lzy/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID f9d276fe-42d4-4c78-b4c2-2db2b80d0bab
+**Squad _(Normal)_**
 #6/19
+2026-07-11T13:21:07.000Z
+Map Miramar
+Weapon M416
+Kills 2
+Damage 242
+DBNOs 2
+Traveled 5.66km
+Time Alive 16m 43s
+Longest 51m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [sgagwwnterB](https://dak.gg/pubg/profile/steam/sgagwwnterB)
+- [bbmQT](https://dak.gg/pubg/profile/steam/bbmQT)
 
-
-4d ago
-
-
-Map
-Miramar
-
-
-Weapon
-M416
-
-
-Kills
-2
-
-
-Damage
-242
-
-
-DBNOs
-2
-
-
-Traveled
-5.66km
-
-
-Time Alive
-16m 43s
-
-
-Longest
-51m
-
-
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [sgagwwnterB](https://dak.gg/pubg/profile/steam/sgagwwnterB/pc-2018-42)
-- [bbmQT](https://dak.gg/pubg/profile/steam/bbmQT/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID d747952a-3b76-4a2c-8ea1-15967c056f06
+**Squad _(Normal)_**
 #9/21
-
-
-5d ago
-
-
-Map
-Taego
-
-
-Weapon
-Beryl
-
-
-Kills
-1
-
-
-Damage
-100
-
-
-DBNOs
-0
-
-
-Traveled
-2.57km
-
-
-Time Alive
-12m 58s
-
-
-Longest
-24m
-
-
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [Esports_Feng](https://dak.gg/pubg/profile/steam/Esports_Feng/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [xionggen1205](https://dak.gg/pubg/profile/steam/xionggen1205/pc-2018-42)
+2026-07-11T05:58:22.000Z
+Map Taego
+Weapon Beryl
+Kills 1
+Damage 100
+DBNOs 0
+Traveled 2.57km
+Time Alive 12m 58s
+Longest 25m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Esports_Feng](https://dak.gg/pubg/profile/steam/Esports_Feng)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [xionggen1205](https://dak.gg/pubg/profile/steam/xionggen1205)

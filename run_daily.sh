@@ -25,16 +25,20 @@ echo "[1/4] git pull..."
 git checkout main -q 2>/dev/null || true
 git pull origin main -q 2>&1 || echo "  (pull 失败，继续执行)"
 
-# ── 2. 采集数据 ──
-echo "[2/4] 采集 dak.gg 数据..."
+# ── 2. 自动测试 ──
+echo "[2/5] 运行自动测试..."
+$PYTHON -m unittest discover -s tests -v 2>&1
+
+# ── 3. 采集数据 ──
+echo "[3/5] 采集 dak.gg 数据..."
 $PYTHON fetch_data.py 2>&1
 
-# ── 3. 生成战报 ──
-echo "[3/4] 生成战报..."
-$PYTHON pubg_daily_report.py 2>&1 || echo "  ⚠️  战报生成有警告（可能缺 Chrome 无截图，属正常）"
+# ── 4. 生成战报 ──
+echo "[4/5] 生成战报..."
+$PYTHON pubg_daily_report.py 2>&1
 
-# ── 4. 提交并推送 ──
-echo "[4/4] git commit & push..."
+# ── 5. 提交并推送 ──
+echo "[5/5] git commit & push..."
 git add data/ reports/ 2>&1
 
 if git diff --cached --quiet 2>/dev/null; then

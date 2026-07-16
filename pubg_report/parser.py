@@ -78,6 +78,15 @@ MONTHS = {
 def parse_time_label(text: str, scraped_at: datetime) -> tuple[datetime | None, str | None]:
     """解析相对或固定日期，返回时间及精度。"""
     normalized = text.strip()
+    try:
+        iso_time = datetime.fromisoformat(normalized.replace("Z", "+00:00"))
+    except ValueError:
+        iso_time = None
+    if iso_time is not None:
+        if iso_time.tzinfo is not None and scraped_at.tzinfo is not None:
+            iso_time = iso_time.astimezone(scraped_at.tzinfo)
+        return iso_time, "exact"
+
     relative = RELATIVE_TIME_PATTERN.search(normalized)
     if relative:
         value, unit = int(relative.group(1)), relative.group(2).lower()
@@ -117,10 +126,11 @@ def parse_dakgg_markdown(
     time_start: datetime,
     time_end: datetime,
     keep_modes: tuple[str, ...] | list[str] = ("Squad",),
+    occurrence_counts: dict[str, int] | None = None,
 ) -> list[dict[str, Any]]:
     """解析比赛，只返回时间明确落在目标时段内的指定模式比赛。"""
     matches: list[dict[str, Any]] = []
-    occurrence_counts: dict[str, int] = defaultdict(int)
+    occurrence_counts = occurrence_counts if occurrence_counts is not None else defaultdict(int)
     sections = SECTION_PATTERN.split(text)
 
     for section in sections[1:]:
@@ -137,12 +147,15 @@ def parse_dakgg_markdown(
         if not time_start <= approx_time <= time_end:
             continue
 
-        base_key = _shared_match_signature(match_data)
-        occurrence_counts[base_key] += 1
-        occurrence = occurrence_counts[base_key]
-        match_data["match_key"] = hashlib.sha1(
-            f"{base_key}|{occurrence}".encode("utf-8")
-        ).hexdigest()[:20]
+        if match_data.get("match_id"):
+            match_data["match_key"] = f"dakgg:{match_data['match_id']}"
+        else:
+            base_key = _shared_match_signature(match_data)
+            occurrence_counts[base_key] += 1
+            occurrence = occurrence_counts[base_key]
+            match_data["match_key"] = hashlib.sha1(
+                f"{base_key}|{occurrence}".encode("utf-8")
+            ).hexdigest()[:20]
         match_data["player_alias"] = player_alias
         match_data["in_period"] = True
         matches.append(match_data)
@@ -165,6 +178,7 @@ def _shared_match_signature(match: dict[str, Any]) -> str:
 
 def _parse_one_match(section_text: str, scraped_at: datetime) -> dict[str, Any]:
     data: dict[str, Any] = {
+        "match_id": None,
         "mode": None,
         "type": None,
         "placement": None,
@@ -186,6 +200,10 @@ def _parse_one_match(section_text: str, scraped_at: datetime) -> dict[str, Any]:
     lines = [line.strip() for line in section_text.splitlines() if line.strip()]
 
     for index, line in enumerate(lines):
+        if line.startswith("Match ID "):
+            data["match_id"] = line.removeprefix("Match ID ").strip() or None
+            continue
+
         mode_match = MODE_PATTERN.fullmatch(line)
         if mode_match:
             raw_mode = mode_match.group(1)

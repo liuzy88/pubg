@@ -8,123 +8,89 @@
 <title>PUBG战报·2026年07月14日</title>
 <script>if(new URLSearchParams(location.search).has('capture'))document.documentElement.classList.add('capture')</script>
 <style>
-:root{--bg:#070908;--panel:#101411;--panel-2:#151a16;--line:rgba(255,255,255,.12);--muted:#aab2aa;--text:#f7f9f5;--gold:#f5b82e;--gold-2:#ffda69;--green:#b7da89;--red:#ff8178}
+:root{--bg:#070908;--panel:#101411;--line:rgba(255,255,255,.12);--muted:#aab2aa;--text:#f7f9f5;--gold:#f5b82e;--gold-2:#ffda69;--green:#b7da89;--red:#ff8178}
 *{margin:0;padding:0;box-sizing:border-box}
 html{background:#050706}
 body{min-height:100vh;padding:24px 14px;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--text);background:radial-gradient(circle at 50% -20%,#27301f 0,transparent 42%),#050706}
 .page{position:relative;width:100%;max-width:760px;min-height:100vh;margin:auto;overflow:hidden;border:1px solid rgba(245,184,46,.18);border-radius:22px;background:linear-gradient(180deg,rgba(18,22,18,.98),rgba(7,9,8,.99));box-shadow:0 28px 90px rgba(0,0,0,.6)}
 .page::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(to bottom,#000,transparent 38%)}
 .page>*{position:relative}
-
-/* ── 战报头部 ── */
 .topbar{padding:30px 28px 26px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 82% 0,rgba(245,184,46,.16),transparent 32%),linear-gradient(135deg,rgba(255,255,255,.045),transparent 60%)}
 .topline{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
 .kicker{color:var(--gold);font-size:10px;font-weight:800;letter-spacing:2.2px}
 .edition{padding:3px 8px;border:1px solid rgba(245,184,46,.38);border-radius:999px;color:var(--gold-2);font-size:9px;font-weight:800;letter-spacing:1.4px}
-.title-wrap{display:flex;align-items:center;gap:14px}
 .hero-row{display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
+.title-wrap{display:flex;align-items:center;gap:14px}
 .title-mark{display:grid;width:44px;height:44px;place-items:center;border:1px solid rgba(245,184,46,.5);border-radius:12px;color:#111;background:linear-gradient(145deg,var(--gold-2),#cc8612);font-size:20px;box-shadow:0 8px 24px rgba(245,184,46,.16);transform:skew(-5deg)}
 .topbar h1{font-size:36px;font-weight:900;line-height:1.05;letter-spacing:-1px}
 .topbar h1 span{color:var(--gold);letter-spacing:1px}
 .subtitle{margin-top:5px;color:#b0b9b0;font-size:12px;letter-spacing:1.6px;text-transform:uppercase}
-.topbar .info{display:flex;flex:0 0 auto;flex-direction:column;align-items:flex-end;gap:5px;padding:4px 12px;border:1px solid rgba(245,184,46,.12);border-radius:10px;background:rgba(245,184,46,.04)}
-.topbar .info-date{font-size:14px;color:var(--gold);font-weight:700;letter-spacing:.5px;white-space:nowrap}
-.topbar .info-range{font-size:13px;color:#b3bfb3;letter-spacing:.2px}
-.topbar .info-count{font-size:12px;color:#97a397}
-.topbar .info-count b{color:var(--gold-2);font-weight:800}
-
-/* ── 核心数据 ── */
+.info{display:flex;flex:0 0 auto;flex-direction:column;align-items:flex-end;gap:5px;padding:4px 12px;border:1px solid rgba(245,184,46,.12);border-radius:10px;background:rgba(245,184,46,.04)}
+.info-date{font-size:14px;color:var(--gold);font-weight:700;white-space:nowrap}
+.info-range{font-size:13px;color:#b3bfb3}
+.info-count{font-size:12px;color:#97a397}
+.info-count b{color:var(--gold-2)}
 .nums{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;padding:16px 18px 2px}
 .num-item{min-width:0;padding:12px 8px;border:1px solid rgba(255,255,255,.065);border-radius:10px;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.018))}
-.num-item .n{display:block;overflow:hidden;color:var(--gold-2);font-size:26px;font-weight:900;line-height:1.1;letter-spacing:-.4px;text-overflow:ellipsis}
-.num-item .l{display:block;margin-top:6px;color:var(--muted);font-size:12px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
-
-/* ── 区块标题 ── */
-.section-title{display:flex;align-items:center;gap:10px;margin:28px 20px 12px;color:#f1f4ee;font-size:18px;font-weight:900;letter-spacing:.8px}
+.num-item .n{display:block;overflow:hidden;color:var(--gold-2);font-size:26px;font-weight:900;line-height:1.1;text-overflow:ellipsis}
+.num-item .l{display:block;margin-top:6px;color:var(--muted);font-size:12px;font-weight:800;white-space:nowrap}
+.section-title{display:flex;align-items:center;gap:10px;margin:28px 20px 12px;color:#f1f4ee;font-size:18px;font-weight:900}
 .section-title::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,rgba(245,184,46,.35),transparent)}
-
-/* ── 选手卡片 ── */
 .podium{display:grid;grid-template-columns:repeat(3,1fr);align-items:end;gap:10px;padding:0 18px}
 .pcard{position:relative;min-width:0;overflow:hidden;padding:17px 14px 13px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));box-shadow:0 10px 24px rgba(0,0,0,.18)}
 .pcard::before{content:"";position:absolute;inset:0 0 auto;height:2px;background:#727a72;opacity:.55}
-.pcard.card-god{border-color:rgba(245,184,46,.3);background:linear-gradient(145deg,rgba(245,184,46,.12),rgba(255,255,255,.018))}
-.pcard.card-god::before{background:var(--gold)}
-.pcard.card-good{border-color:rgba(157,197,110,.23);background:linear-gradient(145deg,rgba(157,197,110,.09),rgba(255,255,255,.018))}
-.pcard.card-good::before{background:var(--green)}
-.pcard.card-bad{border-color:rgba(239,106,98,.22);background:linear-gradient(145deg,rgba(239,106,98,.08),rgba(255,255,255,.018))}
-.pcard.card-bad::before{background:var(--red)}
-.pcard.card-absent{filter:saturate(.2);opacity:.48}
-.podium .pcard:nth-child(1){border-color:rgba(205,214,220,.24)}
-.podium .pcard:nth-child(1)::before{background:#cbd4d8}
-.podium .pcard:nth-child(2){padding-top:17px;border-color:rgba(245,184,46,.48);background:radial-gradient(circle at 50% 0,rgba(245,184,46,.2),transparent 48%),linear-gradient(145deg,#222015,#11140f);box-shadow:0 16px 38px rgba(0,0,0,.3),0 0 26px rgba(245,184,46,.08);transform:translateY(-6px)}
-.podium .pcard:nth-child(2)::before{height:3px;background:linear-gradient(90deg,#b8750c,var(--gold-2),#b8750c);opacity:1}
-.podium .pcard:nth-child(3){border-color:rgba(205,127,50,.25)}
-.podium .pcard:nth-child(3)::before{background:#cd7f32}
+.card-god{border-color:rgba(245,184,46,.3)!important;background:linear-gradient(145deg,rgba(245,184,46,.12),rgba(255,255,255,.018))!important}
+.card-good{border-color:rgba(157,197,110,.23)!important;background:linear-gradient(145deg,rgba(157,197,110,.09),rgba(255,255,255,.018))!important}
+.card-bad{border-color:rgba(239,106,98,.22)!important;background:linear-gradient(145deg,rgba(239,106,98,.08),rgba(255,255,255,.018))!important}
+.card-absent{filter:saturate(.2);opacity:.48}
+.podium .pcard:nth-child(2){border-color:rgba(245,184,46,.48);background:radial-gradient(circle at 50% 0,rgba(245,184,46,.2),transparent 48%),linear-gradient(145deg,#222015,#11140f);box-shadow:0 16px 38px rgba(0,0,0,.3),0 0 26px rgba(245,184,46,.08);transform:translateY(-6px)}
 .pc-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}
 .pc-player{display:flex;min-width:0;align-items:center;gap:9px}
-.pc-rank{flex:0 0 auto;font-size:28px;line-height:1;filter:drop-shadow(0 3px 5px rgba(0,0,0,.35))}
+.pc-rank{flex:0 0 auto;font-size:28px;line-height:1}
 .pc-identity{min-width:0;flex:1}
 .pc-name{overflow:hidden;color:#fff;font-size:20px;font-weight:900;line-height:1.15;white-space:nowrap;text-overflow:ellipsis}
-.pc-sub{margin-top:5px;color:#b9c1b9;font-size:12px;font-weight:700;letter-spacing:.4px}
-.pc-kills{display:flex;min-width:0;flex-direction:column;align-items:center;justify-self:stretch;line-height:1;text-align:center}
-.pc-kills strong{color:var(--gold-2);font-size:30px;font-weight:900;letter-spacing:-1px}
-.pc-kills span{margin-top:4px;color:#c0c7c0;font-size:11px;font-weight:800;letter-spacing:1px}
+.pc-sub{margin-top:5px;color:#b9c1b9;font-size:12px;font-weight:700}
+.pc-kills{display:flex;min-width:0;flex-direction:column;align-items:center;line-height:1;text-align:center}
+.pc-kills strong{color:var(--gold-2);font-size:30px;font-weight:900}
+.pc-kills span{margin-top:4px;color:#c0c7c0;font-size:11px;font-weight:800}
 .pc-metrics{display:grid;grid-template-columns:repeat(3,1fr);margin-top:13px;border-top:1px solid rgba(255,255,255,.07);border-left:1px solid rgba(255,255,255,.07)}
 .pc-metrics div{min-width:0;padding:9px 3px 8px;border-right:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.07);text-align:center}
 .pc-metrics span,.pc-metrics b{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.pc-metrics span{color:#b8c0b8;font-size:11px;font-weight:700}
-.pc-metrics b{margin-top:4px;color:#fff;font-size:15px;font-weight:900}
-.pc-metrics .clr-gold{color:var(--gold-2)}
-.pc-metrics .clr-red{color:var(--red)}
-.pc-tags{display:flex;align-items:center;gap:5px;overflow:hidden;margin-top:11px;white-space:nowrap}
-.pc-tags span{flex:0 0 auto;color:#b2bbb2;font-size:10px;font-weight:700}
+.pc-metrics span{color:#b8c0b8;font-size:11px}
+.pc-metrics b{margin-top:4px;color:#fff;font-size:15px}
+.clr-gold{color:var(--gold-2)!important}
+.clr-red{color:var(--red)!important}
+.pc-tags{display:flex;gap:5px;overflow:hidden;margin-top:11px;white-space:nowrap}
 .pc-tags i{overflow:hidden;padding:3px 7px;border:1px solid rgba(245,184,46,.22);border-radius:999px;color:#f2c65a;background:rgba(245,184,46,.08);font-size:10px;font-style:normal;text-overflow:ellipsis}
-
-/* 其他选手：表格展示，每位选手严格占一行 */
 .player-table-wrap{padding:0 18px}
 .player-table{width:100%;table-layout:fixed;border-spacing:0 9px;font-size:13px;text-align:center}
 .player-table th,.player-table td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.player-table thead th{padding:0 3px 4px;color:#c4ccc4;font-size:10px;font-weight:900;letter-spacing:.3px}
+.player-table thead th{padding:0 3px 4px;color:#c4ccc4;font-size:10px}
 .player-table thead th:first-child{width:25%;text-align:left;padding-left:10px}
-.player-table thead th:nth-child(2){width:10%}
-.player-table thead th:nth-child(3){width:16%}
-.player-table thead th:nth-child(4){width:11%}
-.player-table thead th:nth-child(5){width:17%}
-.player-table thead th:nth-child(6){width:11%}
-.player-table thead th:nth-child(7){width:10%}
 .player-table tbody th,.player-table tbody td{height:50px;padding:8px 3px;border-top:1px solid rgba(255,255,255,.09);border-bottom:1px solid rgba(255,255,255,.09);color:#fff;background:rgba(255,255,255,.03)}
 .player-table tbody th{padding-left:8px;border-left:1px solid rgba(255,255,255,.065);border-radius:9px 0 0 9px;text-align:left}
 .player-table tbody td:last-child{border-right:1px solid rgba(255,255,255,.065);border-radius:0 9px 9px 0}
-.player-table tbody tr.card-good th,.player-table tbody tr.card-good td{background:rgba(157,197,110,.045)}
-.player-table tbody tr.card-bad th,.player-table tbody tr.card-bad td{background:rgba(239,106,98,.04)}
-.player-table tbody tr.card-absent{opacity:.42}
-.player-table .pt-rank{margin-right:5px;font-size:15px;vertical-align:middle}
-.player-table tbody th strong{color:#fff;font-size:14px}
-.player-table tbody th small{margin-left:4px;color:#b6beb6;font-size:10px;font-weight:700}
-.player-table .pt-kills{color:var(--gold-2);font-size:21px;font-weight:900}
-.player-table .clr-gold{color:var(--gold-2)}
-.player-table .clr-red{color:var(--red)}
-
-/* ── 荣誉与锐评 ── */
+.pt-rank{margin-right:5px;font-size:15px}
+.player-table tbody th small{margin-left:4px;color:#b6beb6;font-size:10px}
+.pt-kills{color:var(--gold-2)!important;font-size:21px;font-weight:900}
 .honors,.comments{padding:0 18px}
 .tl-list,.cmt-list{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
 .tl-badge{position:relative;display:block;min-width:0;padding:14px 15px 13px 18px;border:1px solid rgba(255,255,255,.09);border-radius:10px;background:rgba(255,255,255,.03);font-size:16px;color:#f2f5f0}
-.tl-badge::before{content:"";position:absolute;left:0;top:11px;width:3px;height:18px;border-radius:0 3px 3px 0;background:var(--gold)}
+.tl-badge::before{content:"";position:absolute;left:0;top:11px;width:3px;height:18px;background:var(--gold)}
 .tl-badge b{color:var(--gold-2)}
-.tl-badge small{display:block;margin-top:6px;color:#c4ccc4;font-size:13px;font-style:normal;line-height:1.45}
+.tl-badge small{display:block;margin-top:6px;color:#c4ccc4;font-size:13px;line-height:1.45}
 .cmt-list{list-style:none}
 .cmt-list li{position:relative;padding:13px 15px 13px 34px;border:1px solid rgba(255,255,255,.08);border-radius:10px;color:#f0f3ee;background:rgba(255,255,255,.025);font-size:15px}
 .cmt-list li::before{content:"“";position:absolute;left:10px;top:5px;color:var(--gold);font:700 22px/1 Georgia,serif}
-
-/* ── 搭档与页脚 ── */
 .partner-bar{margin:22px;padding:15px 18px;border:1px solid rgba(245,184,46,.2);border-radius:12px;color:#e0e5df;background:linear-gradient(90deg,rgba(245,184,46,.07),rgba(255,255,255,.025));font-size:15px;text-align:center}
 .partner-bar b{color:var(--gold-2)}
-.foot{margin-top:4px;padding:17px 16px 22px;border-top:1px solid rgba(255,255,255,.06);color:#b3bbb3;font-size:12px;letter-spacing:.35px;text-align:center}
+.foot{margin-top:4px;padding:17px 16px 22px;border-top:1px solid rgba(255,255,255,.06);color:#b3bbb3;font-size:12px;text-align:center}
 .capture,.capture body{min-height:0;background:#000}
 .capture .page{min-height:0}
-
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-</style></head>
+
+</style>
+</head>
 <body>
 <main class="page">
 <header class="topbar">
@@ -135,113 +101,27 @@ body{min-height:100vh;padding:24px 14px;font:15px/1.5 -apple-system,BlinkMacSyst
   </div>
 </header>
 <section class="nums" aria-label="战队核心数据">
-  <div class="num-item"><span class="n">27</span><span class="l">总场次</span></div>
-  <div class="num-item"><span class="n">25</span><span class="l">总击杀</span></div>
-  <div class="num-item"><span class="n">3,394</span><span class="l">总伤害</span></div>
-  <div class="num-item"><span class="n">3</span><span class="l">吃鸡🍗</span></div>
-  <div class="num-item"><span class="n">6.2</span><span class="l">人均击杀</span></div>
-  <div class="num-item"><span class="n">848</span><span class="l">人均伤害</span></div>
+  <div class="num-item"><span class="n">15</span><span class="l">实际比赛</span></div>
+  <div class="num-item"><span class="n">28</span><span class="l">人次</span></div>
+  <div class="num-item"><span class="n">28</span><span class="l">总击杀</span></div>
+  <div class="num-item"><span class="n">3,816</span><span class="l">总伤害</span></div>
+  <div class="num-item"><span class="n">1</span><span class="l">吃鸡🍗</span></div>
+  <div class="num-item"><span class="n">954</span><span class="l">人均伤害</span></div>
 </section>
 
 <h2 class="section-title">🏆 领奖台</h2>
-<div class="podium"><article class="pcard card-avg">
-        <div class="pc-head">
-          <div class="pc-player"><div class="pc-rank" aria-hidden="true">🥈</div><div class="pc-identity"><div class="pc-name">仲阳</div><div class="pc-sub">8 场作战</div></div></div>
-          <div class="pc-kills"><strong>7</strong><span>击杀</span></div>
-        </div>
-        <div class="pc-metrics">
-          <div><span>总伤害</span><b>799</b></div>
-          <div><span>KDA</span><b class="">1.0</b></div>
-          <div><span>吃鸡</span><b>🍗 × 1</b></div>
-          <div><span>场均击杀</span><b>0.88</b></div>
-          <div><span>场均伤害</span><b>100</b></div>
-          <div><span>最佳排名</span><b>#1</b></div>
-        </div>
-        <div class="pc-tags"><i>萨诺</i></div>
-        </article><article class="pcard card-good">
-        <div class="pc-head">
-          <div class="pc-player"><div class="pc-rank" aria-hidden="true">👑</div><div class="pc-identity"><div class="pc-name">彬彬</div><div class="pc-sub">9 场作战</div></div></div>
-          <div class="pc-kills"><strong>12</strong><span>击杀</span></div>
-        </div>
-        <div class="pc-metrics">
-          <div><span>总伤害</span><b>1,678</b></div>
-          <div><span>KDA</span><b class="">1.5</b></div>
-          <div><span>吃鸡</span><b>🍗 × 1</b></div>
-          <div><span>场均击杀</span><b>1.33</b></div>
-          <div><span>场均伤害</span><b>186</b></div>
-          <div><span>最佳排名</span><b>#1</b></div>
-        </div>
-        <div class="pc-tags"><i>萨诺</i><i>米拉玛</i><i>艾伦格</i></div>
-        </article><article class="pcard card-avg">
-        <div class="pc-head">
-          <div class="pc-player"><div class="pc-rank" aria-hidden="true">🥉</div><div class="pc-identity"><div class="pc-name">旺仔</div><div class="pc-sub">4 场作战</div></div></div>
-          <div class="pc-kills"><strong>4</strong><span>击杀</span></div>
-        </div>
-        <div class="pc-metrics">
-          <div><span>总伤害</span><b>534</b></div>
-          <div><span>KDA</span><b class="">1.0</b></div>
-          <div><span>吃鸡</span><b>🍗 × 0</b></div>
-          <div><span>场均击杀</span><b>1.0</b></div>
-          <div><span>场均伤害</span><b>134</b></div>
-          <div><span>最佳排名</span><b>#6</b></div>
-        </div>
-        <div class="pc-tags"><i>萨诺</i></div>
-        </article></div>
+<div class="podium"><article class="pcard card-avg"><div class="pc-head"><div class="pc-player"><div class="pc-rank" aria-hidden="true">🥈</div><div class="pc-identity"><div class="pc-name">仲阳</div><div class="pc-sub">9 场作战</div></div></div><div class="pc-kills"><strong>7</strong><span>击杀</span></div></div><div class="pc-metrics"><div><span>总伤害</span><b>799</b></div><div><span>估算KD</span><b class="">0.88</b></div><div><span>吃鸡</span><b>🍗 × 1</b></div><div><span>场均击杀</span><b>0.78</b></div><div><span>场均伤害</span><b>89</b></div><div><span>最佳排名</span><b>#1</b></div></div><div class="pc-tags"><i>萨诺</i></div></article><article class="pcard card-good"><div class="pc-head"><div class="pc-player"><div class="pc-rank" aria-hidden="true">👑</div><div class="pc-identity"><div class="pc-name">彬彬</div><div class="pc-sub">9 场作战</div></div></div><div class="pc-kills"><strong>12</strong><span>击杀</span></div></div><div class="pc-metrics"><div><span>总伤害</span><b>1,678</b></div><div><span>估算KD</span><b class="">1.5</b></div><div><span>吃鸡</span><b>🍗 × 1</b></div><div><span>场均击杀</span><b>1.33</b></div><div><span>场均伤害</span><b>186</b></div><div><span>最佳排名</span><b>#1</b></div></div><div class="pc-tags"><i>萨诺</i><i>米拉玛</i><i>艾伦格</i></div></article><article class="pcard card-avg"><div class="pc-head"><div class="pc-player"><div class="pc-rank" aria-hidden="true">🥉</div><div class="pc-identity"><div class="pc-name">老付</div><div class="pc-sub">6 场作战</div></div></div><div class="pc-kills"><strong>5</strong><span>击杀</span></div></div><div class="pc-metrics"><div><span>总伤害</span><b>805</b></div><div><span>估算KD</span><b class="">1.0</b></div><div><span>吃鸡</span><b>🍗 × 1</b></div><div><span>场均击杀</span><b>0.83</b></div><div><span>场均伤害</span><b>134</b></div><div><span>最佳排名</span><b>#1</b></div></div><div class="pc-tags"><i>萨诺</i></div></article></div>
 
-<h2 class="section-title">👥 其他选手</h2><div class="player-table-wrap"><table class="player-table"><thead><tr><th>选手</th><th>击杀</th><th>伤害</th><th>KDA</th><th>场均 杀/伤</th><th>吃鸡</th><th>最佳</th></tr></thead><tbody><tr class="card-bad">
-          <th scope="row"><span class="pt-rank">4️⃣</span><strong>老付</strong><small>6场</small></th>
-          <td class="pt-kills">2</td>
-          <td>383</td>
-          <td class="clr-red">0.4</td>
-          <td>0.33/64</td>
-          <td>🍗1</td>
-          <td>#1</td>
-        </tr><tr class="card-absent">
-          <th scope="row"><span class="pt-rank">5️⃣</span><strong>照诚</strong><small>0场</small></th>
-          <td class="pt-kills">0</td>
-          <td>0</td>
-          <td class="clr-red">0</td>
-          <td>0/0</td>
-          <td>🍗0</td>
-          <td>-</td>
-        </tr><tr class="card-absent">
-          <th scope="row"><span class="pt-rank">6️⃣</span><strong>小明</strong><small>0场</small></th>
-          <td class="pt-kills">0</td>
-          <td>0</td>
-          <td class="clr-red">0</td>
-          <td>0/0</td>
-          <td>🍗0</td>
-          <td>-</td>
-        </tr></tbody></table></div>
+<h2 class="section-title">👥 其他选手</h2><div class="player-table-wrap"><table class="player-table"><thead><tr><th>选手</th><th>击杀</th><th>伤害</th><th>估算KD</th><th>场均 杀/伤</th><th>吃鸡</th><th>最佳</th></tr></thead><tbody><tr class="card-avg"><th scope="row"><span class="pt-rank">4️⃣</span><strong>旺仔</strong><small>4场</small></th><td class="pt-kills">4</td><td>534</td><td class="">1.0</td><td>1.0/134</td><td>🍗0</td><td>#6</td></tr><tr class="card-absent"><th scope="row"><span class="pt-rank">5️⃣</span><strong>照诚</strong><small>0场</small></th><td class="pt-kills">0</td><td>0</td><td class="clr-red">0</td><td>0/0</td><td>🍗0</td><td>-</td></tr><tr class="card-absent"><th scope="row"><span class="pt-rank">6️⃣</span><strong>小明</strong><small>0场</small></th><td class="pt-kills">0</td><td>0</td><td class="clr-red">0</td><td>0/0</td><td>🍗0</td><td>-</td></tr></tbody></table></div>
 
 <h2 class="section-title">🎖️ 荣誉称号</h2>
-<div class="honors"><div class="tl-list"><span class="tl-badge">
-          <b>🔫 击杀王</b> 彬彬 · 12 杀
-          <small>——枪管子都打冒烟了！彬彬的瞄准镜里全是人头。</small>
-        </span><span class="tl-badge">
-          <b>💥 伤害王</b> 彬彬 · 1,678 伤害
-          <small>——每颗子弹都写着恐惧！</small>
-        </span><span class="tl-badge">
-          <b>📈 KDA之王</b> 彬彬 · KDA 1.5
-          <small>——KDA 1.5...🤦 在玩跳伞模拟器？</small>
-        </span><span class="tl-badge">
-          <b>🍗 吃鸡王者</b> 仲阳 · 1 次吃鸡
-          <small>——就吃了一次鸡，但也是鸡！比鸡屁股都没摸到的强。</small>
-        </span><span class="tl-badge">
-          <b>🎯 场均之王</b> 彬彬 · 场均 186.4 伤害
-          <small>——稳如老狗，每把都有稳定输出。</small>
-        </span><span class="tl-badge">
-          <b>💀 快递员</b> 老付 · KDA 0.4
-          <small>——老付：'落地→搜装备→送快递→下一把'，物流行业标杆！</small>
-        </span><span class="tl-badge">
-          <b>🤝 最佳搭档</b> 老付 & 仲阳 · 15 场同队
-          <small>——形影不离！老付和仲阳简直是用502粘在一起了。</small>
-        </span></div></div>
+<div class="honors"><div class="tl-list"><span class="tl-badge"><b>🔫 击杀王</b> 彬彬 · 12 杀<small>——枪管子都打冒烟了！彬彬的瞄准镜里全是人头。</small></span><span class="tl-badge"><b>💥 伤害王</b> 彬彬 · 1,678 伤害<small>——每颗子弹都写着尊重！</small></span><span class="tl-badge"><b>📈 估算KD之王</b> 彬彬 · 估算KD 1.5<small>——估算KD 1.5...🤡 在玩跳伞模拟器？</small></span><span class="tl-badge"><b>🍗 吃鸡王者</b> 仲阳 · 1 次吃鸡<small>——就吃了一次鸡，但也是鸡！比鸡屁股都没摸到的强。</small></span><span class="tl-badge"><b>🎯 场均之王</b> 彬彬 · 场均 186.4 伤害<small>——稳如老狗，每把都有稳定输出。</small></span><span class="tl-badge"><b>🤝 最佳搭档</b> 老付 &amp; 仲阳 · 6 场同队<small>——形影不离！老付和仲阳简直是用502粘在一起了。</small></span></div></div>
 
 <h2 class="section-title">📝 小编锐评</h2>
-<div class="comments"><ul class="cmt-list"><li>仲阳中规中矩，不是最菜的也不是最强的</li><li>旺仔中规中矩，不是最菜的也不是最强的</li><li>老付表现...建议去训练场多待会儿 😅</li><li>⛔ 照诚 昨天摸鱼了，一场没打！装死也不是这么装的！</li><li>⛔ 小明 昨天摸鱼了，一场没打！装死也不是这么装的！</li><li>彬彬中规中矩，不是最菜的也不是最强的</li></ul></div>
+<div class="comments"><ul class="cmt-list"><li>仲阳中规中矩，不是最菜的也不是最强的</li><li>旺仔中规中矩，不是最菜的也不是最强的</li><li>老付中规中矩，不是最菜的也不是最强的</li><li>⛔ 照诚 昨天摸鱼了，一场没打！装死也不是这么装的！</li><li>⛔ 小明 昨天摸鱼了，一场没打！装死也不是这么装的！</li><li>彬彬中规中矩，不是最菜的也不是最强的</li></ul></div>
 
-<div class="partner-bar">🤝 最佳搭档：<b>老付 + 仲阳</b> 15场🍗x3 · <b>旺仔 + 仲阳</b> 10场🍗x0 · <b>彬彬 + 老付</b> 9场🍗x3</div>
-<div class="foot">📊 DAK.GG · 2026-07-16 15:51 · 大吉大利今晚吃鸡</div>
+<div class="partner-bar">🤝 最佳搭档：<b>老付 + 仲阳</b> 6场🍗x1 · <b>旺仔 + 仲阳</b> 4场🍗x0 · <b>彬彬 + 老付</b> 3场🍗x1</div>
+<div class="foot">📊 DAK.GG · 2026-07-16 17:10 · 大吉大利今晚吃鸡</div>
 </main>
-</body></html>
+</body>
+</html>

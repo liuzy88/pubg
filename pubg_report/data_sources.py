@@ -1,0 +1,121 @@
+"""抓取清单及原始数据文件选择。"""
+
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from .config import AppConfig
+
+
+MANIFEST_NAME = "fetch_manifest.json"
+
+
+@dataclass(frozen=True)
+class RawPage:
+    page: int
+    path: Path
+    scraped_at: datetime
+
+
+@dataclass(frozen=True)
+class RawSnapshot:
+    scraped_at: datetime
+    player_pages: dict[str, tuple[RawPage, ...]]
+    source: str
+
+
+def load_raw_snapshot(config: AppConfig) -> RawSnapshot:
+    """只加载清单声明的本次抓取文件，避免历史分页残留混入。"""
+    manifest_path = config.output.data_dir / MANIFEST_NAME
+    if manifest_path.exists():
+        return _snapshot_from_manifest(config, manifest_path)
+    return _snapshot_from_configured_pages(config)
+
+
+def _snapshot_from_manifest(config: AppConfig, manifest_path: Path) -> RawSnapshot:
+    raw = json.loads(manifest_path.read_text(encoding="utf-8"))
+    scraped_at = datetime.fromisoformat(raw["scraped_at"])
+    players_raw = raw.get("players", {})
+    player_pages: dict[str, tuple[RawPage, ...]] = {}
+
+    for player in config.players:
+        page_entries = players_raw.get(player.steam_id, {}).get("pages", [])
+        pages = []
+        for entry in sorted(page_entries, key=lambda item: int(item["page"])):
+            path = (config.output.data_dir / entry["file"]).resolve()
+            if path.parent != config.output.data_dir:
+                raise ValueError(f"抓取清单包含非法路径: {entry['file']}")
+            if not path.exists():
+                raise FileNotFoundError(f"抓取清单声明的文件不存在: {path}")
+            page_scraped_at = datetime.fromisoformat(
+                entry.get("scraped_at", raw["scraped_at"])
+            )
+            pages.append(
+                RawPage(
+                    page=int(entry["page"]),
+                    path=path,
+                    scraped_at=page_scraped_at,
+                )
+            )
+        player_pages[player.steam_id] = tuple(pages)
+
+    return RawSnapshot(
+        scraped_at=scraped_at,
+        player_pages=player_pages,
+        source=manifest_path.name,
+    )
+
+
+def _snapshot_from_configured_pages(config: AppConfig) -> RawSnapshot:
+    """兼容旧数据：严格按 page_count 选文件，并用统一文件时间固定解析基准。"""
+    player_pages: dict[str, tuple[RawPage, ...]] = {}
+    all_files: list[Path] = []
+    for player in config.players:
+        pages = []
+        for page in range(1, config.dakgg.page_count + 1):
+            suffix = "" if page == 1 else f"_{page}"
+            path = config.output.data_dir / f"{player.steam_id}_raw{suffix}.txt"
+            if path.exists():
+                pages.append(
+                    RawPage(
+                        page=page,
+                        path=path,
+                        scraped_at=datetime.fromtimestamp(
+                            path.stat().st_mtime
+                        ).astimezone(),
+                    )
+                )
+                all_files.append(path)
+        player_pages[player.steam_id] = tuple(pages)
+
+    if not all_files:
+        raise FileNotFoundError(
+            f"{config.output.data_dir} 中没有原始数据，也没有 {MANIFEST_NAME}"
+        )
+    latest_mtime = max(path.stat().st_mtime for path in all_files)
+    scraped_at = datetime.fromtimestamp(latest_mtime).astimezone()
+    return RawSnapshot(
+        scraped_at=scraped_at,
+        player_pages=player_pages,
+        source="legacy-file-mtime",
+    )
+
+
+def build_manifest(
+    scraped_at: datetime,
+    player_pages: dict[str, list[dict[str, Any]]],
+    page_count: int,
+) -> dict[str, Any]:
+    return {
+        "schema_version": 1,
+        "scraped_at": scraped_at.isoformat(),
+        "page_count": page_count,
+        "players": {
+            steam_id: {"pages": pages}
+            for steam_id, pages in sorted(player_pages.items())
+        },
+    }

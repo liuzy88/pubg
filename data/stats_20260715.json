@@ -1,83 +1,85 @@
 {
   "date": "20260715",
-  "time_start": "2026-07-15T06:00:00",
-  "time_end": "2026-07-16T05:59:59.999999",
-  "generated_at": "2026-07-16T15:50:58.876472",
+  "time_start": "2026-07-15T06:00:00+08:00",
+  "time_end": "2026-07-16T05:59:59.999999+08:00",
+  "generated_at": "2026-07-16T17:42:49.248278+08:00",
+  "scraped_at": "2026-07-16T17:42:13.077978+08:00",
+  "raw_snapshot_source": "fetch_manifest.json",
   "stats": {
     "zhong8yang8": {
       "alias": "仲阳",
       "steam_id": "zhong8yang8",
-      "match_count": 16,
-      "total_kills": 15,
-      "total_damage": 2379,
-      "total_dbnos": 9,
-      "kda": 1.25,
-      "avg_kills": 0.94,
-      "avg_damage": 148.7,
-      "chicken_dinners": 4,
-      "chicken_rate": 25.0,
-      "top10_rate": 62.5,
+      "match_count": 5,
+      "total_kills": 7,
+      "total_damage": 955,
+      "total_dbnos": 2,
+      "estimated_kd": 1.75,
+      "avg_kills": 1.4,
+      "avg_damage": 191.0,
+      "chicken_dinners": 1,
+      "chicken_rate": 20.0,
+      "top10_rate": 80.0,
       "best_placement": 1
     },
     "super_ADAM": {
       "alias": "旺仔",
       "steam_id": "super_ADAM",
-      "match_count": 22,
-      "total_kills": 24,
-      "total_damage": 3487,
-      "total_dbnos": 23,
-      "kda": 1.26,
-      "avg_kills": 1.09,
-      "avg_damage": 158.5,
-      "chicken_dinners": 3,
-      "chicken_rate": 13.6,
-      "top10_rate": 59.1,
+      "match_count": 13,
+      "total_kills": 11,
+      "total_damage": 1769,
+      "total_dbnos": 11,
+      "estimated_kd": 0.92,
+      "avg_kills": 0.85,
+      "avg_damage": 136.1,
+      "chicken_dinners": 1,
+      "chicken_rate": 7.7,
+      "top10_rate": 69.2,
       "best_placement": 1
     },
     "Maureen99": {
       "alias": "老付",
       "steam_id": "Maureen99",
-      "match_count": 10,
-      "total_kills": 7,
-      "total_damage": 938,
-      "total_dbnos": 8,
-      "kda": 0.78,
-      "avg_kills": 0.7,
-      "avg_damage": 93.8,
+      "match_count": 8,
+      "total_kills": 6,
+      "total_damage": 753,
+      "total_dbnos": 7,
+      "estimated_kd": 0.86,
+      "avg_kills": 0.75,
+      "avg_damage": 94.1,
       "chicken_dinners": 1,
-      "chicken_rate": 10.0,
-      "top10_rate": 80.0,
+      "chicken_rate": 12.5,
+      "top10_rate": 75.0,
       "best_placement": 1
     },
     "MyHsmm-_": {
       "alias": "照诚",
       "steam_id": "MyHsmm-_",
-      "match_count": 12,
-      "total_kills": 26,
-      "total_damage": 3670,
-      "total_dbnos": 22,
-      "kda": 2.36,
-      "avg_kills": 2.17,
-      "avg_damage": 305.8,
+      "match_count": 14,
+      "total_kills": 29,
+      "total_damage": 4518,
+      "total_dbnos": 29,
+      "estimated_kd": 2.23,
+      "avg_kills": 2.07,
+      "avg_damage": 322.7,
       "chicken_dinners": 1,
-      "chicken_rate": 8.3,
-      "top10_rate": 66.7,
+      "chicken_rate": 7.1,
+      "top10_rate": 71.4,
       "best_placement": 1
     },
     "FahaiGe": {
       "alias": "小明",
       "steam_id": "FahaiGe",
-      "match_count": 11,
-      "total_kills": 8,
-      "total_damage": 1413,
-      "total_dbnos": 5,
-      "kda": 0.89,
-      "avg_kills": 0.73,
-      "avg_damage": 128.5,
-      "chicken_dinners": 2,
-      "chicken_rate": 18.2,
-      "top10_rate": 63.6,
-      "best_placement": 1
+      "match_count": 6,
+      "total_kills": 5,
+      "total_damage": 1071,
+      "total_dbnos": 4,
+      "estimated_kd": 0.83,
+      "avg_kills": 0.83,
+      "avg_damage": 178.5,
+      "chicken_dinners": 0,
+      "chicken_rate": 0.0,
+      "top10_rate": 83.3,
+      "best_placement": 2
     },
     "Black--xbb": {
       "alias": "彬彬",
@@ -86,7 +88,7 @@
       "total_kills": 0,
       "total_damage": 0,
       "total_dbnos": 0,
-      "kda": 0,
+      "estimated_kd": 0,
       "avg_kills": 0,
       "avg_damage": 0,
       "chicken_dinners": 0,
@@ -96,7 +98,9 @@
     }
   },
   "team_stats": {
-    "team_games_count": 65,
+    "unique_match_count": 15,
+    "unique_chicken_count": 1,
+    "team_games_count": 12,
     "combos": [
       {
         "players": [
@@ -109,54 +113,9 @@
             "alias": "旺仔"
           }
         ],
-        "games": 41,
-        "chickens": 4,
-        "avg_placement": 6.8
-      },
-      {
-        "players": [
-          {
-            "steam_id": "super_ADAM",
-            "alias": "旺仔"
-          },
-          {
-            "steam_id": "zhong8yang8",
-            "alias": "仲阳"
-          }
-        ],
-        "games": 40,
-        "chickens": 9,
-        "avg_placement": 9.0
-      },
-      {
-        "players": [
-          {
-            "steam_id": "FahaiGe",
-            "alias": "小明"
-          },
-          {
-            "steam_id": "super_ADAM",
-            "alias": "旺仔"
-          }
-        ],
-        "games": 37,
-        "chickens": 6,
-        "avg_placement": 8.9
-      },
-      {
-        "players": [
-          {
-            "steam_id": "Maureen99",
-            "alias": "老付"
-          },
-          {
-            "steam_id": "super_ADAM",
-            "alias": "旺仔"
-          }
-        ],
-        "games": 30,
-        "chickens": 4,
-        "avg_placement": 5.7
+        "games": 12,
+        "chickens": 1,
+        "avg_placement": 7.0
       },
       {
         "players": [
@@ -167,92 +126,107 @@
           {
             "steam_id": "MyHsmm-_",
             "alias": "照诚"
-          }
-        ],
-        "games": 29,
-        "chickens": 4,
-        "avg_placement": 5.9
-      },
-      {
-        "players": [
-          {
-            "steam_id": "Maureen99",
-            "alias": "老付"
-          },
-          {
-            "steam_id": "zhong8yang8",
-            "alias": "仲阳"
-          }
-        ],
-        "games": 19,
-        "chickens": 4,
-        "avg_placement": 5.3
-      },
-      {
-        "players": [
-          {
-            "steam_id": "MyHsmm-_",
-            "alias": "照诚"
-          },
-          {
-            "steam_id": "zhong8yang8",
-            "alias": "仲阳"
-          }
-        ],
-        "games": 19,
-        "chickens": 4,
-        "avg_placement": 5.3
-      },
-      {
-        "players": [
-          {
-            "steam_id": "FahaiGe",
-            "alias": "小明"
-          },
-          {
-            "steam_id": "MyHsmm-_",
-            "alias": "照诚"
-          }
-        ],
-        "games": 18,
-        "chickens": 0,
-        "avg_placement": 7.2
-      },
-      {
-        "players": [
-          {
-            "steam_id": "FahaiGe",
-            "alias": "小明"
-          },
-          {
-            "steam_id": "zhong8yang8",
-            "alias": "仲阳"
-          }
-        ],
-        "games": 17,
-        "chickens": 5,
-        "avg_placement": 11.6
-      },
-      {
-        "players": [
-          {
-            "steam_id": "FahaiGe",
-            "alias": "小明"
-          },
-          {
-            "steam_id": "Maureen99",
-            "alias": "老付"
           }
         ],
         "games": 8,
-        "chickens": 0,
-        "avg_placement": 4.5
+        "chickens": 1,
+        "avg_placement": 6.1
       },
       {
         "players": [
           {
-            "steam_id": "Black--xbb",
-            "alias": "彬彬"
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 8,
+        "chickens": 1,
+        "avg_placement": 6.1
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "MyHsmm-_",
+            "alias": "照诚"
+          }
+        ],
+        "games": 6,
+        "chickens": 0,
+        "avg_placement": 7.3
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 6,
+        "chickens": 0,
+        "avg_placement": 7.3
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 5,
+        "chickens": 1,
+        "avg_placement": 5.6
+      },
+      {
+        "players": [
+          {
+            "steam_id": "MyHsmm-_",
+            "alias": "照诚"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 5,
+        "chickens": 1,
+        "avg_placement": 5.6
+      },
+      {
+        "players": [
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 5,
+        "chickens": 1,
+        "avg_placement": 5.6
+      },
+      {
+        "players": [
+          {
+            "steam_id": "FahaiGe",
+            "alias": "小明"
           },
           {
             "steam_id": "Maureen99",
@@ -262,36 +236,6 @@
         "games": 2,
         "chickens": 0,
         "avg_placement": 4.5
-      },
-      {
-        "players": [
-          {
-            "steam_id": "Black--xbb",
-            "alias": "彬彬"
-          },
-          {
-            "steam_id": "FahaiGe",
-            "alias": "小明"
-          }
-        ],
-        "games": 1,
-        "chickens": 0,
-        "avg_placement": 2.0
-      },
-      {
-        "players": [
-          {
-            "steam_id": "Black--xbb",
-            "alias": "彬彬"
-          },
-          {
-            "steam_id": "super_ADAM",
-            "alias": "旺仔"
-          }
-        ],
-        "games": 1,
-        "chickens": 0,
-        "avg_placement": 2.0
       }
     ]
   },
@@ -299,37 +243,37 @@
     {
       "title": "🔫 击杀王",
       "player": "照诚",
-      "value": "26 杀",
+      "value": "29 杀",
       "comment": "枪管子都打冒烟了！照诚的瞄准镜里全是人头。"
     },
     {
       "title": "💥 伤害王",
       "player": "照诚",
-      "value": "3,670 伤害",
-      "comment": "每颗子弹都写着卧槽！"
+      "value": "4,518 伤害",
+      "comment": "每颗子弹都写着尊重！"
     },
     {
-      "title": "📈 KDA之王",
+      "title": "📈 估算KD之王",
       "player": "照诚",
-      "value": "KDA 2.36",
-      "comment": "数据不会说谎——照诚的KDA说明了一切。"
+      "value": "估算KD 2.23",
+      "comment": "数据不会说谎——照诚的估算KD说明了一切。"
     },
     {
       "title": "🍗 吃鸡王者",
       "player": "仲阳",
-      "value": "4 次吃鸡",
-      "comment": "Winner Winner Chicken Dinner! 🐔 鸡都吃撑了！"
+      "value": "1 次吃鸡",
+      "comment": "就吃了一次鸡，但也是鸡！比鸡屁股都没摸到的强。"
     },
     {
       "title": "🎯 场均之王",
       "player": "照诚",
-      "value": "场均 305.8 伤害",
+      "value": "场均 322.7 伤害",
       "comment": "稳如老狗，每把都有稳定输出。"
     },
     {
       "title": "🤝 最佳搭档",
       "player": "照诚 & 旺仔",
-      "value": "41 场同队",
+      "value": "12 场同队",
       "comment": "形影不离！照诚和旺仔简直是用502粘在一起了。"
     }
   ]

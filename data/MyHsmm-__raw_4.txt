@@ -1,243 +1,177 @@
-MyHsmm-_ - PUBG stats search results | PUBG DAK.GG
-
-## MyHsmm-_
-
-Last Updated:
-4h ago
-
-### Recent Match History
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID 1ee131ea-5f93-489e-a8e3-ce7a600ab815
+**Squad _(Normal)_**
 #7/18
+2026-07-09T14:08:02.000Z
+Map Miramar
+Weapon AUG A3
+Kills 1
+Damage 244
+DBNOs 2
+Traveled 0.46km
+Time Alive 4m 1s
+Longest 68m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [ltgg3244](https://dak.gg/pubg/profile/steam/ltgg3244)
+- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-
-6d ago
-
-
-Map
-Miramar
-
-
-Weapon
-AUG A3
-
-
-Kills
-1
-
-
-Damage
-244
-
-
-DBNOs
-2
-
-
-Traveled
-0.46km
-
-
-Time Alive
-4m 1s
-
-
-Longest
-68m
-
-
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [ltgg3244](https://dak.gg/pubg/profile/steam/ltgg3244/pc-2018-42)
-- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID 5f6924c3-dcf6-49a6-b08e-4e357de1d98a
+**Squad _(Normal)_**
 #11/18
+2026-07-09T13:21:59.000Z
+Map Erangel
+Weapon FNFal
+Kills 0
+Damage 134
+DBNOs 0
+Traveled 3.95km
+Time Alive 14m 29s
+Longest 0m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb)
 
-
-6d ago
-
-
-Map
-Erangel
-
-
-Weapon
-SLR
-
-
-Kills
-0
-
-
-Damage
-134
-
-
-DBNOs
-0
-
-
-Traveled
-3.95km
-
-
-Time Alive
-14m 29s
-
-
-Longest
-0m
-
-
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID 25ab38d4-b102-4581-b5af-3b4aa01f7b1e
+**Squad _(Normal)_**
 #3/17
+2026-07-09T12:29:03.000Z
+Map Taego
+Weapon Mini 14
+Kills 1
+Damage 163
+DBNOs 1
+Traveled 6.90km
+Time Alive 20m 50s
+Longest 29m
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb)
 
-
-6d ago
-
-
-Map
-Taego
-
-
-Weapon
-Mini 14
-
-
-Kills
-1
-
-
-Damage
-163
-
-
-DBNOs
-1
-
-
-Traveled
-6.90km
-
-
-Time Alive
-20m 50s
-
-
-Longest
-28m
-
-
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID b65f1c29-f67e-4d0c-8048-d164a538a5b8
+**Squad _(Normal)_**
 #17/19
+2026-07-09T12:22:11.000Z
+Map Miramar
+Weapon Kar98k
+Kills 0
+Damage 97
+DBNOs 0
+Traveled 0.24km
+Time Alive 2m 31s
+Longest 0m
+- [ZYG621](https://dak.gg/pubg/profile/steam/ZYG621)
+- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-
-6d ago
-
-
-Map
-Miramar
-
-
-Weapon
-Kar98k
-
-
-Kills
-0
-
-
-Damage
-97
-
-
-DBNOs
-0
-
-
-Traveled
-0.24km
-
-
-Time Alive
-2m 31s
-
-
-Longest
-0m
-
-
-- [ZYG621](https://dak.gg/pubg/profile/steam/ZYG621/pc-2018-42)
-- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
-**Squad**
-
+#### Match
+Match ID 0d03e7af-e914-4705-94ae-506f4ef8b37a
+**Squad _(Normal)_**
 #14/16
+2026-07-09T11:43:59.000Z
+Map Rondo
+Weapon Mini 14
+Kills 2
+Damage 291
+DBNOs 1
+Traveled 1.47km
+Time Alive 8m 55s
+Longest 20m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Sqlz798_](https://dak.gg/pubg/profile/steam/Sqlz798_)
+- [ma11223](https://dak.gg/pubg/profile/steam/ma11223)
 
+#### Match
+Match ID cb6d486c-3483-4edc-8807-7096fef5c135
+**Squad _(Normal)_**
+#1/27
+2026-07-03T17:18:02.000Z
+Map Erangel
+Weapon -
+Kills 0
+Damage 0
+DBNOs 0
+Traveled 0.00km
+Time Alive 12m 14s
+Longest 0m
+- [Ctan_](https://dak.gg/pubg/profile/steam/Ctan_)
+- [zhuanzhichuiniuB](https://dak.gg/pubg/profile/steam/zhuanzhichuiniuB)
+- [sarang4097](https://dak.gg/pubg/profile/steam/sarang4097)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-6d ago
+#### Match
+Match ID b78f68e5-5055-4d3c-8253-6641ca15f759
+**Squad _(Normal)_**
+#7/26
+2026-07-03T13:50:10.000Z
+Map Taego
+Weapon Mk47Mutant
+Kills 0
+Damage 268
+DBNOs 2
+Traveled 3.15km
+Time Alive 18m 28s
+Longest 0m
+- [Doge-fa](https://dak.gg/pubg/profile/steam/Doge-fa)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [cJ05DSf4b5vkE](https://dak.gg/pubg/profile/steam/cJ05DSf4b5vkE)
 
+#### Match
+Match ID 33e531d3-d6bb-49f4-999d-db48b367aca4
+**Squad _(Normal)_**
+#16/27
+2026-07-02T17:04:31.000Z
+Map Rondo
+Weapon M416
+Kills 1
+Damage 121
+DBNOs 1
+Traveled 0.75km
+Time Alive 6m 50s
+Longest 54m
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [SWD_DT](https://dak.gg/pubg/profile/steam/SWD_DT)
+- [QiQi_Cute](https://dak.gg/pubg/profile/steam/QiQi_Cute)
 
-Map
-Rondo
+#### Match
+Match ID 541e529a-ad7d-444a-9e26-4c849236795e
+**Squad _(Normal)_**
+#10/25
+2026-07-02T16:45:13.000Z
+Map Rondo
+Weapon Mini 14
+Kills 0
+Damage 39
+DBNOs 1
+Traveled 5.34km
+Time Alive 15m 51s
+Longest 0m
+- [QiQi_Cute](https://dak.gg/pubg/profile/steam/QiQi_Cute)
+- [SWD_DT](https://dak.gg/pubg/profile/steam/SWD_DT)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [SWzxcr](https://dak.gg/pubg/profile/steam/SWzxcr)
 
-
-Weapon
-Mini 14
-
-
-Kills
-2
-
-
-Damage
-291
-
-
-DBNOs
-1
-
-
-Traveled
-1.47km
-
-
-Time Alive
-8m 55s
-
-
-Longest
-19m
-
-
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Sqlz798_](https://dak.gg/pubg/profile/steam/Sqlz798_/pc-2018-42)
-- [ma11223](https://dak.gg/pubg/profile/steam/ma11223/pc-2018-42)
+#### Match
+Match ID 93cfd229-6d4a-4814-b0c8-f45c02ecc228
+**Squad _(Normal)_**
+#5/17
+2026-07-02T16:25:06.000Z
+Map Karakin
+Weapon Mk12
+Kills 0
+Damage 342
+DBNOs 0
+Traveled 0.89km
+Time Alive 6m 45s
+Longest 0m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [Black--xbb](https://dak.gg/pubg/profile/steam/Black--xbb)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)

@@ -1,41 +1,26 @@
-zhong8yang8 - PUBG stats search results | PUBG DAK.GG
-
-## zhong8yang8
-
-Last Updated: 26m ago
-
-### Recent Match History
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 008f9b31-1acd-4c62-9fd6-1848ac6c9dcd
 **Squad _(Normal)_**
-
 #7/16
-
-10h ago
-
+2026-07-15T16:00:09.000Z
 Map Karakin
 Weapon Win94
 Kills 0
 Damage 51
 DBNOs 0
-Traveled 1.99km
+Traveled 2.04km
 Time Alive 12m 59s
 Longest 0m
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 4df44494-dda1-4384-917d-a85d68eea3e5
 **Squad _(Normal)_**
-
 #2/17
-
-11h ago
-
+2026-07-15T15:34:56.000Z
 Map Karakin
 Weapon M416
 Kills 2
@@ -43,21 +28,17 @@ Damage 231
 DBNOs 0
 Traveled 3.32km
 Time Alive 18m 1s
-Longest 43m
+Longest 44m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
 
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 2fbec94b-3e7f-4d4f-a969-ac0749db5f8d
 **Squad _(Normal)_**
-
 #6/18
-
-11h ago
-
+2026-07-15T15:18:58.000Z
 Map Karakin
 Weapon Mini 14
 Kills 2
@@ -65,65 +46,53 @@ Damage 311
 DBNOs 2
 Traveled 2.29km
 Time Alive 13m 32s
-Longest 29m
+Longest 30m
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
 
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 8391e228-6f01-4c83-b5f6-3cdbebfa096e
 **Squad _(Normal)_**
-
 #1/18
-
-11h ago
-
+2026-07-15T14:58:23.000Z
 Map Karakin
-Weapon SLR
+Weapon FNFal
 Kills 3
 Damage 275
 DBNOs 0
 Traveled 2.67km
 Time Alive 18m 1s
-Longest 194m
+Longest 195m
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
 
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 207469bb-5faf-4f22-897c-099c83269da3
 **Squad _(Normal)_**
-
 #12/17
-
-12h ago
-
+2026-07-15T14:46:13.000Z
 Map Karakin
 Weapon Mini 14
 Kills 0
 Damage 87
 DBNOs 0
-Traveled 0.91km
+Traveled 0.99km
 Time Alive 6m 53s
 Longest 0m
+- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99)
 
-- [MyHsmm-_](https://dak.gg/pubg/profile/steam/MyHsmm-_/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [Maureen99](https://dak.gg/pubg/profile/steam/Maureen99/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 3b3c08c4-3d28-4358-ad19-0ce3c0d073e5
 **Squad _(Normal)_**
-
 #1/25
-
-1d ago
-
+2026-07-14T14:52:29.000Z
 Map Sanhok
 Weapon Beryl
 Kills 3
@@ -132,20 +101,16 @@ DBNOs 3
 Traveled 3.92km
 Time Alive 18m 16s
 Longest 41m
+- [tiandou001](https://dak.gg/pubg/profile/steam/tiandou001)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
 
-- [tiandou001](https://dak.gg/pubg/profile/steam/tiandou001/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 36f88b82-4e32-4a59-95f2-d2de06bbc2e3
 **Squad _(Normal)_**
-
 #17/26
-
-1d ago
-
+2026-07-14T14:45:36.000Z
 Map Sanhok
 Weapon -
 Kills 0
@@ -154,20 +119,16 @@ DBNOs 0
 Traveled 0.52km
 Time Alive 3m 39s
 Longest 0m
+- [MITANG-T](https://dak.gg/pubg/profile/steam/MITANG-T)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
 
-- [MITANG-T](https://dak.gg/pubg/profile/steam/MITANG-T/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID a271844d-4701-42a9-ade4-46c1b245fe36
 **Squad _(Normal)_**
-
 #1/27
-
-1d ago
-
+2026-07-14T14:19:06.000Z
 Map Sanhok
 Weapon Beryl
 Kills 1
@@ -176,20 +137,16 @@ DBNOs 1
 Traveled 3.97km
 Time Alive 23m 34s
 Longest 19m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [wufengaiou](https://dak.gg/pubg/profile/steam/wufengaiou)
 
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [wufengaiou](https://dak.gg/pubg/profile/steam/wufengaiou/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID 103fbe4f-7a7e-4dba-b91a-6dc586ebc53c
 **Squad _(Normal)_**
-
 #10/27
-
-1d ago
-
+2026-07-14T14:00:29.000Z
 Map Sanhok
 Weapon AUG A3
 Kills 0
@@ -198,20 +155,16 @@ DBNOs 0
 Traveled 1.58km
 Time Alive 13m 37s
 Longest 0m
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [MORANLIUNIAN2026](https://dak.gg/pubg/profile/steam/MORANLIUNIAN2026)
 
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [MORANLIUNIAN2026](https://dak.gg/pubg/profile/steam/MORANLIUNIAN2026/pc-2018-42)
-
-- #### 매치 요약 정보
-
+#### Match
+Match ID e5f83e5a-a06c-4663-8705-ee1b7bcc6efc
 **Squad _(Normal)_**
-
 #22/29
-
-1d ago
-
+2026-07-14T13:54:23.000Z
 Map Sanhok
 Weapon -
 Kills 0
@@ -220,8 +173,7 @@ DBNOs 0
 Traveled 0.19km
 Time Alive 3m 23s
 Longest 0m
-
-- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM/pc-2018-42)
-- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe/pc-2018-42)
-- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8/pc-2018-42)
-- [lliyafa911](https://dak.gg/pubg/profile/steam/lliyafa911/pc-2018-42)
+- [super_ADAM](https://dak.gg/pubg/profile/steam/super_ADAM)
+- [FahaiGe](https://dak.gg/pubg/profile/steam/FahaiGe)
+- [zhong8yang8](https://dak.gg/pubg/profile/steam/zhong8yang8)
+- [lliyafa911](https://dak.gg/pubg/profile/steam/lliyafa911)

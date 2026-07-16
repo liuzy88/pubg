@@ -17,7 +17,9 @@ stages:
         pythonVersion: '3.11'
         commands:
           - python3 --version
-          - pip3 install -i https://pypi.org/simple/ -r requirements.txt -q
+          - pip3 install -i https://pypi.org/simple/ -r requirements-dev.txt -q
+          - ruff check .
+          - python3 -m unittest discover -s tests -v
           - python3 fetch_data.py --pages 4
           - python3 pubg_daily_report.py
       - git config user.name "PUBG Bot"
