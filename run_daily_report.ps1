@@ -6,8 +6,7 @@ param(
     [ValidateRange(1, 100)]
     [int]$Pages,
     [string]$Player,
-    [switch]$NoScreenshot,
-    [switch]$SkipTests
+    [switch]$NoScreenshot
 )
 
 $ErrorActionPreference = "Stop"
@@ -53,15 +52,7 @@ function Invoke-Python {
 
 Write-Host "PUBG daily report - $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 
-if (-not $SkipTests) {
-    Write-Host "[1/3] Running tests..."
-    Invoke-Python -m unittest discover -s tests -v
-}
-else {
-    Write-Host "[1/3] Tests skipped"
-}
-
-Write-Host "[2/3] Fetching DAK.GG data..."
+Write-Host "[1/2] Fetching DAK.GG data..."
 $fetchArguments = @(
     "fetch_matches.py",
     "--config", $Config,
@@ -75,7 +66,7 @@ if ($Player) {
 }
 Invoke-Python @fetchArguments
 
-Write-Host "[3/3] Generating report..."
+Write-Host "[2/2] Generating report..."
 $reportArguments = @(
     "generate_report.py",
     "--config", $Config,

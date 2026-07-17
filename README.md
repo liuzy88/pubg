@@ -14,7 +14,7 @@ python -m pip install -r requirements.txt
 .\run_daily_report.ps1
 ```
 
-脚本会依次运行测试、抓取数据并生成昨天的 HTML 和 PNG 战报。常用参数：
+脚本会依次抓取数据并生成昨天的 HTML 和 PNG 战报。常用参数：
 
 ```powershell
 # 生成前天的战报
@@ -23,8 +23,8 @@ python -m pip install -r requirements.txt
 # 只生成 HTML，不生成 PNG
 .\run_daily_report.ps1 -NoScreenshot
 
-# 只运行某个玩家，跳过测试
-.\run_daily_report.ps1 -Player steam_id -SkipTests
+# 只抓取某个玩家
+.\run_daily_report.ps1 -Player steam_id
 ```
 
 如果 PowerShell 阻止本地脚本，可在当前窗口临时允许后再执行：
@@ -82,7 +82,7 @@ make report NO_SCREENSHOT=1
 - `data/fetch_manifest.json`：记录本次采集目标时段、覆盖页数及抓取时间。
 - `generate_report.py`：生成统计 JSON、HTML 战报和 PNG 截图。
 - `run_daily_report.sh`：Linux 服务器每日采集、生成、提交和推送入口。
-- `run_daily_report.ps1`：Windows 每日测试、采集和生成入口。
+- `run_daily_report.ps1`：Windows 每日采集和生成入口。
 - `src/parser.py`：解析 DAK.GG 文本。
 - `src/stats.py`：玩家统计及比赛维度去重。
 - `src/awards.py`：确定性称号和评语。
