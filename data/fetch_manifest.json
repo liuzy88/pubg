@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scraped_at": "2026-07-21T10:16:47.587886+08:00",
+  "scraped_at": "2026-07-21T10:17:09.176915+08:00",
   "max_pages": 30,
   "target_time_start": "2026-07-20T06:00:00+08:00",
   "target_time_end": "2026-07-21T05:59:59.999999+08:00",
@@ -44,5 +44,5 @@
   },
   "matches_file": "matches.csv",
   "format": "player-match-csv",
-  "new_rows": 6
+  "new_rows": 0
 }
