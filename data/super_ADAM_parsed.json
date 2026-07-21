@@ -1,5 +1,87 @@
 {
   "alias": "旺仔",
   "steam_id": "super_ADAM",
-  "matches": []
+  "matches": [
+    {
+      "match_id": "05974ed7-0de1-47f4-8faf-c796a24bb63c",
+      "match_key": "dakgg:05974ed7-0de1-47f4-8faf-c796a24bb63c",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 3,
+      "total_teams": 17,
+      "map": "Miramar",
+      "weapon": "Kar98k",
+      "kills": 0,
+      "damage": 44,
+      "dbnos": 0,
+      "traveled": "3.74km",
+      "time_alive": "18m 16s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T20:02:06+08:00",
+      "approx_time": "2026-07-20T20:02:06+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "LYL_gscr",
+        "HKK30",
+        "super_ADAM",
+        "zhong8yang8"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
+    },
+    {
+      "match_id": "fa6ec9a1-6ca1-4a74-841d-b4c183e17cb6",
+      "match_key": "dakgg:fa6ec9a1-6ca1-4a74-841d-b4c183e17cb6",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 3,
+      "total_teams": 17,
+      "map": "Karakin",
+      "weapon": "Win94",
+      "kills": 3,
+      "damage": 248,
+      "dbnos": 1,
+      "traveled": "2.64km",
+      "time_alive": "15m 47s",
+      "longest_kill": "88m",
+      "time_ago_text": "2026-07-20T20:54:25+08:00",
+      "approx_time": "2026-07-20T20:54:25+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "Maureen99",
+        "super_ADAM",
+        "KITSUNEZI",
+        "zhong8yang8"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
+    },
+    {
+      "match_id": "5ab7241f-779b-43b3-8604-38f50bf0ed4d",
+      "match_key": "dakgg:5ab7241f-779b-43b3-8604-38f50bf0ed4d",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 4,
+      "total_teams": 18,
+      "map": "Karakin",
+      "weapon": "Beryl",
+      "kills": 0,
+      "damage": 87,
+      "dbnos": 0,
+      "traveled": "1.43km",
+      "time_alive": "9m 22s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T21:15:30+08:00",
+      "approx_time": "2026-07-20T21:15:30+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "Maureen99",
+        "zhong8yang8",
+        "Cx330_Guan",
+        "super_ADAM"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
+    }
+  ]
 }

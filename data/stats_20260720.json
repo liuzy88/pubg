@@ -2,54 +2,54 @@
   "date": "20260720",
   "time_start": "2026-07-20T06:00:00+08:00",
   "time_end": "2026-07-21T05:59:59.999999+08:00",
-  "generated_at": "2026-07-21T10:08:52.221517+08:00",
-  "scraped_at": "2026-07-21T10:08:50.788643+08:00",
+  "generated_at": "2026-07-21T10:15:20.571292+08:00",
+  "scraped_at": "2026-07-21T10:15:16.749792+08:00",
   "raw_snapshot_source": "fetch_manifest.json",
   "stats": {
     "zhong8yang8": {
       "alias": "仲阳",
       "steam_id": "zhong8yang8",
-      "match_count": 0,
-      "total_kills": 0,
-      "total_damage": 0,
-      "total_dbnos": 0,
-      "estimated_kd": 0,
-      "avg_kills": 0,
-      "avg_damage": 0,
-      "chicken_dinners": 0,
-      "chicken_rate": 0,
-      "top10_rate": 0,
-      "best_placement": 999
+      "match_count": 5,
+      "total_kills": 4,
+      "total_damage": 522,
+      "total_dbnos": 4,
+      "estimated_kd": 1.0,
+      "avg_kills": 0.8,
+      "avg_damage": 104.4,
+      "chicken_dinners": 1,
+      "chicken_rate": 20.0,
+      "top10_rate": 80.0,
+      "best_placement": 1
     },
     "super_ADAM": {
       "alias": "旺仔",
       "steam_id": "super_ADAM",
-      "match_count": 0,
-      "total_kills": 0,
-      "total_damage": 0,
-      "total_dbnos": 0,
-      "estimated_kd": 0,
-      "avg_kills": 0,
-      "avg_damage": 0,
+      "match_count": 3,
+      "total_kills": 3,
+      "total_damage": 379,
+      "total_dbnos": 1,
+      "estimated_kd": 1.0,
+      "avg_kills": 1.0,
+      "avg_damage": 126.3,
       "chicken_dinners": 0,
-      "chicken_rate": 0,
-      "top10_rate": 0,
-      "best_placement": 999
+      "chicken_rate": 0.0,
+      "top10_rate": 100.0,
+      "best_placement": 3
     },
     "Maureen99": {
       "alias": "老付",
       "steam_id": "Maureen99",
-      "match_count": 0,
-      "total_kills": 0,
-      "total_damage": 0,
-      "total_dbnos": 0,
-      "estimated_kd": 0,
-      "avg_kills": 0,
-      "avg_damage": 0,
+      "match_count": 2,
+      "total_kills": 2,
+      "total_damage": 342,
+      "total_dbnos": 2,
+      "estimated_kd": 1.0,
+      "avg_kills": 1.0,
+      "avg_damage": 171.0,
       "chicken_dinners": 0,
-      "chicken_rate": 0,
-      "top10_rate": 0,
-      "best_placement": 999
+      "chicken_rate": 0.0,
+      "top10_rate": 100.0,
+      "best_placement": 3
     },
     "MyHsmm-_": {
       "alias": "照诚",
@@ -98,10 +98,93 @@
     }
   },
   "team_stats": {
-    "unique_match_count": 0,
-    "unique_chicken_count": 0,
-    "team_games_count": 0,
-    "combos": []
+    "unique_match_count": 5,
+    "unique_chicken_count": 1,
+    "team_games_count": 3,
+    "combos": [
+      {
+        "players": [
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 3,
+        "chickens": 0,
+        "avg_placement": 3.3
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "super_ADAM",
+            "alias": "旺仔"
+          }
+        ],
+        "games": 2,
+        "chickens": 0,
+        "avg_placement": 3.5
+      },
+      {
+        "players": [
+          {
+            "steam_id": "Maureen99",
+            "alias": "老付"
+          },
+          {
+            "steam_id": "zhong8yang8",
+            "alias": "仲阳"
+          }
+        ],
+        "games": 2,
+        "chickens": 0,
+        "avg_placement": 3.5
+      }
+    ]
   },
-  "titles": []
+  "titles": [
+    {
+      "title": "🔫 击杀王",
+      "player": "仲阳",
+      "value": "4 杀",
+      "comment": "勉强拿了个击杀王，但😅这数据也好意思？"
+    },
+    {
+      "title": "💥 伤害王",
+      "player": "仲阳",
+      "value": "522 伤害",
+      "comment": "每颗子弹都写着恐惧！"
+    },
+    {
+      "title": "📈 估算KD之王",
+      "player": "仲阳",
+      "value": "估算KD 1.0",
+      "comment": "估算KD 1.0...💩 在玩跳伞模拟器？"
+    },
+    {
+      "title": "🍗 吃鸡王者",
+      "player": "仲阳",
+      "value": "1 次吃鸡",
+      "comment": "就吃了一次鸡，但也是鸡！比鸡屁股都没摸到的强。"
+    },
+    {
+      "title": "🎯 场均之王",
+      "player": "老付",
+      "value": "场均 171.0 伤害",
+      "comment": "稳如老狗，每把都有稳定输出。"
+    },
+    {
+      "title": "🤝 最佳搭档",
+      "player": "旺仔 & 仲阳",
+      "value": "3 场同队",
+      "comment": "形影不离！旺仔和仲阳简直是用502粘在一起了。"
+    }
+  ]
 }

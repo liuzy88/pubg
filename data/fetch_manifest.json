@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scraped_at": "2026-07-21T10:08:50.788643+08:00",
+  "scraped_at": "2026-07-21T10:15:16.749792+08:00",
   "max_pages": 30,
   "target_time_start": "2026-07-20T06:00:00+08:00",
   "target_time_end": "2026-07-21T05:59:59.999999+08:00",
@@ -20,8 +20,8 @@
     "Maureen99": {
       "pages_fetched": 1,
       "records_collected": 10,
-      "newest_match_at": "2026-07-19T14:14:22+00:00",
-      "oldest_match_at": "2026-07-19T12:22:01+00:00"
+      "newest_match_at": "2026-07-20T13:15:30+00:00",
+      "oldest_match_at": "2026-07-19T12:54:54+00:00"
     },
     "MyHsmm-_": {
       "pages_fetched": 1,
@@ -33,13 +33,13 @@
       "pages_fetched": 1,
       "records_collected": 10,
       "newest_match_at": "2026-07-20T14:20:22+00:00",
-      "oldest_match_at": "2026-07-19T12:34:18+00:00"
+      "oldest_match_at": "2026-07-19T13:22:34+00:00"
     },
     "zhong8yang8": {
       "pages_fetched": 1,
       "records_collected": 10,
-      "newest_match_at": "2026-07-19T14:14:22+00:00",
-      "oldest_match_at": "2026-07-19T12:22:01+00:00"
+      "newest_match_at": "2026-07-20T13:53:56+00:00",
+      "oldest_match_at": "2026-07-19T13:42:29+00:00"
     }
   },
   "matches_file": "matches.csv",
