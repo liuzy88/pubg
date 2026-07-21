@@ -2,8 +2,8 @@
   "date": "20260720",
   "time_start": "2026-07-20T06:00:00+08:00",
   "time_end": "2026-07-21T05:59:59.999999+08:00",
-  "generated_at": "2026-07-21T10:15:20.571292+08:00",
-  "scraped_at": "2026-07-21T10:15:16.749792+08:00",
+  "generated_at": "2026-07-21T10:16:50.103626+08:00",
+  "scraped_at": "2026-07-21T10:16:47.587886+08:00",
   "raw_snapshot_source": "fetch_manifest.json",
   "stats": {
     "zhong8yang8": {
@@ -24,31 +24,31 @@
     "super_ADAM": {
       "alias": "旺仔",
       "steam_id": "super_ADAM",
-      "match_count": 3,
+      "match_count": 6,
       "total_kills": 3,
-      "total_damage": 379,
+      "total_damage": 619,
       "total_dbnos": 1,
-      "estimated_kd": 1.0,
-      "avg_kills": 1.0,
-      "avg_damage": 126.3,
+      "estimated_kd": 0.5,
+      "avg_kills": 0.5,
+      "avg_damage": 103.2,
       "chicken_dinners": 0,
       "chicken_rate": 0.0,
-      "top10_rate": 100.0,
+      "top10_rate": 83.3,
       "best_placement": 3
     },
     "Maureen99": {
       "alias": "老付",
       "steam_id": "Maureen99",
-      "match_count": 2,
+      "match_count": 3,
       "total_kills": 2,
       "total_damage": 342,
       "total_dbnos": 2,
-      "estimated_kd": 1.0,
-      "avg_kills": 1.0,
-      "avg_damage": 171.0,
+      "estimated_kd": 0.67,
+      "avg_kills": 0.67,
+      "avg_damage": 114.0,
       "chicken_dinners": 0,
       "chicken_rate": 0.0,
-      "top10_rate": 100.0,
+      "top10_rate": 66.7,
       "best_placement": 3
     },
     "MyHsmm-_": {
@@ -98,9 +98,9 @@
     }
   },
   "team_stats": {
-    "unique_match_count": 5,
+    "unique_match_count": 8,
     "unique_chicken_count": 1,
-    "team_games_count": 3,
+    "team_games_count": 4,
     "combos": [
       {
         "players": [
@@ -128,9 +128,9 @@
             "alias": "旺仔"
           }
         ],
-        "games": 2,
+        "games": 3,
         "chickens": 0,
-        "avg_placement": 3.5
+        "avg_placement": 7.3
       },
       {
         "players": [
@@ -158,8 +158,8 @@
     },
     {
       "title": "💥 伤害王",
-      "player": "仲阳",
-      "value": "522 伤害",
+      "player": "旺仔",
+      "value": "619 伤害",
       "comment": "每颗子弹都写着恐惧！"
     },
     {
@@ -177,8 +177,8 @@
     {
       "title": "🎯 场均之王",
       "player": "老付",
-      "value": "场均 171.0 伤害",
-      "comment": "稳如老狗，每把都有稳定输出。"
+      "value": "场均 114.0 伤害",
+      "comment": "场均114.0...打绷带都不止这么多。"
     },
     {
       "title": "🤝 最佳搭档",

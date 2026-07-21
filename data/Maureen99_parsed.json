@@ -55,6 +55,33 @@
       ],
       "player_alias": "老付",
       "in_period": true
+    },
+    {
+      "match_id": "807a2658-a66d-4103-b127-2188f5dd9745",
+      "match_key": "dakgg:807a2658-a66d-4103-b127-2188f5dd9745",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 15,
+      "total_teams": 18,
+      "map": "Karakin",
+      "weapon": null,
+      "kills": 0,
+      "damage": 0,
+      "dbnos": 0,
+      "traveled": "0.09km",
+      "time_alive": "1m 38s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T20:33:20+08:00",
+      "approx_time": "2026-07-20T20:33:20+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "super_ADAM",
+        "Maureen99",
+        "qingfengdadidi",
+        "M662-yan"
+      ],
+      "player_alias": "老付",
+      "in_period": true
     }
   ]
 }

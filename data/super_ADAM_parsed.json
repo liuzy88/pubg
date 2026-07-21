@@ -82,6 +82,87 @@
       ],
       "player_alias": "旺仔",
       "in_period": true
+    },
+    {
+      "match_id": "44f87604-d438-4def-bed9-c6aff6cace56",
+      "match_key": "dakgg:44f87604-d438-4def-bed9-c6aff6cace56",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 6,
+      "total_teams": 16,
+      "map": "Rondo",
+      "weapon": "Beryl",
+      "kills": 0,
+      "damage": 46,
+      "dbnos": 0,
+      "traveled": "4.89km",
+      "time_alive": "12m 57s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T18:50:31+08:00",
+      "approx_time": "2026-07-20T18:50:31+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "Mantoo_c",
+        "DouYin_dundun",
+        "2641_-",
+        "super_ADAM"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
+    },
+    {
+      "match_id": "4b0c3a39-6f8f-415a-ac02-ba24f409e2fb",
+      "match_key": "dakgg:4b0c3a39-6f8f-415a-ac02-ba24f409e2fb",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 7,
+      "total_teams": 18,
+      "map": "Miramar",
+      "weapon": "AK47",
+      "kills": 0,
+      "damage": 26,
+      "dbnos": 0,
+      "traveled": "5.96km",
+      "time_alive": "12m 8s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T19:37:57+08:00",
+      "approx_time": "2026-07-20T19:37:57+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "yxgw05",
+        "DG_Wille",
+        "Recall-qing",
+        "super_ADAM"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
+    },
+    {
+      "match_id": "807a2658-a66d-4103-b127-2188f5dd9745",
+      "match_key": "dakgg:807a2658-a66d-4103-b127-2188f5dd9745",
+      "mode": "Squad",
+      "type": "Normal",
+      "placement": 15,
+      "total_teams": 18,
+      "map": "Karakin",
+      "weapon": "SCAR-L",
+      "kills": 0,
+      "damage": 168,
+      "dbnos": 0,
+      "traveled": "0.15km",
+      "time_alive": "2m 10s",
+      "longest_kill": "0m",
+      "time_ago_text": "2026-07-20T20:33:20+08:00",
+      "approx_time": "2026-07-20T20:33:20+08:00",
+      "time_precision": "exact",
+      "teammates": [
+        "super_ADAM",
+        "Maureen99",
+        "qingfengdadidi",
+        "M662-yan"
+      ],
+      "player_alias": "旺仔",
+      "in_period": true
     }
   ]
 }
